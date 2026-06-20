@@ -15,7 +15,10 @@ Bản chỉ mục này lập bản đồ các mã định danh nguồn (Source I
 | **VL-ALL** | `sources/voice_lines/` | Voice Lines | High | Câu chuyện, tính cách, quan hệ nhân vật | `../synthesis/headcanon-fanon-policy.md` | Lời thoại trực tiếp nhân vật |
 | **EN-ALL** | `entities/` | Entity Summaries | Medium | Thuộc tính nhân vật, thế lực, vũ khí, vật phẩm | (Nhiều trang entities/) | Nhiều file còn là template trống |
 | **TP-ALL** | `topics/` | Topic Analysis | Low/Medium | Các bài phân tích chủ đề, quan hệ cộng đồng | `../synthesis/contradiction-register.md` | Chứa nhiều lập luận chủ quan |
-| **QD-ALL** | `sources/quest_dialogue/` | Quest Dialogue | Unusable | Thư mục không tồn tại trong workspace | N/A | **Thư mục không tìm thấy trong workspace.** Deprecated / legacy placeholder. Not usable for claim-level canon. Use VLAQ/VLWQ for existing quest voice-line files, and AQ/WQ/SQ/IQ for future full quest transcripts. |
+| **MG-ALL** | `sources/manga_transcripts/` | Manga Transcripts | Medium | Diluc, Kaeya, Amber, Vennessa, Mondstadt backstory | N/A | Gồm 21 file (chapter 00–16 + variants). Folder-level aggregate only; file-level mapping needed for claim-level canon. |
+| **VLAQ-ALL** | `sources/voice_lines/archon_quests/` | Archon Quest Voice Lines | High | Fontaine, Sumeru, Inazuma, Mondstadt, Liyue main quest dialogue | N/A | 124+ files in quest subdirectories. Primary source for archon quest dialogue claims. |
+| **VLWQ-ALL** | `sources/voice_lines/world_quests/` | World Quest Voice Lines | Medium | Enkanomiya, selected world quest dialogue | N/A | Only 4 files currently (2 quest groups). Coverage limited; not sufficient for broad world quest claims. |
+| **QD-ALL** | `sources/quest_dialogue/` | Quest Dialogue | legacy_retired / not_source | Thư mục không tồn tại trong workspace | N/A | **Legacy retired.** Folder does not exist. Not usable for claim-level canon. Use VLAQ/VLWQ for existing voice-line quest sources and AQ/WQ/SQ/IQ for future full transcripts. |
 | **OF-ALL** | `sources/official/` | Official Sources | Unusable | Thư mục không tồn tại trong workspace | N/A | **Thư mục không tìm thấy trong workspace** |
 
 ## 2. Partial File-Level Source Index
@@ -43,8 +46,25 @@ Dưới đây là danh sách lập chỉ mục chi tiết cho các tệp tin ngu
 | **TP-0001** | `topics/nod-krai/mythology.md` | Topic | Low/Medium | Thần thoại Nod-Krai, 3 mặt trăng, Kuuvahki | file-level | `../synthesis/unverified-lore-register.md` | Chứa nhiều phân tích chủ quan. |
 | **TP-0002** | `topics/nod-krai/Nod_Krai.md` (hoặc tương đương) | Topic | Low/Medium | Tóm tắt Acts II-VII, version 6.1-6.7 | file-level | `../synthesis/unverified-lore-register.md` | Chứa cốt truyện lý thuyết chưa có thoại thô. |
 
+## 2b. Pass 4 VLAQ File-Level Candidates
+
+Files physically inspected in Pass 4. These are file-level source candidates ready for future claim mapping.
+
+> **Pass 4.1 Note:** All IDs below were assigned based on physical inspection. However, some files were only partially read (first 40 lines). Full claim-mapping requires deep read before `primary_source_found` can be confirmed for all sub-claims. IDs remain valid as file-level candidates.
+
+| Source ID | Path | Source type | Reliability | Main topics | Indexed level | Used by pages | Notes |
+| --------- | ---- | ----------- | ----------- | ----------- | ------------- | ------------- | ----- |
+| **VLAQ-INAZUMA-001** | `sources/voice_lines/archon_quests/Thiên Thủ Bách Nhãn, Thiên Hạ Nhân Gian/Nguyện Vọng.md` | Archon Quest Voice Lines | High | Gnosis handoff, Ei/puppet distinction, Scaramouche, Yae Miko, Celestia | file-level candidate (direct inspected) | CLM-017, CLM-010 | Directly confirms Ei created puppet, gave Gnosis to Yae, severed Celestia ties |
+| **VLAQ-INAZUMA-002** | `sources/voice_lines/archon_quests/Thiên Thủ Bách Nhãn, Thiên Hạ Nhân Gian/Trăm Mắt Nghìn Tay.md` | Archon Quest Voice Lines | High | Plane of Euthymia, Signora death, Musou no Hitotachi, Kazuha | file-level candidate (direct inspected) | CLM-017 | Plane of Euthymia entry confirmed; Signora execution scene |
+| **VLAQ-SUMERU-001** | `sources/voice_lines/archon_quests/Akasha Rung Động, Kiếp Hỏa Dâng Trào/Đích Đến Của Con Thuyền Ý Thức.md` | Archon Quest Voice Lines | High | Nahida=Kusanali, Rukkhadevata, Akasha design, Cây Thế Giới | file-level candidate (partial inspected — first 40 lines) | CLM-016 (identity only) | Quest description confirms Nahida=Kusanali and Rukkhadevata Akasha design. Candidate only for memory erasure sub-claim until deep read. |
+| **VLAQ-FONTAINE-001** | `sources/voice_lines/archon_quests/Vũ Điệu Của Tội Lỗi/Ngày Phán Quyết.md` | Archon Quest Voice Lines | High | Furina role, Fontaine prophecy, emotional breakdown, disaster | file-level candidate (direct inspected) | CLM-014 (Furina/prophecy) | Directly shows Furina's crisis and prophecy aftermath |
+| **VLAQ-FONTAINE-002** | `sources/voice_lines/archon_quests/Như Làn Mưa Nhẹ Không Rõ Nguyên Nhân/Khi Mọi Thứ Quay Về Với Nước.md` | Archon Quest Voice Lines | High | Neuvillette judgment, Fontaine trial, Furina/Childe/Navia | file-level candidate (direct inspected) | CLM-014 (Neuvillette/trial) | Neuvillette as judge confirmed; trial proceedings |
+| **VLAQ-TRAVELER-001** | `sources/voice_lines/archon_quests/Chúng Ta Ắt Sẽ Trùng Phùng/Linh Hồn Ngăn Cách.md` | Archon Quest Voice Lines | High | Dainsleif, Abyss Order, Mondstadt ruins, Traveler memory | file-level candidate (direct inspected) | CLM-018 (Dainsleif presence) | "We Will Be Reunited" — Dainsleif quest partner confirmed |
+| **VLAQ-TRAVELER-002** | `sources/voice_lines/archon_quests/Caribert/Tương Phùng Như Vận Mệnh.md` | Archon Quest Voice Lines | Medium | Kaeya, Caribert intro, Dainsleif connection, vận mệnh | file-level candidate (partial inspected — opening only) | CLM-018 (Caribert intro) | Caribert interlude opening; Kaeya letter confirmed. Deeper Khaenri'ah lore not reached — needs deep read. |
+| **VLAQ-WANDERER-001** | `sources/voice_lines/archon_quests/Cội Nguồn Nghiêng Ngả/Chim Đêm Sa Ngã Dưới Bức Rèm.md` | Archon Quest Voice Lines | Medium | Kabukimono/Wanderer backstory, Descender mention, Tatarasuna, Nahida | file-level candidate (partial inspected — first 40 lines only) | CLM-015, CLM-011 | "Kẻ Đổ Bộ" referenced in opening; Wanderer history setup. Nahida Descender explanation expected later in file — needs deep read. |
+
 ## 3. Indexing TODOs
 - **[ ] Indexing Weapon Stories (WS-xxxx):** Tiếp tục lập chỉ mục chi tiết cho 222 file vũ khí còn lại.
 - **[ ] Indexing Artifact Descriptions (AR-xxxx):** Tiếp tục lập chỉ mục chi tiết cho 57 file di vật còn lại.
 - **[ ] Indexing Voice Lines (VL-xxxx):** Lập chỉ mục chi tiết cho các file thoại nhân vật của Diluc, Zhongli, Neuvillette, Furina.
-- **[ ] Ingestion & Indexing of Missing Voice Lines (VL-xxxx):** Bổ sung và lập chỉ mục file thoại của Skirk (VL-0002 - hiện đang thiếu/source_missing) để chứng minh các tuyên bố liên quan đến Gnosis và Descender.
+- **[ ] Ingestion & Indexing of Missing Voice Lines (VL-xxxx):** Skirk voice line file does not exist locally. VL-0002 was a placeholder TODO and is NOT a valid source ID. Status: `source_missing`. No Skirk voice file exists in workspace. Do not treat VL-0002 as a usable source reference.

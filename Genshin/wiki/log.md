@@ -492,3 +492,133 @@
   - Do not mass ingest.
   - Do not backfill lore until local source files are claim-mapped.
 
+## 2026-06-20 — Claude Code Pass 3 Source Tool Tests
+
+- **action:**
+  - Performed P0-Internal Cleanup for source-index hygiene.
+  - Added folder-level aggregate entries for MG-ALL (manga_transcripts/, 21 files), VLAQ-ALL (voice_lines/archon_quests/, 124+ files), and VLWQ-ALL (voice_lines/world_quests/, 4 files).
+  - Retired legacy QD-ALL placeholder as legacy_retired / not_source.
+  - Downgraded VL-0002 Skirk TODO to explicitly non-valid source_missing.
+  - Confirmed no phantom source IDs for Dottore, Sandrone, Columbina, or Skirk in active use.
+  - Ran small API/tool smoke tests for Fandom API (success), genshin-db (available), Ambr.top (403 blocked), Honey Impact (403 blocked), and official manga (accessible).
+  - Created one sample source mapping using SOURCE_TEMPLATE for WS-0001 (Kiếm Giáng Lâm).
+- **files_changed:**
+  - wiki/sources/source-index.md
+  - wiki/research/source-index-alignment.md
+  - wiki/research/pass-3-source-index-cleanup-report.md
+  - wiki/research/pass-3-api-smoke-test-report.md
+  - wiki/research/pass-3-sample-source-mapping.md
+  - wiki/research/pass-3-next-actions.md
+  - wiki/log.md
+- **source_basis:**
+  - Pass 2 source framework.
+  - Pass 2.1 consistency fixes.
+  - Existing local source folders.
+  - User-approved external source candidate registry.
+- **unresolved_issues:**
+  - No lore backfill performed.
+  - No mass ingestion performed.
+  - Dottore remains blocked_by_missing_source.
+  - Sandrone remains blocked_by_missing_source.
+  - Columbina remains audited_source_light / indirect_source_only.
+  - character_stories/ still not ingested.
+  - official/ still not ingested.
+  - Nod-Krai Acts II–VII still source_missing unless future official/source transcript is found.
+- **next_recommended_steps:**
+  - Pass 4 should start with controlled local VLAQ coverage mapping or one controlled character story ingestion test.
+  - Do not backfill lore until source files are claim-mapped and reviewed.
+
+## 2026-06-20 — Claude Code Pass 4 Local VLAQ Coverage Mapping
+
+- **action:**
+  - Inventoried local `sources/voice_lines/archon_quests/` files (124 files, 34 arc subfolders).
+  - Mapped VLAQ coverage for Fontaine final AQ, Wanderer/Irminsul, Sumeru/Rukkhadevata/Nahida, Inazuma/Raiden, Traveler/Abyss sibling, and Skirk/Gnosis/Third Descender.
+  - Physically inspected 8 key files with content verification.
+  - Created claim-source matrix for CLM-014 through CLM-018 and CLM-009 through CLM-011.
+  - Added 8 file-level VLAQ source IDs to source-index.md (VLAQ-INAZUMA-001/002, VLAQ-SUMERU-001, VLAQ-FONTAINE-001/002, VLAQ-TRAVELER-001/002, VLAQ-WANDERER-001).
+  - Recorded remaining source gaps (14 total; Skirk, Dottore, Sandrone, character_stories/ remain blocked).
+  - Did not backfill lore or update character pages.
+- **files_changed:**
+  - wiki/research/pass-4-vlaq-inventory.md
+  - wiki/research/pass-4-vlaq-coverage-map.md
+  - wiki/research/pass-4-claim-source-matrix.md
+  - wiki/research/pass-4-source-gaps.md
+  - wiki/research/pass-4-next-actions.md
+  - wiki/research/priority-source-map.md
+  - wiki/sources/source-index.md
+  - wiki/log.md
+- **source_basis:**
+  - Existing local `sources/voice_lines/archon_quests/` files.
+  - Pass 3 source-index cleanup.
+  - Pass 2 priority source map.
+- **unresolved_issues:**
+  - No lore backfill performed.
+  - No external ingestion performed.
+  - Dottore remains blocked_by_missing_source.
+  - Sandrone remains blocked_by_missing_source.
+  - Columbina remains audited_source_light / indirect_source_only.
+  - character_stories/ still not ingested.
+  - official/ still not ingested.
+  - Skirk direct source remains source_missing (zero VLAQ files).
+  - CLM-010 (Gnosis as shackles) remains THEORY — only weak indirect support found.
+  - CLM-011 (Third Descender) remains partial_coverage.
+- **next_recommended_steps:**
+  - Human review of VLAQ coverage map and claim-source matrix.
+  - Approve source_status upgrades for CLM-014, CLM-016, CLM-017, CLM-018.
+  - Then choose Pass 5: page update preparation, one controlled character story ingestion, or official manga alignment.
+
+## 2026-06-20 — Claude Code Pass 4.1 VLAQ Strictness Fix
+
+- **action:**
+  - Corrected overconfident coverage labels in Pass 4 VLAQ mapping reports.
+  - Ensured uninspected files are not marked as `coverage_found`.
+  - Distinguished direct inspected evidence from keyword-only and folder/arc-level candidates.
+  - Downgraded or qualified partial claims requiring deep read, including Focalors sacrifice, Wanderer/Irminsul rewrite, Traveler memory exception, and Third Descender identity.
+  - Preserved direct inspected coverage for claims with physically verified evidence (CLM-017 fully confirmed; CLM-014/016 partially confirmed).
+  - Changed recommended Pass 5 from page update to deep reads first.
+- **files_changed:**
+  - wiki/research/pass-4-vlaq-inventory.md
+  - wiki/research/pass-4-vlaq-coverage-map.md
+  - wiki/research/pass-4-claim-source-matrix.md
+  - wiki/research/pass-4-source-gaps.md
+  - wiki/research/pass-4-next-actions.md
+  - wiki/research/priority-source-map.md
+  - wiki/research/pass-4-1-strictness-report.md
+  - wiki/sources/source-index.md
+  - wiki/log.md
+- **source_basis:**
+  - Pass 4 VLAQ mapping reports.
+  - Local VLAQ inspection status.
+  - Source ID rules from Pass 2.1.
+- **unresolved_issues:**
+  - No lore backfill performed.
+  - Some major claims still require deep read before metadata/page updates.
+  - Dottore remains blocked_by_missing_source.
+  - Sandrone remains blocked_by_missing_source.
+  - Columbina remains audited_source_light / indirect_source_only.
+  - Skirk remains source_missing.
+  - Gnosis shackles remains THEORY / indirect.
+  - Third Descender identity remains unconfirmed.
+- **next_recommended_steps:**
+  - Pass 5 should be Deep Read for Partial VLAQ Claims before page update.
+  - Do not upgrade pages until human review approves corrected matrix.
+
+## 2026-06-20 — Claude Code Pass 4.1.1 Documentation Cleanup
+
+- **action:**
+  - Cleaned up stale Pass 4 wording after Pass 4.1 strictness fix.
+  - Ensured `pass-4-next-actions.md` recommends Deep VLAQ Inspection before page updates.
+  - Marked Pass 4 recommendations in `priority-source-map.md` as superseded by Pass 4.1.
+- **files_changed:**
+  - wiki/research/pass-4-next-actions.md
+  - wiki/research/priority-source-map.md
+  - wiki/log.md
+- **unresolved_issues:**
+  - No lore backfill performed.
+  - CLM-014, CLM-015, CLM-016, CLM-018, CLM-011 still require deep read or file-level confirmation.
+  - CLM-017 remains ready for human review.
+  - CLM-009 remains source_missing.
+  - CLM-010 remains keep_theory.
+- **next_recommended_steps:**
+  - Pass 5: Deep Read for Partial VLAQ Claims.
+

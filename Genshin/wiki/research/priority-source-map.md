@@ -50,3 +50,35 @@ Map critical wiki claims to their required sources, showing what is needed befor
 3. **Theory-safe** (CLM-007 through CLM-011, CLM-013): These can remain in the wiki as THEORY/UNVERIFIED without harm, but cannot be upgraded without new source.
 
 4. **genshin-db + Fandom API** are the most versatile candidate sources, potentially covering CLM-001 through CLM-005, CLM-012, CLM-019, and CLM-020.
+
+## Pass 4 VLAQ Coverage Update
+
+> **⚠️ SUPERSEDED:** Pass 4 recommendations below are superseded by the Pass 4.1 Strictness Update section that follows. Use Pass 4.1 recommendations as the current source of truth. This section is retained for historical reference only.
+
+Local VLAQ coverage verified for priority claims CLM-014 through CLM-018 and checked for CLM-009 through CLM-011.
+
+| Claim ID | Pass 4 local VLAQ coverage | Local source candidate | Recommendation | Notes |
+| -------- | -------------------------- | ---------------------- | -------------- | ----- |
+| CLM-014 | coverage_found (direct) | VLAQ-FONTAINE-001, VLAQ-FONTAINE-002 + 3 uninspected Fontaine files | ready_for_human_review | Furina breakdown + Neuvillette judgment + prophecy references confirmed |
+| CLM-015 | partial_coverage (strong_indirect) | VLAQ-WANDERER-001 + Akasha Rung Động files | local_coverage_partial | Wanderer backstory confirmed; Irminsul rewrite mechanics partially in Sumeru final |
+| CLM-016 | coverage_found (direct) | VLAQ-SUMERU-001 + Akasha Rung Động/Ngày Jnagarbha.md | ready_for_human_review | Nahida=Kusanali confirmed; Rukkhadevata design confirmed; memory erasure in Jnagarbha file |
+| CLM-017 | coverage_found (direct) | VLAQ-INAZUMA-001, VLAQ-INAZUMA-002 | ready_for_human_review | Ei/puppet directly stated; Gnosis handoff; Plane of Euthymia confirmed |
+| CLM-018 | coverage_found (direct) | VLAQ-TRAVELER-001, VLAQ-TRAVELER-002 + 10 other files | ready_for_human_review | Three dedicated arc folders: "We Will Be Reunited", "Caribert", "Khúc An Hồn Nơi Đáy Vực" |
+| CLM-009 | coverage_not_found | None | still_missing | Zero VLAQ files contain "Skirk" keyword |
+| CLM-010 | weak_indirect only | VLAQ-INAZUMA-001 (partial) | keep_theory | "Shackles" interpretation not directly supported; Gnosis as "useless" after Ei severed Celestia ties |
+| CLM-011 | partial_coverage (weak) | VLAQ-WANDERER-001 | local_coverage_partial | "Kẻ Đổ Bộ" referenced but Third Descender identity not confirmed |
+
+## Pass 4.1 Strictness Update
+
+Corrected overconfident recommendations from Pass 4. Only claims with direct inspected evidence retain `ready_for_human_review`. Uninspected files downgraded.
+
+| Claim ID | Previous Pass 4 recommendation | Pass 4.1 corrected recommendation | Reason | Next action |
+| -------- | ------------------------------ | --------------------------------- | ------ | ----------- |
+| CLM-014 | ready_for_human_review | partial_primary_ready | Furina/prophecy/Neuvillette directly inspected; Focalors sacrifice file NOT inspected | Deep read `Vở Kịch Của Sóng Đen Và Sương Trắng.md` before full primary_source_found |
+| CLM-015 | local_coverage_partial | needs_deep_read | Only opening 40 lines of Wanderer file inspected; Irminsul rewrite mechanics not seen | Deep read `Mời Uống Ly Rượu Mừng Chiến Thắng.md` + `Ngày Jnagarbha.md` |
+| CLM-016 | ready_for_human_review | primary_source_found_for_identity; needs_deep_read_for_memory_erasure | Identity confirmed directly; memory erasure in uninspected file | Deep read `Ngày Jnagarbha.md` for memory erasure sub-claim |
+| CLM-017 | ready_for_human_review | primary_source_found_after_human_review | Both supporting files directly inspected with clear evidence | Human review is final gate |
+| CLM-018 | ready_for_human_review | needs_file_level_confirmation | Only 2 of 12 files inspected; Dainsleif confirmed but sibling encounter/Khaenri'ah lore not | Deep read remaining Caribert + Khúc An Hồn files |
+| CLM-009 | still_missing | source_missing | No change | External ingestion needed |
+| CLM-010 | keep_theory | keep_theory | No change; "shackles" not stated | None unless new source found |
+| CLM-011 | local_coverage_partial | needs_deep_read | Only opening portion inspected; Descender concept mentioned but not explained | Deep read full `Cội Nguồn Nghiêng Ngả` file |

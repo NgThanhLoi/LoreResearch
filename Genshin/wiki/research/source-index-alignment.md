@@ -68,3 +68,25 @@ Compare `wiki/sources/source-index.md` with the actual `sources/` folder structu
 | Continue file-level indexing for WS/AR/BK | Incremental indexing | Low | Hundreds of files |
 
 Do NOT perform large-scale rewrite of source-index.md in Pass 2. These are recommendations for Pass 3 incremental updates.
+
+## Pass 3 Cleanup Result
+
+| Cleanup item | Status | Files changed | Notes |
+| ------------ | ------ | ------------- | ----- |
+| Add MG-ALL for manga_transcripts/ | ✓ Done | wiki/sources/source-index.md | Added folder-level entry; 21 files; Medium reliability |
+| Add VLAQ-ALL for voice_lines/archon_quests/ | ✓ Done | wiki/sources/source-index.md | Added folder-level entry; 124+ files; High reliability |
+| Add VLWQ-ALL for voice_lines/world_quests/ | ✓ Done | wiki/sources/source-index.md | Added folder-level entry; 4 files; coverage limited |
+| Retire QD-ALL as legacy_retired / not_source | ✓ Done | wiki/sources/source-index.md | Status changed from "Unusable" to "legacy_retired / not_source" |
+| Downgrade VL-0002 Skirk TODO | ✓ Done | wiki/sources/source-index.md | Marked as non-valid placeholder; source_missing; no file exists |
+| Confirm no VL-DOTTORE-* IDs in use | ✓ Confirmed | None needed | Only appears in "Bad Source IDs" example table in SOURCE_ID_RULES.md |
+| Confirm no CS-DOTTORE-* IDs in use | ✓ Confirmed | None needed | Not found anywhere |
+| Confirm no VL-SANDRONE-* IDs in use | ✓ Confirmed | None needed | Not found anywhere |
+| Confirm no CS-SANDRONE-* IDs in use | ✓ Confirmed | None needed | Not found anywhere |
+| Confirm no VL-COLUMBINA-* IDs in use | ✓ Confirmed | None needed | Only appears in "Bad Source IDs" example table |
+| Confirm no CS-COLUMBINA-* IDs in use | ✓ Confirmed | None needed | Not found anywhere |
+| Confirm no VL-SKIRK-* IDs in use | ✓ Confirmed | None needed | Only appears in "Bad Source IDs" example table |
+| Confirm no CS-SKIRK-* IDs in use | ✓ Confirmed | None needed | Not found anywhere |
+
+### Summary
+
+All P0-Internal Cleanup items from PKG-P0I-001 through PKG-P0I-006 have been completed. No phantom source IDs are in active use. The source-index now correctly reflects the real folder structure.
