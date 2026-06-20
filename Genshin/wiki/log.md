@@ -1,0 +1,357 @@
+# Wiki Log
+
+## Format
+
+```markdown
+## YYYY-MM-DD
+- **action:** [Mô tả ngắn hành động]
+- **files_changed:**
+  - [Đường dẫn file 1]
+- **reason:** [Lý do thực hiện thay đổi]
+- **source_basis:** [Nguồn sơ cấp/thứ cấp dùng để quyết định thay đổi]
+- **unresolved_issues:** [Các vấn đề chưa giải quyết được sau thay đổi]
+```
+
+## Entries
+
+## 2026-06-20
+- **action:** Thiết lập cấu trúc LLM Wiki và di trú hệ thống dữ liệu nền tảng.
+- **files_changed:**
+  - wiki/README.md
+  - wiki/SCHEMA.md
+  - wiki/index.md
+  - wiki/log.md
+  - wiki/sources/README.md
+  - wiki/sources/source-map.md
+  - wiki/sources/source-index.md
+  - wiki/sources/source-quality-report.md
+  - wiki/entities/README.md
+  - wiki/entities/* (Tạo thư mục con, READMEs, và templates)
+  - wiki/synthesis/README.md
+  - wiki/synthesis/* (Di trú và tinh chỉnh các trang quy tắc từ foundation/)
+  - wiki/workflows/* (Xây dựng các quy trình hướng dẫn thao tác kiểm duyệt)
+  - wiki/projects/_template/* (Tạo các tệp cấu hình dự án mẫu)
+- **reason:** Tổ chức lại không gian làm việc thành một cơ sở dữ liệu tri thức Genshin Impact phi SQL dạng Markdown, phục vụ quản trị cốt truyện và lore lâu dài cho các dự án fanfic.
+- **source_basis:** Toàn bộ dữ liệu từ thư mục `foundation/` và `planning/` gốc, cùng báo cáo độ tin cậy `RELIABILITY_SUMMARY.md` và `REMAINING_OPEN_ISSUES.md`.
+- **unresolved_issues:**
+  - Khoảng 40+ hồ sơ nhân vật trong `entities/character_intelligence/` vẫn chứa suy đoán tâm lý học sâu chưa được audit gắn nhãn.
+  - Các mảng dữ liệu trống trong `quests/` và các shell trống trong `entities/`.
+  - Cốt truyện Nod-Krai Acts II-VII hoàn toàn thiếu hội thoại gốc.
+- **Premise / Outline status:** 
+  - **Không chọn premise** (premise-free).
+  - **Không lập outline**.
+  - **Không viết thử chương truyện**.
+  - **Không tạo OC**.
+
+## 2026-06-20 — Wiki Pass 2
+
+- **action:** Rà soát và nâng cấp tính di động, hoàn thiện chỉ mục nguồn và audit tuyên bố (Pass 2):
+  - Chuyển đổi toàn bộ liên kết tuyệt đối `file:///d:/` thành liên kết tương đối hoặc tương đối workspace.
+  - Phục hồi các liên kết rác `]()` do lỗi mã hóa trước đó trong toàn bộ các tệp quy trình và quy tắc.
+  - Mở rộng bảng chỉ mục `source-index.md` lên cấp độ tệp tin cho các tài liệu nguồn thô quan trọng nhất.
+  - Đánh giá trạng thái nguồn sơ cấp cho 15 điểm lore trong `unverified-lore-register.md` và bổ sung cột `Source status`.
+  - Bổ sung 13 tuyên bố chi tiết cấp claim-level (`PWR-xxxx`) cho các hệ sức mạnh trong `power-system-governance.md`.
+  - Đăng ký các mâu thuẫn mới phát hiện (thư mục nguồn ảo, cơ chế xiềng xích Gnosis) vào `contradiction-register.md`.
+  - Cập nhật lộ trình làm sạch dữ liệu hậu Pass 2.
+- **files_changed:**
+  - [wiki/README.md](./README.md)
+  - [wiki/index.md](./index.md)
+  - [wiki/sources/source-index.md](./sources/source-index.md)
+  - [wiki/sources/source-map.md](./sources/source-map.md)
+  - [wiki/sources/source-quality-report.md](./sources/source-quality-report.md)
+  - [wiki/synthesis/unverified-lore-register.md](./synthesis/unverified-lore-register.md)
+  - [wiki/synthesis/power-system-governance.md](./synthesis/power-system-governance.md)
+  - [wiki/synthesis/contradiction-register.md](./synthesis/contradiction-register.md)
+  - [wiki/synthesis/data-cleaning-roadmap.md](./synthesis/data-cleaning-roadmap.md)
+  - [wiki/synthesis/canon-governance.md](./synthesis/canon-governance.md)
+  - [wiki/synthesis/chapter-quality-gates.md](./synthesis/chapter-quality-gates.md)
+  - [wiki/synthesis/genre-adapters.md](./synthesis/genre-adapters.md)
+  - [wiki/synthesis/headcanon-fanon-policy.md](./synthesis/headcanon-fanon-policy.md)
+  - [wiki/synthesis/ooc-risk-index.md](./synthesis/ooc-risk-index.md)
+  - [wiki/synthesis/README.md](./synthesis/README.md)
+  - [wiki/workflows/README.md](./workflows/README.md)
+  - [wiki/workflows/add-new-source.md](./workflows/add-new-source.md)
+  - [wiki/workflows/audit-claim.md](./workflows/audit-claim.md)
+  - [wiki/workflows/check-ooc-risk.md](./workflows/check-ooc-risk.md)
+  - [wiki/workflows/check-power-scaling.md](./workflows/check-power-scaling.md)
+  - [wiki/workflows/check-timeline-continuity.md](./workflows/check-timeline-continuity.md)
+  - [wiki/workflows/prepare-new-fanfic-project.md](./workflows/prepare-new-fanfic-project.md)
+  - [wiki/workflows/update-entity-page.md](./workflows/update-entity-page.md)
+  - [wiki/log.md](./log.md)
+- **source_basis:**
+  - Tài liệu sơ cấp trong `sources/weapon_stories/`, `sources/artifact_descriptions/`, `sources/book_texts/`.
+- **unresolved_issues:**
+  - Thiếu thư mục nguồn thô đối thoại và nguồn chính thức (`sources/quest_dialogue/` và `sources/official/`).
+  - Hơn 40+ hồ sơ nhân vật `entities/character_intelligence/` vẫn chứa suy đoán tâm lý chưa được audit.
+- **next_recommended_steps:**
+  - Thực hiện audit OOC/Headcanon chuyên sâu cho hồ sơ nhân vật trong `entities/character_intelligence/`.
+  - Khởi tạo trang nhân vật và sức mạnh chính thức đầu tiên chỉ sau khi hồ sơ phân tích tương ứng đã được audit và làm sạch hoàn toàn.
+
+## 2026-06-20 — Wiki Pass 2.1
+
+- **action:** Thắt chặt kỷ luật nguồn và sửa lỗi kiểm duyệt sơ cấp (Pass 2.1):
+  - Loại bỏ các mã nguồn giả định và đánh dấu TODO cho các file thoại chưa xác minh (như Skirk).
+  - Hạ cấp độ tin cậy và gán nhãn `needs_file_level_source` cho các tuyên bố chỉ dùng đường dẫn thư mục làm nguồn sơ cấp.
+  - Thiết lập thuộc tính `needs_primary_source: true` và chuyển đổi `narrator_safe` sang `conditional` cho toàn bộ các tuyên bố chỉ có nguồn gián tiếp (overview, timeline).
+  - Tinh chỉnh phán quyết sử dụng đối với `Sampo Mill` và `Hyperborea` trong `unverified-lore-register.md` để phân biệt rõ ranh giới văn học dân gian (folklore) và địa chính trị thực tế.
+  - Thêm cảnh báo mâu thuẫn chính sách `CON-0010` cấm coi thư mục nguồn là bằng chứng xác minh tuyệt đối.
+- **files_changed:**
+  - [wiki/sources/source-index.md](./sources/source-index.md)
+  - [wiki/synthesis/unverified-lore-register.md](./synthesis/unverified-lore-register.md)
+  - [wiki/synthesis/power-system-governance.md](./synthesis/power-system-governance.md)
+  - [wiki/synthesis/contradiction-register.md](./synthesis/contradiction-register.md)
+  - [wiki/log.md](./log.md)
+- **claims_changed:**
+  - `PWR-VISION-001` & `PWR-ELEMENT-001`: `source_status` chuyển thành `needs_file_level_source`, `narrator_safe` chuyển thành `conditional`.
+  - `PWR-GNOSIS-001`, `PWR-ARCHON-001`, `PWR-DRAGON-001`, `PWR-IRMINSUL-001`, `PWR-FORBIDDEN-001`, `PWR-CELESTIA-001`: Thêm `needs_primary_source: true`, `narrator_safe` chuyển thành `conditional`.
+  - `Sampo Mill`: Cho phép sử dụng trong bối cảnh folklore, cấm đồng nhất với Rotwang.
+  - `Hyperborea`: Chỉ coi sự tồn tại của tên trong cổ thư là canon; diễn giải địa chính trị hạ xuống nhãn `THEORY`.
+- **source_todo_list:**
+  - Di chuyển tệp thoại của Skirk (`VL-0002`) sang TODO do chưa tồn tại trong workspace.
+- **unresolved_issues:**
+  - Thiếu tệp thoại sơ cấp của Skirk dẫn đến các tuyên bố về Gnosis/Descender vẫn ở trạng thái `indirect_source_only`.
+  - Kho vũ khí (222 files) và thánh di vật (57 files) chưa được lập chỉ mục chi tiết cấp tệp tin.
+  - Thiếu thư mục hội thoại quest và tin tức chính thức.
+
+## 2026-06-20 — Wiki Pass 3.0/3.1
+
+- **action:**
+  - Tạo danh mục kiểm kê nhân vật (character-inventory.md) phân loại rủi ro và độ ưu tiên kiểm định cho toàn bộ 109 nhân vật.
+  - Xây dựng backlog kiểm định nhân vật (character-audit-backlog.md) phân chia lộ trình thực hiện theo các giai đoạn rõ ràng.
+  - Thực hiện kiểm định chuyên sâu cấp độ Level 2 OOC Risk Audit cho lô đầu tiên gồm 5 nhân vật nguy cơ cao: Kaeya, Diluc, Zhongli, Lisa, Jean.
+  - Tạo mới các trang wiki nhân vật đã kiểm định: Kaeya.md, Diluc.md, Zhongli.md, Lisa.md, Jean.md với nhãn độ tin cậy và Voice Guide chuẩn xác.
+  - Cập nhật chỉ mục rủi ro OOC (ooc-risk-index.md) với định dạng bảng mới chuẩn hóa, bổ sung các bẫy OOC của 5 nhân vật đã audit.
+  - Cập nhật chính sách Headcanon/Fanon (headcanon-fanon-policy.md) ghi nhận các phán quyết, headcanon an toàn và headcanon bị cấm của Pass 3.
+  - Đăng ký mâu thuẫn mới CON-0011 (Lỗi học phái của Lisa) vào sổ đăng ký mâu thuẫn (contradiction-register.md) và cập nhật trạng thái CON-0007.
+  - Nâng cấp Characters README (README.md) phản ánh các cấp độ kiểm định mới và liên kết danh mục/backlog.
+- **files_changed:**
+  - [wiki/entities/characters/character-inventory.md](./entities/characters/character-inventory.md)
+  - [wiki/synthesis/character-audit-backlog.md](./synthesis/character-audit-backlog.md)
+  - [wiki/entities/characters/Kaeya.md](./entities/characters/Kaeya.md)
+  - [wiki/entities/characters/Diluc.md](./entities/characters/Diluc.md)
+  - [wiki/entities/characters/Zhongli.md](./entities/characters/Zhongli.md)
+  - [wiki/entities/characters/Lisa.md](./entities/characters/Lisa.md)
+  - [wiki/entities/characters/Jean.md](./entities/characters/Jean.md)
+  - [wiki/synthesis/ooc-risk-index.md](./synthesis/ooc-risk-index.md)
+  - [wiki/synthesis/headcanon-fanon-policy.md](./synthesis/headcanon-fanon-policy.md)
+  - [wiki/synthesis/contradiction-register.md](./synthesis/contradiction-register.md)
+  - [wiki/entities/characters/README.md](./entities/characters/README.md)
+  - [wiki/log.md](./log.md)
+- **source_basis:**
+  - Các hồ sơ phân tích tâm lý nhân vật thô trong `entities/character_intelligence/`.
+  - Các tệp thoại sơ cấp trong `sources/voice_lines/characters/` của 5 nhân vật chính.
+  - Quy tắc phân tích tâm lý, quy tắc Headcanon và Contradiction Register hiện hành.
+- **unresolved_issues:**
+  - Thiếu tệp tin câu chuyện nhân vật thô (`sources/character_stories/`) dẫn đến các tuyên bố lịch sử chi tiết phải ghi nhận dưới dạng `indirect_source_only`.
+  - 104 nhân vật còn lại vẫn ở trạng thái Level 1 (Inventory Only) và chưa được audit chuyên sâu.
+- **next_recommended_steps:**
+  - Tiếp tục giai đoạn kiểm định Phase 3.2 (Lore-Impact Batch) gồm Albedo, Klee, Neuvillette, Furina, Dottore, Columbina, Sandrone.
+  - Tích hợp thêm các nguồn hội thoại thô và câu chuyện nhân vật nếu được bổ sung vào workspace.
+  - Không xây dựng tiền đề cốt truyện (premise) hay phác thảo (outline) dự án truyện tại thời điểm này.
+
+## 2026-06-20 — Wiki Pass 3.1.1
+
+- **action:**
+  - Đã chuẩn hóa định dạng liên kết trong tệp danh mục nhân vật `character-inventory.md`, thay thế các liên kết markdown hỏng đến file cục bộ bằng mã định danh đường dẫn (code paths).
+  - Tinh chỉnh các nhãn rủi ro trong chỉ mục rủi ro OOC `ooc-risk-index.md`: Chỉ dùng nhãn `ERROR / CONTRADICTION` cho các mâu thuẫn trực tiếp có conflict ID tương ứng; sử dụng `OOC_RISK` cho các nguy cơ viết lệch tính cách và `UNVERIFIED` cho khoảng trống thông tin.
+  - Bổ sung cột `Risk type` (loại rủi ro) vào chỉ mục OOC với các giá trị: `contradiction`, `fanon_risk`, `exaggeration_risk`, `unsupported_portrayal`, `source_gap`.
+  - Rà soát các trang thực thể nhân vật của Kaeya và Diluc, gắn nhãn `needs_primary_source: true`, đặt độ tin cậy `confidence: medium` và cập nhật nguồn gián tiếp `source_status: indirect_source_only` cho toàn bộ các tuyên bố `CANON` nào chỉ có nguồn tham chiếu từ `entities/character_intelligence/`.
+  - Cập nhật mối quan hệ của Diluc với cha Crepus sang `indirect_source_only (needs_primary_source)`.
+- **files_changed:**
+  - [wiki/entities/characters/character-inventory.md](./entities/characters/character-inventory.md)
+  - [wiki/synthesis/ooc-risk-index.md](./synthesis/ooc-risk-index.md)
+  - [wiki/entities/characters/Kaeya.md](./entities/characters/Kaeya.md)
+  - [wiki/entities/characters/Diluc.md](./entities/characters/Diluc.md)
+  - [wiki/log.md](./log.md)
+- **unresolved_issues:**
+  - Thiếu nguồn sơ cấp tệp tin câu chuyện nhân vật (`sources/character_stories/`) dẫn đến các sự kiện lịch sử/quá khứ chưa được kiểm chứng đầy đủ ở cấp độ sơ cấp.
+- **next_recommended_steps:**
+  - Tiếp tục giai đoạn kiểm định Phase 3.2 (Lore-Impact Batch) khi được yêu cầu.
+
+## 2026-06-20 — Wiki Phase 3.2 Loop 3.2A
+
+- **action:**
+  - Thực hiện kiểm định chuyên sâu cấp độ Level 2 OOC Risk Audit cho nhóm nhân vật Lore-Impact đợt đầu tiên: Albedo, Klee, Neuvillette.
+  - Tạo mới các trang thực thể nhân vật đã kiểm định: `Albedo.md`, `Klee.md`, `Neuvillette.md` với đầy đủ Frontmatter, Canon Personality, Headcanon, OOC Risks, và Power/Lore Constraints.
+  - Cập nhật chỉ mục rủi ro OOC `ooc-risk-index.md`: Sửa đổi trạng thái nguồn cho Zhongli (CON-0000 không có, sửa thành `source_missing`), bổ sung thêm các dòng rủi ro OOC chi tiết mới cho Albedo, Klee, và Neuvillette.
+  - Cập nhật chính sách Headcanon/Fanon `headcanon-fanon-policy.md`: Thêm mục `Character Audit Pass 3.2 Notes` ghi nhận phán quyết cho đợt 3.2A.
+  - Cập nhật danh mục nhân vật `character-inventory.md` và backlog kiểm định `character-audit-backlog.md` ghi nhận Albedo, Klee, Neuvillette đã hoàn thành audit (Level 2).
+- **files_changed:**
+  - [wiki/entities/characters/Albedo.md](./entities/characters/Albedo.md)
+  - [wiki/entities/characters/Klee.md](./entities/characters/Klee.md)
+  - [wiki/entities/characters/Neuvillette.md](./entities/characters/Neuvillette.md)
+  - [wiki/entities/characters/character-inventory.md](./entities/characters/character-inventory.md)
+  - [wiki/synthesis/character-audit-backlog.md](./synthesis/character-audit-backlog.md)
+  - [wiki/synthesis/ooc-risk-index.md](./synthesis/ooc-risk-index.md)
+  - [wiki/synthesis/headcanon-fanon-policy.md](./synthesis/headcanon-fanon-policy.md)
+  - [wiki/log.md](./log.md)
+- **source_basis:**
+  - Hồ sơ phân tích tâm lý trong `entities/character_intelligence/` của Albedo, Klee, Neuvillette.
+  - Tệp hội thoại sơ cấp trong `sources/voice_lines/characters/` tương ứng.
+- **unresolved_issues:**
+  - Thiếu nguồn sơ cấp câu chuyện nhân vật (`sources/character_stories/`) dẫn đến một số tuyên bố lịch sử/giả kim thuật chi tiết vẫn ở dạng `indirect_source_only`.
+- **next_loop:**
+  - Loop 3.2B: Furina, Dottore, Columbina
+
+## 2026-06-20 — Wiki Phase 3.2 Loop 3.2B
+
+- **action:**
+  - Audited characters: Furina, Dottore, Columbina
+  - Created/updated character pages: `Furina.md`, `Dottore.md`, `Columbina.md`
+  - Updated OOC index: (no change, verified that they are present)
+  - Updated headcanon/fanon policy: updated with Furina, Dottore, Columbina rules
+  - Updated contradiction register: (no change)
+  - Updated inventory/backlog: marked Furina, Columbina audited; Dottore added as blocked
+- **files_changed:**
+  - [wiki/entities/characters/Furina.md](./entities/characters/Furina.md)
+  - [wiki/entities/characters/Dottore.md](./entities/characters/Dottore.md)
+  - [wiki/entities/characters/Columbina.md](./entities/characters/Columbina.md)
+  - [wiki/entities/characters/character-inventory.md](./entities/characters/character-inventory.md)
+  - [wiki/synthesis/character-audit-backlog.md](./synthesis/character-audit-backlog.md)
+  - [wiki/synthesis/headcanon-fanon-policy.md](./synthesis/headcanon-fanon-policy.md)
+  - [wiki/log.md](./log.md)
+- **source_basis:**
+  - Hồ sơ phân tích tâm lý trong `entities/character_intelligence/` của Furina, Columbina.
+  - Tệp hội thoại sơ cấp trong `sources/voice_lines/characters/` của Furina.
+- **unresolved_issues:**
+  - Thiếu nguồn sơ cấp câu chuyện nhân vật (`sources/character_stories/`) dẫn đến các tuyên bố lịch sử vẫn ở dạng `indirect_source_only`.
+  - Thiếu tệp thoại sơ cấp của Columbina dẫn đến việc không có Voice Guide chính thức.
+  - Thiếu hoàn toàn tài liệu nguồn của Dottore dẫn đến nhân vật ở trạng thái `blocked_by_missing_source`.
+- **next_loop:**
+  - Loop 3.2C: Sandrone, Kẻ Lang Thang / Wanderer / Scaramouche, Aether
+
+## 2026-06-20 — Wiki Phase 3.2 Loop 3.2C
+
+- **action:**
+  - Audited characters: Sandrone, Kẻ Lang Thang, Aether
+  - Created/updated character pages: `Sandrone.md`, `Kẻ Lang Thang.md`, `Aether.md`
+  - Updated OOC index: (no change, verified that they are present)
+  - Updated headcanon/fanon policy: updated with Kẻ Lang Thang and Aether rules
+  - Updated contradiction register: registered CON-0012 for Wanderer Irminsul memory rule
+  - Updated inventory/backlog: marked Kẻ Lang Thang and Aether audited; Sandrone added as blocked
+- **files_changed:**
+  - [wiki/entities/characters/Sandrone.md](./entities/characters/Sandrone.md)
+  - [wiki/entities/characters/Kẻ Lang Thang.md](./entities/characters/Kẻ Lang Thang.md)
+  - [wiki/entities/characters/Aether.md](./entities/characters/Aether.md)
+  - [wiki/entities/characters/character-inventory.md](./entities/characters/character-inventory.md)
+  - [wiki/synthesis/character-audit-backlog.md](./synthesis/character-audit-backlog.md)
+  - [wiki/synthesis/headcanon-fanon-policy.md](./synthesis/headcanon-fanon-policy.md)
+  - [wiki/synthesis/contradiction-register.md](./synthesis/contradiction-register.md)
+  - [wiki/log.md](./log.md)
+- **source_basis:**
+  - Hồ sơ phân tích tâm lý trong `entities/character_intelligence/` của Kẻ Lang Thang, Aether.
+  - Tệp hội thoại sơ cấp trong `sources/voice_lines/characters/` tương ứng.
+- **unresolved_issues:**
+  - Thiếu nguồn sơ cấp câu chuyện nhân vật (`sources/character_stories/`) dẫn đến các tuyên bố lịch sử vẫn ở dạng `indirect_source_only`.
+  - Thiếu hoàn toàn tài liệu nguồn của Sandrone dẫn đến nhân vật ở trạng thái `blocked_by_missing_source`.
+- **next_loop:**
+  - Loop 3.2D: Lumine, Nahida, Raiden Shogun
+
+## 2026-06-20 — Wiki Phase 3.2 Loop 3.2D
+
+- **action:**
+  - Audited characters: Lumine, Nahida, Raiden Shogun
+  - Created/updated character pages: `Lumine.md`, `Nahida.md`, `Raiden Shogun.md`
+  - Updated OOC index: (no change, verified that they are present)
+  - Updated headcanon/fanon policy: updated with Lumine, Nahida, and Raiden Shogun rules
+  - Updated contradiction register: registered CON-0013 (Nahida's Rukkhadevata memory) and CON-0014 (Ei vs Shogun puppet)
+  - Updated inventory/backlog: marked Lumine, Nahida, Raiden Shogun audited
+- **files_changed:**
+  - [wiki/entities/characters/Lumine.md](./entities/characters/Lumine.md)
+  - [wiki/entities/characters/Nahida.md](./entities/characters/Nahida.md)
+  - [wiki/entities/characters/Raiden Shogun.md](./entities/characters/Raiden Shogun.md)
+  - [wiki/entities/characters/character-inventory.md](./entities/characters/character-inventory.md)
+  - [wiki/synthesis/character-audit-backlog.md](./synthesis/character-audit-backlog.md)
+  - [wiki/synthesis/headcanon-fanon-policy.md](./synthesis/headcanon-fanon-policy.md)
+  - [wiki/synthesis/contradiction-register.md](./synthesis/contradiction-register.md)
+  - [wiki/log.md](./log.md)
+- **source_basis:**
+  - Hồ sơ phân tích tâm lý trong `entities/character_intelligence/` của Lumine, Nahida, Raiden Shogun.
+  - Tệp hội thoại sơ cấp trong `sources/voice_lines/characters/` tương ứng.
+- **unresolved_issues:**
+  - Thiếu nguồn sơ cấp câu chuyện nhân vật (`sources/character_stories/`) dẫn đến các tuyên bố lịch sử vẫn ở dạng `indirect_source_only`.
+- **next_loop:**
+  - Loop 3.2E: Arlecchino, Tartaglia, Venti
+
+## 2026-06-20 — Wiki Phase 3.2 Loop 3.2E
+
+- **action:**
+  - Audited characters: Arlecchino, Tartaglia, Venti
+  - Created/updated character pages: `Arlecchino.md`, `Tartaglia.md`, `Venti.md`
+  - Updated OOC index: Added OOC risks and contradictions for Arlecchino, Tartaglia, Venti, Nahida, Raiden Shogun, Wanderer, Traveler
+  - Updated headcanon/fanon policy: Updated with Arlecchino, Tartaglia, and Venti guidelines
+  - Updated contradiction register: Registered CON-0015 for Traveler vs Abyss Sibling role confusion
+  - Updated inventory/backlog: Marked Arlecchino, Tartaglia, and Venti as audited
+- **files_changed:**
+  - [wiki/entities/characters/Venti.md](./entities/characters/Venti.md)
+  - [wiki/entities/characters/character-inventory.md](./entities/characters/character-inventory.md)
+  - [wiki/synthesis/character-audit-backlog.md](./synthesis/character-audit-backlog.md)
+  - [wiki/synthesis/ooc-risk-index.md](./synthesis/ooc-risk-index.md)
+  - [wiki/synthesis/headcanon-fanon-policy.md](./synthesis/headcanon-fanon-policy.md)
+  - [wiki/synthesis/contradiction-register.md](./synthesis/contradiction-register.md)
+  - [wiki/log.md](./log.md)
+- **source_basis:**
+  - Hồ sơ phân tích tâm lý trong `entities/character_intelligence/` của Arlecchino, Tartaglia, Venti.
+  - Tệp hội thoại sơ cấp trong `sources/voice_lines/characters/` tương ứng.
+- **unresolved_issues:**
+  - Thiếu nguồn sơ cấp câu chuyện nhân vật (`sources/character_stories/`) dẫn đến các tuyên bố quá khứ vẫn ở dạng `indirect_source_only`.
+- **next_loop:**
+  - None. All Phase 3.2 required characters completed or blocked.
+
+## 2026-06-20 — Wiki Phase 3.2 Final Summary
+
+- **characters_completed:**
+  - Albedo, Klee, Neuvillette, Furina, Columbina, Kẻ Lang Thang / Wanderer, Aether, Lumine, Nahida, Raiden Shogun, Arlecchino, Tartaglia, Venti (13 characters audited)
+- **characters_blocked:**
+  - Dottore, Sandrone (Blocked by missing raw sources; created with status `blocked_by_missing_source`)
+- **new_contradictions:**
+  - CON-0012 (Wanderer Irminsul memory), CON-0013 (Nahida's Rukkhadevata memory), CON-0014 (Ei vs Shogun puppet), CON-0015 (Traveler vs Abyss Sibling role confusion)
+- **high-risk unverified lore:**
+  - Columbina = Kuutar (Theory / Unverified)
+  - Dottore false moon god (Unverified)
+  - Sandrone machine/Rotwang links (Unverified)
+- **source gaps:**
+  - Thiếu hoàn toàn thư mục `sources/character_stories/` trong toàn bộ workspace.
+  - Thiếu các tệp nguồn sơ cấp cho Dottore và Sandrone.
+  - Thiếu tệp thoại sơ cấp cho Columbina.
+- **next_recommended_steps:**
+  - Phase 3.3 Region/Faction Batches.
+  - Continue source indexing.
+  - Do not choose premise yet.
+  - Do not write outline yet.
+  - Do not write chapters yet.
+
+## 2026-06-20 — Wiki Phase 3.2.1
+
+- **action:**
+  - Tightened Dottore blocked-source page (corrected Summary, UNVERIFIED identity table, removed external claims).
+  - Downgraded or softened overconfident Columbina identity/moon claims (marked all Columbina-specific traits as indirect_source_only and Kuutar as THEORY/UNVERIFIED).
+  - Normalized backlog and inventory status for blocked/source-light characters (Dottore, Columbina, Sandrone).
+  - Confirmed Dottore Moon God and Columbina = Kuutar remain non-canon.
+  - Fixed headcanon/fanon policy links to code paths instead of live links, and updated warnings.
+- **files_changed:**
+  - [wiki/entities/characters/Dottore.md](./entities/characters/Dottore.md)
+  - [wiki/entities/characters/Columbina.md](./entities/characters/Columbina.md)
+  - [wiki/synthesis/character-audit-backlog.md](./synthesis/character-audit-backlog.md)
+  - [wiki/entities/characters/character-inventory.md](./entities/characters/character-inventory.md)
+  - [wiki/synthesis/ooc-risk-index.md](./synthesis/ooc-risk-index.md)
+  - [wiki/synthesis/headcanon-fanon-policy.md](./synthesis/headcanon-fanon-policy.md)
+  - [wiki/synthesis/unverified-lore-register.md](./synthesis/unverified-lore-register.md)
+  - [wiki/synthesis/contradiction-register.md](./synthesis/contradiction-register.md)
+  - [wiki/log.md](./log.md)
+- **source_basis:**
+  - Current workspace file availability.
+  - Unverified lore register.
+  - Phase 3.2 character pages.
+  - OOC risk index.
+- **unresolved_issues:**
+  - Missing Dottore source files.
+  - Missing Columbina primary voice/source files.
+  - Missing Sandrone primary source files.
+- **next_recommended_steps:**
+  - Continue Phase 3.3 only after this strictness fix.
+  - Ingest missing sources before upgrading blocked characters.
+  - Do not choose premise.
+  - Do not write outline.
+  - Do not write chapters.
+

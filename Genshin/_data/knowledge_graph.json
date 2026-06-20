@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    {"id": "celestia", "label": "Đảo Thiên Không (Celestia)", "type": "nation"},
+    {"id": "phanes", "label": "Vị Đầu Tiên (Phanes)", "type": "god"},
+    {"id": "abyss", "label": "Vực Sâu (Abyss)", "type": "concept"},
+    {"id": "abyss_order", "label": "Giáo Hội Vực Sâu", "type": "organization"},
+    {"id": "khaenriah", "label": "Khaenri'ah", "type": "nation"},
+    {"id": "fatui", "label": "Fatui", "type": "organization"},
+    {"id": "hexenzirkel", "label": "Hội Phù Thủy", "type": "organization"},
+    {"id": "tsaritsa", "label": "Băng Thần (Tsaritsa)", "type": "god"},
+    {"id": "neuvillette", "label": "Thủy Long Vương (Neuvillette)", "type": "dragon"},
+    {"id": "nibelung", "label": "Long Vương Nibelung", "type": "dragon"},
+    {"id": "the_seven", "label": "Thất Thần", "type": "group"}
+  ],
+  "edges": [
+    {"source": "phanes", "target": "nibelung", "label": "Đánh bại"},
+    {"source": "phanes", "target": "celestia", "label": "Thiết lập"},
+    {"source": "celestia", "target": "the_seven", "label": "Kiểm soát qua Gnosis"},
+    {"source": "celestia", "target": "khaenriah", "label": "Hủy diệt"},
+    {"source": "khaenriah", "target": "abyss_order", "label": "Nguồn gốc"},
+    {"source": "abyss_order", "target": "abyss", "label": "Tôn sùng / Dùng sức mạnh"},
+    {"source": "abyss_order", "target": "celestia", "label": "Trả thù"},
+    {"source": "tsaritsa", "target": "fatui", "label": "Lãnh đạo"},
+    {"source": "fatui", "target": "celestia", "label": "Lật đổ"},
+    {"source": "the_seven", "target": "neuvillette", "label": "Chiếm đoạt quyền lực"},
+    {"source": "hexenzirkel", "target": "celestia", "label": "Trung lập"}
+  ]
+}

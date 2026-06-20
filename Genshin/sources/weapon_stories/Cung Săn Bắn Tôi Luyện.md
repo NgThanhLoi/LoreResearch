@@ -1,0 +1,4 @@
+﻿# Câu chuyện vũ khí: Cung Săn Bắn Tôi Luyện
+
+Thợ săn phải đứng ở nơi có gió. Tránh đứng thẳng khi trèo trên sườn núi.
+Cho dù con mồi là dã thú, ma vật hay ác nhân.

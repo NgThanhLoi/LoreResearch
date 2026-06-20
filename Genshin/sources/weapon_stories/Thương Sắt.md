@@ -1,0 +1,6 @@
+﻿# Câu chuyện vũ khí: Thương Sắt
+
+Phát tán những binh khí thô sơ nhưng trông có vẻ uy nghiêm.
+Đối với những người có thứ cần bảo vệ, 
+Hoặc là trút bỏ đi thân phận lữ khách tay trắng của mình, 
+Vũ khí có thô sơ đi chăng nữa cũng có thể phát huy sức mạnh gấp mười lần.

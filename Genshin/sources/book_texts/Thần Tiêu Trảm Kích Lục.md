@@ -1,0 +1,233 @@
+﻿# Tuyển tập: Thần Tiêu Trảm Kích Lục
+
+## Quyển I: Quyển I
+
+{{Description|Thời thái cổ, cửu châu thông thương, Côn Lôn rộng mở. Vùng đất phàm nhân, gọi là “Trung Châu”, vùng đất thần tiên, gọi là “Thần Tiêu”.
+Rất lâu rồi, ma thần giao chiến, cuối cùng Thần Vương Trảm Kích, cửu giới lầm than, vạn tượng quay về hư không.
+Đến nay thế giới mới bắt đầu, vạn vật sinh sôi. Côn Lôn đóng lại, các thế giới không thể tương thông với nhau.
+Bức họa võ hiệp xoay quanh Thần Vương Chi Kích được mở ra!}}
+
+&mdash;Chúng Thần Tất Bạn&mdash;
+
+“Ta là lại sử triều đình, Kim Tử Quang Lộc tướng quân Weiyang! Còn không mau lui xuống!”
+
+“Hả, nhưng Kim Tử Quang Lộc chẳng phải là chức quan văn sao?” Mir buột miệng nói ra.
+
+Người phía đối diện đột nhiên đỏ ửng mặt, “Điêu dân to gan, hiểu cái gì!”
+
+“Chẳng lẽ những năm gần đây triều đình thay đổi chức vị rồi?”
+
+Hai võ sĩ đeo kiếm đi cùng cũng cười lớn “Haha! Các dịch trạm cách kinh thành cả ngàn dặm đều đi qua rồi, giờ lại bị kẹt ở quán nhỏ ngoại ô này!”
+
+Qin nhìn chằm chằm vào khuôn mặt đỏ ửng của Weiyang một lát, sau đó vỗ vào tay, “Bạn là nữ quan giả trai!”
+
+“Lão huynh thật là tinh tường” một vị võ sĩ nói “Chức quan của cô ấy là Thượng Nghi Đồng Sử. Hai người chúng tôi là Kim Ngô và Vũ Lâm – quan võ được sai đi làm nhiệm vụ, nhận lệnh từ Kim Tử Quang Lộc Đại Phu, đến đây để lấy Tà Kiếm.”
+
+“Tuy là Kim Tử Quang Lộc… tướng quân, ahaha… là giả, nhưng chuyện sứ giả triều đình lại không giả chút nào.” Một võ sĩ khác nói thêm.
+
+Chuyện Tà Kiếm Mir cũng nghe qua. Nghe nói năm sáu năm trước, trên trời rơi xuống thiên thạch. Nó thuộc loại nguyên liệu quý hiếm, đáng lẽ phải cống nạp cho triều đình. Thế nhưng sư phụ đúc kiếm Feng lại tự ý dùng thiên thạch làm thành vũ khí, tạo ra Tà Kiếm Cửu Bính. Nghe đồn, Tà Kiếm có thể lấy đi tâm trí con người, tạo nên sóng gió trong võ lâm.
+
+“Thì ra là vậy.” Nói đến đó Mir đóng cửa nhà vệ sinh lại.
+
+“Muốn gì cũng được, ra khỏi nhà vệ sinh mau!” Weiyang biết việc cải trang bị lộ, cuối cùng lộ ra giọng thật. Lại dễ thương mềm mại đến động lòng.
+
+“Weiyang vốn là nữ Đồng Sử, lại được giáo dục đàng hoàng. Không giống như nam nhân chúng ta đi đâu cũng giải quyết được. Mong lão huynh nhanh một chút vậy.”
+
+Sau khi rửa tay và rời khỏi nhà vệ sinh, Mir ngồi xuống cùng với hai võ sĩ.
+
+“Quán nhỏ nơi xa, lại có thể gặp người hiểu biết về triều đình.” Có lẽ Vũ Lâm đang thăm dò Mir, “Xin hỏi huynh đài xuất thân như thế nào?”
+
+“Gia phụ là Mễ Thính Nhân từng là Quang Lục Tự Khanh. Sau này bị vu oan dùng tiền công nên bị bãi quan về quê.” Di Nhĩ vuốt cằm, “Không giống như bố tôi chỉ muốn an nhàn qua tuổi, tôi vẫn muốn quay lại triều đình, gột rửa nỗi nhục của Mễ gia.”
+
+## Quyển II: Quyển II
+
+{{Description|Trong phút chốc sai lầm, Mir phải dấn thân vào chuyến hành trình đầy gươm đao này, gặp phải nguy hiểm cận kề. Kim Ngô và Vũ Lâm tài giỏi như vậy lại bị tà kiếm trong tay đạo tặc hạ gục. Trong lúc nguy cấp, Mir nhớ đến thần chú Quang Lộc Tự được bố truyền lại. Truyền thuyết nói rằng, Thiên Đế có một người con gái, không ai biết rõ tên thật của cô. Lúc này cô lại chiếm lấy thân thế trướng mắt Weiyang mà xuất hiện. Tên đạo tặc cùng thanh tà kiếm đã biến thành ác quỷ, đối mặt với một thư sinh trói gà không chặt như Mir, sẽ ra sao đây?}}
+
+&mdash;Chiến trường Tu La&mdash;
+
+“Ừm, ngon quá.”
+
+Thứ bám trên người Weiyang trở nên dịu dàng và ôn hòa hơn nhiều. Cô cầm chiếc bánh mà Mir làm, ăn từng miếng một. Mới ăn miếng đầu tiên thì bị bỏng, nhưng vẫn thè lưỡi ra một cách đáng yêu.
+
+“Ăn nhiều quá cần nghỉ ngơi tiêu hóa một chút.” rồi dùng ánh mắt như ra hiệu Mir cũng cầm một chiếc bánh lên, “Anh nói lại đi?”
+
+“Thiên thạch năm xưa được gọi là Thần Kích. Bị người phàm đập vỡ rồi tạo nên ma kiếm Cửu Bính. Một thanh là Vụ Hải Ma Kiếm. Thêm hai thanh mà họ đã thu thập được…”
+
+“Vậy bạn là?”
+
+“Tôi là con gái của cựu Thiên Đế, tên đã quên rồi. Tôi nắm quyền phán quyết và định tội, dùng cách nói của người thường đó là hình luật.”
+
+Quang Lộc Tự chủ yếu giữ nhiệm vụ tế lễ, vì vậy các nghi thức, lời hiến tế bị bố ép học đến mức có thể đọc ngược trôi chảy. Đồng thời do tiếp xúc với thứ này, Mir cũng biết một số thủ thuật. Nếu như biết được tên thực sự của thần linh, thì có thể sai khiến dễ dàng. Vị này chắc không biết rõ điều đó.
+
+“Vì thế triều đình muốn đúc lại Thần Tiêu Chi Kích sao?” Mir tự thuyết phục bản thân bằng giả thuyết này rồi tự nói ra.
+
+“Tôi cũng không biết. Chủ nhân của tấm thân này không biết chuyện gì khác. Cô ấy chỉ… rất tức giận, muốn chứng minh bản thân.” Weiyang đặt đôi tay lên lồng ngực.
+
+“Vậy thì tôi phải dùng nghi thức hiến tế gì để tiễn bạn đi đây?” Mir dụi đôi mắt đã mất đi công dụng, “Rồi sau đó đôi mắt của tôi sẽ quay trở lại?”
+
+“Đọc tên cho tôi đi.” Cô gái phía trước ngẩng đầu lên, miệng có dính một ít vụn bánh.
+
+“Bạn nói bậy gì vậy. Bài thi trước điện là do thánh thượng đích thân phê duyệt, một con mắt sao có thể trở thành Quang Lộc Tự Khanh được chứ?”
+
+“Tôi phải thu thập tất cả mảnh vụn của Thần Kích.” Thiếu nữ nói, “Nếu không thế giới sẽ gặp phải tai ương.”
+
+Mir không có phản ứng gì, chỉ nhìn người phía trước mặt mình.
+
+“Bạn không nhất thiết phải đi cùng tôi, thế nhưng vì chúng sinh, đôi mắt của bạn tôi vẫn phải mượn một khoảng thời gian.”
+
+## Quyển III: Quyển III
+
+{{Description|“Bạn vẫn là Weiyang phải không. Đi lại giữa chốn nhân gian, thân phận này thật không tiện. Vẫn còn có công văn của triều đình, miễn ở trên đất của vua thì không nơi nào dám cản trở.” Do không yên tâm về Weiyang, Mir cùng tiến vào chuyến hành trình. Cái gọi là gặp ma chém ma, gặp quỷ giết quỷ, đến nay đã thu thập được 5 thanh tà kiếm.
+Tuy đã đi được hơn nửa, thế nhưng ai cũng biết rằng chuyến đi tiếp theo sẽ càng nguy hiểm hơn…}}
+
+&mdash;Huyền Nữ Chinh Tây&mdash;
+
+“Việc tôi có thể làm cho bạn chỉ có thể như vậy mà thôi.” Mir đưa lên thức ăn đã được nấu chín, sau đó ngồi đối diện với Weiyang.
+
+Do vừa rồi hai bên giằng co quyết liệt, tay phải của Weiyang bị gẫy, hiện giờ vẫn phải băng bó. Cô nhìn Mir, còn anh thì chống cằm nhìn bản thân, hai người không nói với nhau một câu nào.
+
+Cuối cùng Weiyang dùng tay trái cầm đũa lên, nhưng cũng không gắp được viên thịt trong bát canh nóng.
+
+Mir thở dài, bỏ đũa xuống “Thôi vậy tôi bón cho bạn ăn.”
+
+“Bạn có thể làm nhiều hơn thế cho tôi.” Weiyang ăn được vài miếng sau đó đột nhiên nói ra câu nói đó. Đương nhiên vẫn như cũ, không có chút cảm xúc nào.
+
+“Quang Lộc Tự chủ yếu quản lý tế phẩm, hiến tế cho Thần Tiêu Thiên Nhân của các bạn. Có thể nói hầu hạ bạn là chức trách công việc của gia đình chúng tôi.”
+
+Thần tiên dấy lên đao binh, người phàm chúng ta ngoài việc đứng nhìn, còn có thể làm gì khác nữa?
+
+Nửa câu phía sau, Mir không còn gì để nói nữa.
+
+
+“Trước kia bạn có vài lần giao đấu với Tà Kiếm Chủ, chẳng phải có thể một chiêu điều khiển thương với đao kiếm sao. Sử dụng cái đó điều khiển đũa là được rồi.”
+
+“Cái đó là phụ thân truyền lại. Chỉ có tôi mới có thể sử dụng – Là tuyên bố và hành quyết dùng để định tội sau cùng. Không thể…” Giọng nói của Weiyang vang lên “Không thể dùng tùy tiện được.”
+
+“Người đó nói trước khi chết, nói sự việc của bố tôi không rõ ràng.” Mir nhân lúc nhàn rỗi, dụi đống lửa, “[Mễ Quang Lộc không trong sạch cũng không oan uổng]… câu nói này rốt cuộc là có ý gì?”
+
+Nếu như triều đình không định đúc lại Thần Kích, vậy vị vương nữ đi theo Weiyang là muốn chống lại triều đình.
+
+Dường như đọc được tâm tư của Mir, khuôn mặt của Weiyang dưới ánh đèn có chút tối lại.
+
+Cô ấy nói: “Bạn có thể không cần giúp tôi nữa. Bạn cũng chỉ là người thường, đối địch với triều đình không được lợi ích gì.”
+
+Mir nói: “Việc này trước tiên không cần nhắc đến. Tôi đi tìm bố tôi hỏi sự việc rõ ràng rồi quyết định.”
+
+Weiyang nói: “Hả… phải đi về phía nam gặp lệnh tôn sao. Vậy ngài mai phải đến các cửa hàng lụa và mỹ phẩm mới được.”
+
+Mir nói: “Ông ấy cũng chỉ là một ông lão già, không cần phiền phức như vậy.”
+
+Weiyang bất ngờ lộ ra vẻ cứng rắn hiếm thấy “Đây chẳng phải là trách nhiệm của bạn sao?”
+
+## Quyển IV: Quyển IV
+
+{{Description|“Bạn chớ ngạc nhiên, tôi là Mir, nghe tôi nói đã. Tôi không phải là bố đẻ của bạn.” “Không đúng!”
+Đầu bếp hoàng gia hóa ra lại là Khan Asura của Sơn Ẩn Giới, khi rời kinh chỉ là diễn một màn kịch với bộ trưởng nghi lễ và thư ký cấp cao. Mục đích chính là bảo vệ Huyền Nữ của Thiên Đế.
+“Thần Tiêu Thiên Đế trước kia là bạn của tôi, nay đã trở thành kẻ thù của vạn vật. Nay cô ấy đã được bạn triệu hồi về, vậy thì tôi có chết cũng cam lòng”}}
+
+&mdash;Sơn Nhân Diệu Kế&mdash;
+
+Gặp tình cảnh như vậy, cho dù là bồ tát hay là Đại La Kim Tiên xuất hiện cũng phải bó tay.
+
+“Thanh Hỏa Giới Tà Kiếm ‘Katakugosha’ này, là Thần Kích được hỏa giới Dharani đập vụn mà luyện thành. Hả, vậy theo lời của công chúa điện hạ đó chính là Hỏa Giới trong Thần Vương Cửu Giới”
+
+Tại sao võ sĩ từ phương tây có thể dùng kiếm thuật thần thông như vậy? Thông thường sẽ bị Tà Kiếm đoạt mất tâm trí, mất đi tính mạng, võ thuật của bản thân cũng từ đó mà mất đi.
+
+Weiyang ôm lấy cánh tay bị gẫy, hít lấy một hơi trong bầu không khí nóng nực. Nếu bình thường với đạo hạnh của cô có thể lập tức khiến vết thương do chặt đứt liền lại, thế nhưng hiện tại chỗ bị thương lửa cứ cháy không ngừng.
+
+Ánh mắt của cô dần mờ đi do mất máu quá nhiều. Mir đỡ lấy cô.
+
+“Nhìn vào mắt ngươi, dường như có rất nhiều câu hỏi. Ta sẽ để ngươi chết một cách rõ ràng. Ta đã giết bố ngươi chỉ vì ông muốn cản trở sự phục sinh của thần vương. Và tại sao ta có thể điều khiển văn tự Hỏa Giới, thay vì bị điều khiển…”
+
+Võ sĩ phía đông giơ Tà Kiếm lên “Vì ta chính là thiên binh Đi Săn Trong Mây”
+
+Tương truyền thiên đế vì muốn giao tranh với Asura, từng tuyển chọn cẩn thận các chiến sĩ đã chết từ ba giới hóa thành thiên quân. Những lúc thời tiết xấu hoặc sấm sét đầy trời, người Trung Châu sẽ gọi đó là binh sĩ của thiên đế đang “Đi Săn Trong Mây”
+
+“Sao, sao lại thế được”! võ sĩ lộ ra ánh mắt không dám tin, nhìn Tà Kiếm rạn nứt,
+
+Trong lúc hoảng loạn, Mir lấy ra di vật mà người bố để lại. Vốn chỉ là để đối phó một chút. Anh nào biết rằng đây là Chí Đại Ma Kiếm từng đốt cháy cả thế giới – “Laevatain”. Nếu như nói văn tự Runes là bí mật của hỏa giới, vậy thì “Laevatain” chính là bất diệt chân như của hỏa giới.
+
+Thanh ma kiếm bị rụi tắt do đã thiêu đốt cả thế giới, nay lại nuốt được văn tự Hỏa Giới lại bùng cháy lên một lần nữa.
+
+“Thế giới này lại bị thiêu hủy sao…” Nói hết câu này Weiyang liền ngã xuống đất.
+
+## Quyển V: Quyển V
+
+{{Description|“Trong các quan võ có nhiều người muốn mở lại Côn Lôn, khiến thế giới chìm vào lầm than, như vậy thì địa vị của võ nhân sẽ được đề cao.”
+“Chẳng lẽ họ muốn khơi mào lại cuộc chiến Asura trong truyền thuyết sao?”
+“Là do anh ấy muốn.”
+Ván cờ giữa quan văn và quan võ, kế hoạch của chúng thần đã chết, hiểm nguy lại sắp ập đến Cửu Châu!}}
+
+&mdash;Tố Nữ Kế Thừa&mdash;
+
+“Hành động của bạn đã cứu giúp chúng sinh, có thể được coi là đại anh hùng” Thái Tử vòng tay ra sau lưng, đi một vòng quanh Mir đang khấu đầu.
+
+Thế nhưng Mir vẫn không có chút phản ứng nào.
+
+“Giao ra Thần Kích, sau 30 ngày thì Quang Lộc Tự Khanh chính là ngươi rồi. Nếu muốn, vị trí thủ phụ trong vòng 10 năm cũng có thể cho ngươi.” Thái Tử ngồi xuống, “Ngươi thấy thế nào?”
+
+“Bệ Hạ chưa cho thảo dân bình thân, không dám nói nhiều.”
+
+“Vậy chẳng phải là ngươi bảo ta cho ngươi bình thân sao. Không được, không được… vị vua tương lai của một nước…”
+
+“Haizz, thật lắm chuyện.” Mir đổi tư thế, “Lễ nghi của triều đình, nếu gặp thái tử không cần bái lạy, chỉ cần vái ba cái là được. Tôi thấy ngài chuẩn bị lên làm hoàng thượng đã chúc mừng trước rồi, ngài vì sao vẫn nhiều chuyện vậy?”
+
+“Ngươi, ngươi!”
+
+“Tôi làm sao,” Mir đứng dậy, “Thần Kích đưa một nửa cho ngài, hỏa giới Dharani tôi cần phải để cho bố tôi. Chủ yếu là để tránh những chuyện phiền phức sau này.”
+
+“Không sợ. Chỉ là hình thức thôi. Về sau đây chính là thần khí mới của đất nước. Haha.”
+
+Mir ngồi đối diện với Thái Tử mà không hề e dè, “Chúng ta đều lớn lên nhờ dòng sữa của mẹ, sao ngài lại ngốc đến vậy cơ chứ!”
+
+“To gan! Ta niệm tình phu nhân là vú nuôi của ta, lại có công giáo dưỡng nên mới nhường nhịn người!”
+
+“Quang Lộc Tự Khanh ai thích thì làm vậy. Tôi sẽ về quê.”
+
+Thái Tử đứng lặng trong phút chốc.
+
+“Weiyang, cô ấy?” Mir gắp một miếng rau, giả vờ như không quan tâm.
+
+“Hả, có công lao, sẽ được thăng chức Thượng Nghi. Âm mưu của người bố là Kim Tử Quang Lộc Đại Phu không liên quan đến cô ấy, lại có Thái Thường, Thủ Phụ nương tình. Ta sẽ đối tốt với cô ấy.”
+
+Câu này nghe có chút kì quái.
+
+Có điều như vậy cũng tốt…
+
+Người thì không còn nữa rồi, đôi mắt mà bản thân đánh mất nay đã phục hồi lại, thi thoảng còn chút đau nhẹ.
+
+## Quyển VI: Quyển VI
+
+{{Description|Mir niệm lại câu thần chú bị lãng quên. Thiếu nữ và anh gặp nhau lần nữa-“Thì ra bên ngoài anh trông như thế này”.
+“Thế giới đã bị hủy hoại, bắt buộc phải thiêu rụi toàn bộ.” Thiên Đế điên cuồng phán xét như vậy với vạn vật.
+“Tôi nói, nếu là bạn thì có thể hiểu được tôi phải không?” Tên cướp vô danh đánh cắp quốc bảo nói với thánh thượng.
+“Không, không cần xin lỗi, bởi vì bạn chính là sự tồn tại của dịu dàng rồi đó.”}}
+
+&mdash;Không Còn Gì Cả&mdash;
+
+“Hỡi đứa con gái mà ta gửi gắm nhiều hi vọng, ta tạo ra con để con chống đối lại ta sao?” Thần Vương hồi tỉnh bay lượn trên trời cao, sấm sét, lốc xoáy và ánh chớp đang ăn mừng cho sự sống dậy của vị vua thế giới cũ.
+
+Nhưng thiếu nữ không còn sợ hãi nữa. Hàng triệu năm mà cô được tạo ra là để chờ đợi thời điểm này.
+Không – điều thực sự mang lại cho cô sự can đảm là thời gian.
+
+Tuyên bố với chín thế giới, Thần Kích đầu tiên nối liền với Côn Lôn “Irmin”, bản phục chế của nó bây giờ trải khắp cả bầu trời.
+
+Thần Vương do hoảng sợ sự điên loạn sau khi chết đi, nên tạo ra Thần Kích cuối cùng mang tên “Công Chúa Định Tội”, nó – cuối cùng cũng hiện ra hình dạng hoàn chỉnh vào thời khắc này.
+
+…
+
+(Cái kết của sách và lời của tổng biên)
+
+“Thần Tiêu Trảm Kích Lục” là tiểu thuyết thành công của nhà xuất bản Yae ở Inazuma thử đưa văn hóa Liyue vào. Năm cuốn trước đó đều được đánh giá tích cực, về mặt văn hóa có thể nói rằng gặt hái được thành công ở cả hai nước, còn về mặt số lượng, ấn phẩm có thể xuất bản đến quyển thứ sáu, chỉ cần như vậy là đủ nói lên tất cả.
+
+Với cái kết thực sự bất ngờ, tôi tin rằng quyển thứ sáu cũng sẽ không làm mọi người thất vọng.
+
+Sơ lược.
+
+Mặc dù tập cuối giống như một cuốn tiểu thuyết hoàn toàn khác, nhưng chắc chắn không phải do chúng tôi yêu cầu thầy Cửu viết một sê-ri mới, khiến thầy gấp rút hoàn thành bản thảo mà sử dụng nhầm phong cách. Đơn giản là vì thầy Cửu muốn thử thách bản thân mà thôi♡.
+
+Đương nhiên, chúng tôi hoàn toàn thấu hiểu cảm xúc người hâm mộ của năm cuốn trước đó, bản kỷ niệm năm quyển “Hắc Mộc Thư Hạp” cũng đang trong quá trình sản xuất. Những bạn trẻ đã đọc hết quyển “Trảm Kích Lục” trong hiệu sách nhớ là phải mua đó. Ồ nhân tiện, câu chuyện về “Công Chúa Định Tội” hy vọng cũng sẽ nhận được nhiều sự chào đón.
+
+Tổng Biên Tập Yae-Lưu Bút
+
+

@@ -1,0 +1,5 @@
+﻿# Câu chuyện vũ khí: Vô Phong Kiếm
+
+Suốt đường đi là những khoảnh khắc tương phùng rồi ly biệt.
+Người bạn đồng hành trung thành không hề bỏ rơi lữ khách, 
+E rằng chỉ là mộng tưởng của trường kiếm và viễn hành.

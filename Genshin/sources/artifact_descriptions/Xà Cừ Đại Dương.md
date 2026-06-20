@@ -1,0 +1,82 @@
+﻿# Bộ thánh di vật: Xà Cừ Đại Dương
+
+## Hoa Sự Sống: Hoa Đại Dương
+- **Mô tả:** Đóa hoa nhuốm màu sắc của biển cả, ánh lên những sắc màu kỳ ảo dưới ánh trăng.
+- **Câu chuyện:**
+Đóa hoa yêu kiều từ đại dương, phần nhụy hoa điểm xuyết những viên trân châu thuần khiết.
+Trong bài dân ca của con dân biển cả, loài hoa này nở rộ dưới đáy biển với đầy sắc màu trân châu.
+Đắm mình trong tình yêu của những người con gái biển cả và ánh trăng dịu dàng, tỏa ra ánh sáng lấp lánh tựa trân châu.
+
+Khi mọi tranh đấu chấm dứt, những con hải thú không còn khóc thương những người bạn đồng hành cô đơn của chúng nữa,
+Khi ánh trăng nhú lên đỉnh Touzan, các vị thần duyên dáng cất lên tiếng hát.
+"Đến đây nào, những cô gái biển cả, mau đến nhìn xem, người trong tim ta, hãy đến xem ánh trăng đêm nay."
+"Dù đêm nay Touzan có sụp đổ, thì sấm chớp và giông bão cũng không bao giờ có thể che phủ ánh sáng của những viên trân châu xinh đẹp..."
+
+Pháp sư cô độc ngân nga ca hát và nhảy múa trên những con sóng bạc nhuộm màu trăng sáng.
+Những cô gái của biển cả đã quên đi nỗi buồn mất mát, và cả những bông hoa dịu dàng cũng đã lấy lại sắc màu.
+
+## Lông Vũ Tử Vong: Lông Vũ Thủy Cung
+- **Mô tả:** Lông vũ tiệp màu với san hô, tương truyền rơi ra từ y phục pháp sư.
+- **Câu chuyện:**
+Trong những năm tháng đầu tiên mà nhiều gia tộc lần đầu nhìn thấy ánh mặt trời, Omikami đã chọn ra pháp sư từ những con dân biển cả.
+Trong lịch sử của những bài dân ca trên đảo, Thánh Pháp Sư đầu tiên chính là một cô gái biển cả chuyên thu thập ngọc trai.
+
+Được sinh ra giữa những đứa trẻ mất đi tương lai vì cuộc tranh chấp vô nghĩa,
+Được sinh ra giữa những người già mất đi hạnh phúc vì những thảm họa vô tình.
+Thánh Pháp Sư đã an ủi mọi người bằng những khúc hát tao nhã và lời lẽ dịu êm,
+Và ngay cả giữa thời khắc giông bão, người dân Watatsumi lần đầu tiên nhìn thấy hy vọng.
+
+Chiếc lông vũ này được cho là lấy từ chiếc áo lông vũ của "Thánh Pháp Sư".
+Nó vô tình bị nhổ ra bởi bàn tay non nớt của một đứa trẻ, và được giữ gìn mãi mãi bởi một người thường hay lo âu.
+
+Sau đó, ở nơi mà chàng dũng sĩ và thần nữ đã hy sinh khi cùng xông pha vào trận chiến không thể nào cứu vãn,
+Chiếc áo lông vũ của Thánh Pháp Sư không hề bị mất đi, mà còn được lưu truyền trong ký ức mãi cho đến ngày nay.
+
+## Cát Thời Gian: Vỏ Sò Ly Biệt
+- **Mô tả:** Vỏ sò hoàn mỹ, đến từ đáy đại dương sâu thẳm.
+- **Câu chuyện:**
+Trong biển sâu u tối lặng lẽ, thời gian dường như trôi qua thật chậm.
+Ngay cả những chiếc vỏ sò sáng bóng cũng thường trở nên dễ bị lãng quên trong những năm tháng dài đăng đẳng.
+
+Người dân Watatsumi đi lên từ dưới đáy biển sâu tăm tối, cáo biệt giấc mộng triền miên nơi biển sâu.
+Thoát khỏi ánh mắt rình rập của Rồng Biển Sâu trong đêm đen, men theo những bậc thang san hô phát quang để đến với đất nước của ánh nắng mặt trời.
+Tương truyền vào lúc đó, người dân biển sâu luôn lấy một chiếc vỏ sò để làm vật kỷ niệm của gia tộc.
+Và những người cô độc vì mất đi gia tộc, cũng được nhận vào một gia đình mới vào lúc này.
+
+Theo ngôn ngữ cổ xưa của tổ tiên, những chiếc vỏ sò này được gọi là "Ly Biệt".
+Ôm nhau thật chặt sẽ không bị ngăn cách bởi ngoại lực. Nhưng phụ thuộc lẫn nhau cũng không có nghĩa là vĩnh hằng.
+Chúng là lời từ biệt của tổ tiên đối với biển sâu, và là sự khởi đầu của một cuộc sống mới dưới ánh mặt trời.
+
+## Ly Không Gian: Lồng Trân Châu
+- **Mô tả:** Minh châu được hiến tế bởi pháp sư Đảo Watatsumi, ánh sáng tỏa ra không bao giờ tắt.
+- **Câu chuyện:**
+Những viên trân châu sáng chói được các vị thần của Đảo Watatsumi ca ngợi, là báu vật vô giá đối với con dân biển cả.
+Những khúc hát về đề tài trân châu, xưa nay chỉ có Thánh Pháp Sư mới đủ tư cách ngân vang.
+
+Truyền thuyết kể rằng những con trai tắm mình trong ánh sáng cầu vồng cảm nhận được sự dịu dàng của Watatsumi, và do đó sinh ra được những viên trân châu tinh khiết.
+Còn dòng dõi pháp sư Watatsumi được phong làm Thánh Pháp Sư sau này, thuở ban đầu đều được sinh ra từ những viên trân châu.
+Bước ra khỏi chiếc vỏ trai dịu dàng êm ái, hai chị em nhảy múa dưới ánh trăng rất được ân sủng.
+Vì tình yêu thương bao la của mình, Omikami đã trao cho họ những viên ngọc tuyệt đẹp, ban cho họ ước mơ theo đuổi ánh sáng thuần khiết.
+
+Khi ở trong tay của những người con mang dòng máu Watatsumi, viên trân châu dường như càng tỏa sáng hơn.
+Hoặc cũng có thể đây lại là một truyền thuyết xa xưa khác, sự thật khó mà kiểm chứng được.
+Truyền thuyết kể rằng vào lúc bại trận, pháp sư và hai chị em song sinh hoán đổi quần áo cho nhau, sau đó ẩn mình trong những con sóng bất tận.
+Nhưng duy chỉ có viên trân châu này là mất hút trong sóng gió và trở về với biển sâu tĩnh lặng.
+
+## Nón Lý Trí: Vương Miện Watatsumi
+- **Mô tả:** Vương miện cổ xưa, thuộc sở hữu của những "thần nhân" bị lãng quên. Giờ đây được người dân Watatsumi bảo quản cẩn thận.
+- **Câu chuyện:**
+Omikami đã từng lập các thần nhân trong nhiều thị tộc ở Watatsumi, và đích thân trao vương miện cho họ.
+Nhưng sau khi vị thần mất đi, khi các thần nhân cũng ra đi, chiếc vương miện tao nhã cũng đã bị phong ấn.
+
+Trong khúc hát của con dân biển cả, chiếc vương miện làm bằng trân châu và san hô sẽ vĩnh viễn không bao giờ bị vấy bẩn.
+Và người may mắn được trao vương miện của Watatsumi chính là "người cai trị" được Omikami công nhận.
+Vị vua dũng mãnh được con dân biển cả tôn xưng là "Touzannou", hay cặp song sinh tung hoành bốn bể...
+Tất cả đều được ánh mắt yêu thương của Omikami dõi theo, và được bài dân ca trên đảo ban tặng cho một linh hồn bất tử.
+Người ta nói rằng những người cai trị này từng phò tá Omikami, hướng dẫn con dân biển cả làm nông, đánh cá và săn bắt trên hòn đảo của họ.
+Thế nhưng, khi trận chiến định mệnh ập đến, các vị thần đã ngã xuống tại đây.
+
+Mang theo niềm hy vọng và ký ức từ biển sâu, thấm nhuần nền văn minh và lịch sử đã mất tích lâu đời,
+Những chiếc vương miện tinh xảo và tao nhã này đã rơi vào khe nứt của sự lãng quên cùng với chủ nhân của chúng.
+
+

@@ -1,0 +1,12 @@
+{
+  "name": "genshin-lore-bible-tools",
+  "version": "1.0.0",
+  "description": "Tooling for Genshin Lore Bible database construction",
+  "main": "index.js",
+  "scripts": {
+    "extract": "node parse_genshin_db.js"
+  },
+  "dependencies": {
+    "genshin-db": "^5.0.0"
+  }
+}

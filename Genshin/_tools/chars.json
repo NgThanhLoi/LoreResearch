@@ -1,0 +1,478 @@
+﻿[
+    {
+        "name":  "Aether",
+        "region":  ""
+    },
+    {
+        "name":  "Aino",
+        "region":  "Nod-Krai"
+    },
+    {
+        "name":  "Albedo",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Alhaitham",
+        "region":  "Sumeru"
+    },
+    {
+        "name":  "Aloy",
+        "region":  ""
+    },
+    {
+        "name":  "Amber",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Arataki Itto",
+        "region":  "Inazuma"
+    },
+    {
+        "name":  "Arlecchino",
+        "region":  "Snezhnaya"
+    },
+    {
+        "name":  "Baizhu",
+        "region":  "Liyue"
+    },
+    {
+        "name":  "Barbara",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Beidou",
+        "region":  "Liyue"
+    },
+    {
+        "name":  "Bennett",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Candace",
+        "region":  "Sumeru"
+    },
+    {
+        "name":  "Charlotte",
+        "region":  "Fontaine"
+    },
+    {
+        "name":  "Chasca",
+        "region":  "Natlan"
+    },
+    {
+        "name":  "Chevreuse",
+        "region":  "Fontaine"
+    },
+    {
+        "name":  "Chiori",
+        "region":  "Inazuma"
+    },
+    {
+        "name":  "Chongyun",
+        "region":  "Liyue"
+    },
+    {
+        "name":  "Citlali",
+        "region":  "Natlan"
+    },
+    {
+        "name":  "Clorinde",
+        "region":  "Fontaine"
+    },
+    {
+        "name":  "Collei",
+        "region":  "Sumeru"
+    },
+    {
+        "name":  "Columbina",
+        "region":  "Nod-Krai"
+    },
+    {
+        "name":  "Cyno",
+        "region":  "Sumeru"
+    },
+    {
+        "name":  "Dahlia",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Dehya",
+        "region":  "Sumeru"
+    },
+    {
+        "name":  "Diluc",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Diona",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Dori",
+        "region":  "Sumeru"
+    },
+    {
+        "name":  "Durin",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Emilie",
+        "region":  "Fontaine"
+    },
+    {
+        "name":  "Escoffier",
+        "region":  "Fontaine"
+    },
+    {
+        "name":  "Eula",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Faruzan",
+        "region":  "Sumeru"
+    },
+    {
+        "name":  "Fischl",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Flins",
+        "region":  "Nod-Krai"
+    },
+    {
+        "name":  "Freminet",
+        "region":  "Fontaine"
+    },
+    {
+        "name":  "Furina",
+        "region":  "Fontaine"
+    },
+    {
+        "name":  "Gaming",
+        "region":  "Liyue"
+    },
+    {
+        "name":  "Ganyu",
+        "region":  "Liyue"
+    },
+    {
+        "name":  "Gorou",
+        "region":  "Inazuma"
+    },
+    {
+        "name":  "Hu Tao",
+        "region":  "Liyue"
+    },
+    {
+        "name":  "Iansan",
+        "region":  "Natlan"
+    },
+    {
+        "name":  "Ifa",
+        "region":  "Natlan"
+    },
+    {
+        "name":  "Illuga",
+        "region":  "Nod-Krai"
+    },
+    {
+        "name":  "Ineffa",
+        "region":  "Nod-Krai"
+    },
+    {
+        "name":  "Jahoda",
+        "region":  "Nod-Krai"
+    },
+    {
+        "name":  "Jean",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Kachina",
+        "region":  "Natlan"
+    },
+    {
+        "name":  "Kaedehara Kazuha",
+        "region":  "Inazuma"
+    },
+    {
+        "name":  "Kaeya",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Kamisato Ayaka",
+        "region":  "Inazuma"
+    },
+    {
+        "name":  "Kamisato Ayato",
+        "region":  "Inazuma"
+    },
+    {
+        "name":  "Kaveh",
+        "region":  "Sumeru"
+    },
+    {
+        "name":  "Keqing",
+        "region":  "Liyue"
+    },
+    {
+        "name":  "Kinich",
+        "region":  "Natlan"
+    },
+    {
+        "name":  "Kirara",
+        "region":  "Inazuma"
+    },
+    {
+        "name":  "Klee",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Kujou Sara",
+        "region":  "Inazuma"
+    },
+    {
+        "name":  "Kuki Shinobu",
+        "region":  "Inazuma"
+    },
+    {
+        "name":  "Lan Yan",
+        "region":  "Liyue"
+    },
+    {
+        "name":  "Lauma",
+        "region":  "Nod-Krai"
+    },
+    {
+        "name":  "Layla",
+        "region":  "Sumeru"
+    },
+    {
+        "name":  "Linnea",
+        "region":  "Nod-Krai"
+    },
+    {
+        "name":  "Lisa",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Lohen",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Lumine",
+        "region":  ""
+    },
+    {
+        "name":  "Lynette",
+        "region":  "Fontaine"
+    },
+    {
+        "name":  "Lyney",
+        "region":  "Fontaine"
+    },
+    {
+        "name":  "Người Mẫu Nam",
+        "region":  ""
+    },
+    {
+        "name":  "Người Mẫu Nữ",
+        "region":  ""
+    },
+    {
+        "name":  "Mavuika",
+        "region":  "Natlan"
+    },
+    {
+        "name":  "Mika",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Mona",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Mualani",
+        "region":  "Natlan"
+    },
+    {
+        "name":  "Nahida",
+        "region":  "Sumeru"
+    },
+    {
+        "name":  "Navia",
+        "region":  "Fontaine"
+    },
+    {
+        "name":  "Nefer",
+        "region":  "Nod-Krai"
+    },
+    {
+        "name":  "Neuvillette",
+        "region":  "Fontaine"
+    },
+    {
+        "name":  "Nicole",
+        "region":  null
+    },
+    {
+        "name":  "Nilou",
+        "region":  "Sumeru"
+    },
+    {
+        "name":  "Ningguang",
+        "region":  "Liyue"
+    },
+    {
+        "name":  "Noelle",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Ororon",
+        "region":  "Natlan"
+    },
+    {
+        "name":  "Prune",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Qiqi",
+        "region":  "Liyue"
+    },
+    {
+        "name":  "Raiden Shogun",
+        "region":  "Inazuma"
+    },
+    {
+        "name":  "Razor",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Rosaria",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Sangonomiya Kokomi",
+        "region":  "Inazuma"
+    },
+    {
+        "name":  "Sayu",
+        "region":  "Inazuma"
+    },
+    {
+        "name":  "Sethos",
+        "region":  "Sumeru"
+    },
+    {
+        "name":  "Shenhe",
+        "region":  "Liyue"
+    },
+    {
+        "name":  "Shikanoin Heizou",
+        "region":  "Inazuma"
+    },
+    {
+        "name":  "Sigewinne",
+        "region":  "Fontaine"
+    },
+    {
+        "name":  "Skirk",
+        "region":  null
+    },
+    {
+        "name":  "Sucrose",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Tartaglia",
+        "region":  "Snezhnaya"
+    },
+    {
+        "name":  "Thoma",
+        "region":  "Inazuma"
+    },
+    {
+        "name":  "Tighnari",
+        "region":  "Sumeru"
+    },
+    {
+        "name":  "Varesa",
+        "region":  "Natlan"
+    },
+    {
+        "name":  "Varka",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Venti",
+        "region":  "Mondstadt"
+    },
+    {
+        "name":  "Kẻ Lang Thang",
+        "region":  "Sumeru"
+    },
+    {
+        "name":  "Wriothesley",
+        "region":  "Fontaine"
+    },
+    {
+        "name":  "Xiangling",
+        "region":  "Liyue"
+    },
+    {
+        "name":  "Xianyun",
+        "region":  "Liyue"
+    },
+    {
+        "name":  "Xiao",
+        "region":  "Liyue"
+    },
+    {
+        "name":  "Xilonen",
+        "region":  "Natlan"
+    },
+    {
+        "name":  "Xingqiu",
+        "region":  "Liyue"
+    },
+    {
+        "name":  "Xinyan",
+        "region":  "Liyue"
+    },
+    {
+        "name":  "Yae Miko",
+        "region":  "Inazuma"
+    },
+    {
+        "name":  "Yanfei",
+        "region":  "Liyue"
+    },
+    {
+        "name":  "Yaoyao",
+        "region":  "Liyue"
+    },
+    {
+        "name":  "Yelan",
+        "region":  "Liyue"
+    },
+    {
+        "name":  "Yoimiya",
+        "region":  "Inazuma"
+    },
+    {
+        "name":  "Yumemizuki Mizuki",
+        "region":  "Inazuma"
+    },
+    {
+        "name":  "Yun Jin",
+        "region":  "Liyue"
+    },
+    {
+        "name":  "Zhongli",
+        "region":  "Liyue"
+    },
+    {
+        "name":  "Zibai",
+        "region":  null
+    }
+]

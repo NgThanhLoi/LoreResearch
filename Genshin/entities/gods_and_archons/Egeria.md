@@ -1,0 +1,22 @@
+﻿---
+id: "god_egeria"
+type: "god"
+name: "Egeria"
+region: "fontaine"
+tags: ["god", "fontaine", "manual_profile"]
+---
+
+# Egeria
+
+## Thong tin chung
+- **Ten:** Egeria
+- **Khu vuc:** fontaine
+
+## Lich su & Tieu su
+<!-- Viet lich su va nguon goc tai day -->
+
+## Vai tro trong cot truyen
+<!-- Viet vai tro trong cot truyen tai day -->
+
+## Lien ket va Tham chieu
+<!-- Tham chieu den cac trang wiki, sach in-game, hoac nhan vat lien quan -->

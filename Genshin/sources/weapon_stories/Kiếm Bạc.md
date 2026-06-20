@@ -1,0 +1,4 @@
+﻿# Câu chuyện vũ khí: Kiếm Bạc
+
+Trái ngược với tín ngưỡng của dân gian, Bạc thực ra không có công hiệu trừ ma.
+Lữ khách tay cầm kiếm lòng không vướng bận, đó chính là mấu chốt của trảm yêu trừ ma.

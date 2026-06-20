@@ -1,0 +1,4 @@
+﻿# Câu chuyện vũ khí: Kiếm Huấn Luyện
+
+Những người dùng qua loại kiếm nặng song thủ này, đều hiểu rõ, 
+Binh khí như thế nào đều không quan trọng, quan trọng là sức mạnh bản thân.

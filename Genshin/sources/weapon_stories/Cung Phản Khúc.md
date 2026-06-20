@@ -1,0 +1,6 @@
+﻿# Câu chuyện vũ khí: Cung Phản Khúc
+
+Cung Phản Khúc được tạo ra từ gỗ, xương và gân của động vật.
+Nếu nằm trong tay thợ săn có tài thiện xạ thì có thể bắn hạ được đại bàng đang bay trên trời cao.
+Đó là sự cao ngạo của người thợ săn, đồng thời chứng minh cho cung thuật cao siêu.
+Thế nhưng chỉ đáng thương thay cho chú chim kia.

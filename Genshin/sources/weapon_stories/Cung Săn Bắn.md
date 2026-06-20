@@ -1,0 +1,5 @@
+﻿# Câu chuyện vũ khí: Cung Săn Bắn
+
+Theo truyền thuyết trước đây, Mondstadt đã từng dùng cung nỏ tấu nhạc, 
+Hoặc những nhạc sĩ lang thang dùng dây đàn bắn tên.
+Nhưng đó chỉ là truyền thuyết từ lâu đời.

@@ -1,0 +1,225 @@
+﻿# Hội thoại hồ sơ: Raiden Shogun
+
+### Lần đầu gặp mặt...
+
+Không cần hành lễ, thân phận của tôi tuy tôn quý, nhưng hôm nay tôi đến là để cải trang vi hành mà thôi. Tôi thấy ấn tượng với thân thủ của bạn đấy, bạn giờ sẽ là vệ sĩ của tôi. Không cần lo lắng, nếu như có nguy hiểm thì tôi sẽ ra tay.
+
+### Nói chuyện phiếm - Nhàn Rỗi
+
+Không làm gì cả, chỉ ngồi im mà thôi. Hmph.
+
+### Nói chuyện phiếm - Vĩnh Hằng
+
+Cảnh sắc nơi phù thế trăm ngàn năm vẫn như cũ, con người trong trong thế gian chỉ như sương trắng và ảo ảnh. Hư vô.
+
+### Nói chuyện phiếm - Chim Và Hoa
+
+Không ai bên cạnh, những chú chim và hoa này, cũng chỉ tô điểm thêm cảnh sắc bất di bất biến của tôi mà thôi.
+
+### Khi trời mưa...
+
+Chỉ là mưa thôi mà, có sấm sét đâu mà sợ.
+
+### Khi có sấm sét...
+
+Chà, bạn sợ sấm sét sao. Hiện thân của sấm chớp kinh hoàng nhất đang đứng bên cạnh bạn đấy.
+
+### Khi tuyết rơi...
+
+Tướng Quân Mùa Đông cũng đến rồi.
+
+### Khi trời đẹp...
+
+Trời đẹp cũng không thể ngăn cản được sấm sét. Trời không mưa cũng sẽ có sét giáng xuống, nhìn thấy cái cây bên kia chứ? Bạn nói bạn hiểu rồi, muốn tôi dừng tay lại sao? Được thôi!
+
+### Chào buổi sáng...
+
+Mới chào buổi sáng xong mà lại ngáp rồi sao, lười biếng quá. Lần này tôi tạm tha cho tội vô lễ của bạn. Chào buổi sáng nhé.
+
+### Chào buổi trưa...
+
+Chẹp, thèm ăn đồ ngọt quá đi. Hử, tại sao lại không được? Gì mà thời gian này không được ăn đồ ngọt là sao. Vậy ra trước đó họ thấy tôi là Shogun nên chiều theo thôi hả?
+
+### Chào buổi tối...
+
+Bạn có biết sự thật về những ánh sao rơi trên trời không? Haha, đó chỉ là những tia sáng nhấp nháy trong một khoảnh khắc mà thôi. Hử, bạn nói đó là bạn sao? Không lẽ bạn cũng là Tengu?
+
+### Chúc ngủ ngon...
+
+Tôi sẽ lệnh cho sấm sét muôn nơi tạm lắng xuống, và chúc bạn ngủ ngon.
+
+### Về bản thân Raiden Shogun - Khoảnh Khắc
+
+Một ánh lôi điện, chớp mắt đã tan. Chính vì vậy nên mới cần trân trọng "vĩnh hằng". Không, mà là phải nắm giữ "vĩnh hằng".
+
+### Về bản thân Raiden Shogun - Vĩnh Hằng
+
+"Sự mài mòn" là một chuyện đáng sợ. Bản thân tôi giáng thế là để bị mài mòn. Nhưng như vậy có lẽ "nội tâm" sẽ chạm được tới vĩnh hằng chăng.
+
+### Về chúng ta - Đội Điều Tra
+
+Giờ bạn là người của tôi, nói cách khác, bạn có ích cho Shogunate, bạn sẽ trung thành với tôi chứ.
+
+### Về chúng ta - Kẻ Bảo Hộ
+
+Tuy nói bạn là vệ sĩ cho chuyến vi hành này của tôi, nhưng khi gặp nguy hiểm thì không cần bạn phải ra tay đâu. Cấu tạo của Shogun rắn chắc lắm, hư cũng có thể sửa được, cho nên khi gặp nguy hiểm thì cứ đẩy Shogun ra nhé.
+
+### Về chúng ta - Truyền Thừa
+
+Kỹ thuật dùng đao và Naginata của người Inazuma đều do tôi truyền lại, sau đó dựa theo tư chất của mỗi người mà phát triển thành nhiều nhánh khác nhau.
+Thế nào, muốn đối mặt lại với thanh đao của tôi chứ? Nếu vẫn sống được thì tôi sẽ cho phép bạn tạo lập tông phái mới ở Inazuma. Hừm, tinh thần luyện võ đúng là không thể ngăn cản được mà.
+
+### Về Vision...
+
+Thế giới bên ngoài đã lâu rồi chưa xuất hiện qua Vision Lôi sao? Tuy tôi có một chút quy định không thể nói... nhưng mà chuyện gửi gắm Vision không liên quan đến ý chí của tôi. Chủ yếu vẫn là do "khát vọng" của con người, và...
+
+### Có gì muốn chia sẻ không...
+
+Có gì muốn chia sẻ sao? Không có, ngược lại bạn cần nói cho tôi biết tại sao không cần Vision mà vẫn dùng được sức mạnh nguyên tố đó.
+
+### Những kiến thức thú vị...
+
+Tuy rằng thể xác đã tan biến, nhưng cô ấy đã hóa thành Anh Đào Thần. Đây cũng là một sự "vĩnh hằng".
+
+### Về Yae Miko...
+
+Con nhỏ đó sao, hồi xưa thì chỉ cần dĩa đậu phụ rán là dụ được nó ra đây rồi. Không ngờ giờ lại giỏi mưu lược đến vậy, tôi cũng thấy mừng thầm. Nhưng tôi lại bị nó bày mưu tính kế, nghĩ lại thấy không cam tâm. Tuy nói là để tốt cho tôi, nhưng lần sau gặp lại chắc tôi sẽ bị nó cười nhạo mất... Thôi thì ra tay trước, chém luôn nó là xong, dù gì thì nó cũng né được mà.
+
+### Về Kamisato Ayato...
+
+Nhà Kamisato không hổ danh là danh môn đứng đầu Inazuma. Tuy là Ayato làm việc trong Hiệp Hội Tam Cực cũng hay giở không ít thủ đoạn, nhưng xét trên mặt trung thành mà nói thì tôi cũng tạm bỏ qua.
+
+### Về Kamisato Ayaka...
+
+Nhà Kamisato không hổ danh là danh môn đứng đầu Inazuma. Hử, bạn nói tôi đánh giá giống với Shogun sao. Vậy thì, Ayaka, kiếm thuật của cô ấy rất tốt.
+
+### Về Kujou Sara...
+
+Là người trung nghĩa, tinh thông võ nghệ, xứng danh hai chữ "hào kiệt". Nếu cô ấy còn muốn góp sức thì có lẽ nhà Kujou sẽ phục hưng.
+
+### Về Yoimiya...
+
+Là ai vậy? À, thợ làm pháo hoa sao, tạo ra những ảo ảnh tươi đẹp trong khoảnh khắc, để người dân có thể đắm chìm trong lễ hội mùa hè, tuy nói vậy, nhưng cũng là thần dân của tôi!
+Sao, đốt pháo hoa ở trước cửa Hiệp Hội Tenryou? Ai dám, cô ta sao?
+
+### Về Thoma...
+
+Việc suýt chút nữa cướp đi Vision của anh ta, xét cho cùng thì tôi cũng có trách nhiệm. Nhưng muốn nói xin lỗi, thì có lẽ để Shogun đi sẽ tốt hơn... Được rồi, tôi cũng sẽ nghiêm túc kiểm điểm.
+
+### Về Sangonomiya Kokomi...
+
+Orobaxi đúng là do tôi trảm. Nhưng tôi cũng đã cho phép người dân ở Sangonomiya tiếp tục bái tế hắn dưới danh nghĩa Watatsumi Omikami, để hắn có thể yên giấc. Giờ đây Sangonomiya phá hủy phân nhánh đền thần, phản bội Shogunate. Cô ta là Thánh Pháp Sư đương nhiệm của Watatsumi, nhất định phải gánh vác trách nhiệm này.
+
+### Về Kunikuzushi...
+
+Tên nhóc đó là sản phẩm phụ khi tôi chế tạo ra Shogun. Tôi không quản thúc hắn nghiêm ngặt, có lẽ là vì trong thâm tâm của tôi vẫn đang cảm thấy mắc nợ hắn.
+
+### Về Arataki Itto...
+
+Là ai?
+
+### Về Morax...
+
+Vào thuở uống rượu cùng anh ấy, tôi vẫn chỉ là một Kagemusha, chưa sánh ngang được với thần. Anh ấy đã đưa ra sự lựa chọn này phải không? Nhưng mà, tôi nghĩ trong thời đại tiếp theo, anh ấy vẫn sẽ tiếp tục gặp gỡ với nhiều người hơn nữa.
+
+### Về Venti...
+
+Hiện thân của Phong Thần đã lấy tên này sao? Nói thật thì khi lần đầu gặp mặt, tôi đã có cảm giác không hợp nhau rồi. Nhưng có sự thật là tửu lượng của anh ta rất tốt.
+
+### Về Buer...
+
+Tôi rất thích tính cách khiêm tốn của cô ấy, đó là một loại phẩm hạnh cao thượng của bậc trí giả. Với quyền năng của cô ấy đáng ra có thể làm được những chuyện vượt ngoài tưởng tượng, nhưng Buer lại chỉ loay hoay với việc "chỉnh sửa và bảo vệ"... Đúng là một vị thần dịu dàng mà.
+
+### Về Furina...
+
+Raiden Shogun từng chiến đấu hàng trăm năm với tôi trong thế giới ý thức để xác nhận rằng tôi luôn kiên định. Còn về Furina, tuy trong thân xác phàm trần, nhưng màn trình diễn của cô ấy cứ như là trận chiến tinh thần ròng rã suốt 500 năm vậy. Tôi thừa nhận cô ấy, ý chí ở cấp độ này có thể coi là cảnh giới của thần rồi.
+
+### Về Yumemizuki Mizuki...
+
+Yumemizuki Mizuki là người quen cũ của Miko, nhưng tôi thấy hơi khó hiểu về mối quan hệ của họ... Rõ ràng là những người bạn tốt không thể thay thế của nhau, nhưng lại không muốn bộc lộ tình cảm này ra ngoài, lúc nào cũng vật lộn với kế hoạch nào đó để cạnh tranh cao thấp... Nhưng cốt lõi của những kế hoạch này đều là vì giúp đỡ cuộc sống của dân chúng, nên tôi cũng không nói thêm vào.
+
+### Muốn tìm hiểu Raiden Shogun - Điều thứ 1
+
+Có chuyện gì thì cứ nói ra.
+
+### Muốn tìm hiểu Raiden Shogun - Điều thứ 2
+
+Người dân tin rằng, khi có sấm sét thì chỉ cần niệm chú "kuwabara, kuwabara", như vậy thì sẽ không sao. Bạn không cần phải lo rằng sấm sét của tôi sẽ đánh trúng bạn, nhưng nếu là sấm sét ngoài tự nhiên thì hên xui nhé.
+
+### Muốn tìm hiểu Raiden Shogun - Điều thứ 3
+
+Chuyện trong quyển "Trân Thuyết" viết đa phần là thật. Lúc đó cô ấy đang bận chu toàn mọi việc trên đảo, cho nên tôi đã lấy danh nghĩa của cô ấy để xuất quân bình định Watatsumi. Còn những chuyện sau đó chỉ là do người đời thêu dệt thêm mà thôi. Tôi vốn chỉ là bậc võ nhân, không giỏi lấy đức trị dân như vậy.
+
+### Muốn tìm hiểu Raiden Shogun - Điều thứ 4
+
+Nhìn theo hướng khác thì "vĩnh hằng" có thể là một sự trốn tránh. Suy cho cùng cách làm của tôi cũng không khác gì con rùa rụt cổ. Tuy nhiên, rùa là loài động vật tượng trưng cho sự trường thọ, nói không chừng theo đuổi vĩnh hằng rồi cũng sẽ biến thành hình thái như vậy.
+
+### Muốn tìm hiểu Raiden Shogun - Điều thứ 5
+
+Sợ hãi là do 500 năm trước tôi đã chứng kiến cái chết của cô ấy và "sự vật đó". Nhưng mà, nếu như... nếu như đó là bạn, nhất định sẽ có thể cứu lấy mọi người. Nếu như là bạn, nhất định sẽ cứu được thế giới. Cũng giống như tôi ghi nhớ mọi thứ của Inazuma, chỉ cần bạn nhớ đến tôi, thì tôi sẽ mãi mãi tồn tại.
+
+### Sở thích của Raiden Shogun...
+
+Câu hỏi ngu ngốc. Chỉ có những việc cần làm và không được làm mà thôi.
+
+### Nỗi buồn của Ei...
+
+Đừng bảo tôi đi nấu cơm là được. Tôi cái gì cũng làm được, ngoại trừ nấu cơm.
+
+### Món ăn yêu thích...
+
+Đừng nghe Shogun nói. Là đồ ngọt! Dù sâu răng thì cũng có sao, đổi bộ mới là được. Chuyện này không ảnh hưởng gì đến vĩnh hằng cả.
+
+### Món ăn ghét...
+
+Câu hỏi ngu ngốc. Chỉ có món cần ăn để duy trì dinh dưỡng và món ăn có hại cho cơ thể thôi.
+
+### Nhận Được Quà I
+
+Hương vị quen thuộc. Không tệ.
+
+### Nhận Được Quà II
+
+Để đây đi. Tôi sẽ nếm thử.
+
+### Nhận Được Quà III
+
+Sẽ làm hỏng các chức năng của cơ thể, mang đi đi.
+
+### Nhận Được Quà IV
+
+Rất ngon. Tâm tình cũng thả lỏng hơn nhiều rồi. Cảm ơn bạn.
+
+### Nhận Được Quà V
+
+Trông có vẻ rất ngon, bạn đã làm như thế nào vậy?
+
+### Nhận Được Quà VI
+
+Cho phép tôi từ chối.
+
+### Sinh nhật...
+
+Hôm nay là sinh nhật của bạn sao? Theo tôi về thành, tôi sẽ chúc phúc cho bạn với toàn thể mọi người. Sao? Cảm thấy xấu hổ hả... Ừm vậy thì thôi vậy.
+
+### Sinh nhật...
+
+Sinh nhật vui vẻ! Hôm nay cùng nhau ăn mừng nhé, để có thể lưu lại khoảnh khắc tươi đẹp trong năm. Sau đó đợi đến ngày này năm sau tiếp tục ăn mừng. Như vậy xem như là "vĩnh hằng" rồi.
+
+### Cảm Giác Đột Phá - Khởi
+
+Trong trường phái của tôi, ở mức Shoden, có thể học vung đao theo chín hướng và kỹ thuật cơ bản của Naginata. Cũng không khác biệt lắm với các trường phái khác. À phải nói là, các trường phái khác cũng không khác gì với trường phái của tôi.
+
+### Cảm Giác Đột Phá - Thừa
+
+Trong trường phái của tôi, ở mức Chuuden, kỹ thuật của đao tập trung vào việc tập luyện các tư thế và đổi hướng. Còn kỹ thuật của Naginata thì phải luyện chém và phản kích.
+
+### Cảm Giác Đột Phá - Chuyển
+
+Trong trường phái của tôi, ở mức Kaiden, là nghiên cứu những kỹ thuật chuyên sâu nhất. Tuy nhiên kỹ thuật ở mức độ này chủ yếu dựa vào sức mạnh nguyên tố, khiến chúng vượt quá khả năng lĩnh ngộ của người phàm. Đa phần tông phái trên thế gian đều không bao giờ có thể đạt đến trình độ này.
+
+### Cảm Giác Đột Phá - Hợp
+
+Bí kỹ trong bí kỹ, chính là vô tưởng nhất đao. Có bạn tập luyện cùng, có vẻ như nhát chém của tôi đã mạnh hơn nhiều.
+
+

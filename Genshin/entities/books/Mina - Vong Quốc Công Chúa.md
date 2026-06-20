@@ -1,0 +1,31 @@
+﻿---
+id: "book_princess mina of the fallen nation"
+type: "sách_in_game"
+name: "Mina - Vong Quốc Công Chúa"
+english_name: "Princess Mina of the Fallen Nation"
+volumes_count: 6
+release_version: "1.0"
+tags: ["book", "lore", "inazuma"]
+---
+
+# Sách: Mina - Vong Quốc Công Chúa
+
+## Thông tin cơ bản
+- **Tên tiếng Anh:** Princess Mina of the Fallen Nation
+- **Số quyển:** 6
+- **Nguồn gốc:** Văn bản trong game
+
+## Các quyển/tập
+- **Vol. 1:** Vol. 1
+- **Vol. 2:** Vol. 2
+- **Vol. 3:** Vol. 3
+- **Vol. 4:** Vol. 4
+- **Vol. 5:** Vol. 5
+- **Vol. 6:** Vol. 6
+
+
+## Liên kết nội dung
+- [Nội dung văn bản chi tiết](file:///d:/LoreResseach/Genshin/sources/book_texts/Mina - Vong Quốc Công Chúa.md)
+
+## Lore trích xuất & Phân tích
+<!-- Tác giả fanfiction có thể bổ sung ghi chú phân tích lore từ sách tại đây -->
