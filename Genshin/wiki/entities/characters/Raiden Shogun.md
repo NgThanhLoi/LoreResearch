@@ -39,10 +39,14 @@ Raiden Shogun (Lôi Thần tối cao trị vì Inazuma) là một thực thể g
 
 * [CHAR-RAIDEN-TRAIT-001] Raiden Shogun gồm hai linh hồn tồn tại song song: con rối Shogun cơ khí hoạt động theo lập trình Vĩnh Hằng bất biến nghiêm ngặt ở trần thế, và Lôi Thần Ei trú ngụ trong thanh kiếm Musou Isshin ở cõi tâm linh Nhất Tâm Tịnh Thổ.
   * label: CANON
-  * source: `entities/character_intelligence/Raiden Shogun.md#L29`
-  * source_status: indirect_source_only
-  * needs_primary_source: true
-  * confidence: medium
+  * source: `sources/voice_lines/archon_quests/Thiên Thủ Bách Nhãn, Thiên Hạ Nhân Gian/Nguyện Vọng.md`
+  * source_status: primary_source_found
+  * source_ids: VLAQ-INAZUMA-001
+  * evidence_strength: direct
+  * evidence_basis: local_vlaq_deep_read
+  * last_reviewed_pass: Pass 6
+  * confidence: high
+  * notes: Pass 5 deep read confirmed Yae Miko directly states "Ei từ khi tạo ra bản thể con rối" and puppet/Ei distinction.
 * [CHAR-RAIDEN-TRAIT-002] Raiden Ei có niềm đam mê đặc biệt với đồ ngọt (như sữa Dango và Dango Ba Màu) dẫu con rối Shogun không cần ăn uống phàm trần.
   * label: CANON
   * source: `sources/voice_lines/characters/Raiden Shogun.md` ("Món ăn yêu thích")

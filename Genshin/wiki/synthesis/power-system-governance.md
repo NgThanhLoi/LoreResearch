@@ -138,13 +138,16 @@ Tài liệu này đóng vai trò khóa van an toàn cho hệ thống sức mạn
 
 - [PWR-IRMINSUL-001] Irminsul lưu trữ ký ức Teyvat; việc sửa đổi Irminsul chỉ thay đổi nhận thức/ký ức/ghi chép của cư dân Teyvat chứ không thay đổi sự kiện vật lý thực tế đã xảy ra.
   - label: CANON
-  - source: `entities/Timeline.md#L65` (Nahida cứu rỗi cây thế giới Irminsul)
-  - source_status: indirect_source_only
-  - needs_primary_source: true
+  - source: `sources/voice_lines/archon_quests/Cội Nguồn Nghiêng Ngả/Chim Đêm Sa Ngã Dưới Bức Rèm.md`, `sources/voice_lines/archon_quests/Akasha Rung Động, Kiếp Hỏa Dâng Trào/Mời Uống Ly Rượu Mừng Chiến Thắng.md`
+  - source_status: primary_source_found
+  - source_ids: VLAQ-WANDERER-001, VLAQ-SUMERU-002
+  - evidence_strength: direct
+  - evidence_basis: local_vlaq_deep_read
+  - last_reviewed_pass: Pass 6
   - confidence: high
   - narrator_safe: conditional
   - fanfic_rule: Các thay đổi lịch sử vật lý thực tế vẫn để lại dấu vết/hậu quả, chỉ có ký ức bị viết lại.
-  - notes: Chứng thực qua việc Kẻ Lang Thang xóa bỏ sự tồn tại của mình nhưng các nạn nhân gia tộc rèn kiếm vẫn chết.
+  - notes: Pass 5 deep read confirmed Irminsul rewrite in real-time (Wanderer quest) and memory erasure mechanics (Sumeru final). Physical events unchanged; only memory/records altered.
 
 ### Forbidden Knowledge
 

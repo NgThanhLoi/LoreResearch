@@ -59,10 +59,14 @@ Furina là một cựu Thần Fontaine (Thủy Thần Furina de Fontaine), thự
   * confidence: high
 * [CHAR-FURINA-TRAIT-005] Furina chịu đựng áp lực tinh thần khủng khiếp suốt 500 năm đóng vai Thủy Thần cô độc để cứu Fontaine khỏi lời tiên tri.
   * label: CANON
-  * source: `entities/character_intelligence/Furina.md#L29`
-  * source_status: indirect_source_only
-  * needs_primary_source: true
-  * confidence: medium
+  * source: `sources/voice_lines/archon_quests/Vũ Điệu Của Tội Lỗi/Ngày Phán Quyết.md`, `sources/voice_lines/archon_quests/Vũ Điệu Của Tội Lỗi/Vở Kịch Của Sóng Đen Và Sương Trắng.md`
+  * source_status: primary_source_found
+  * source_ids: VLAQ-FONTAINE-001, VLAQ-FONTAINE-003
+  * evidence_strength: direct
+  * evidence_basis: local_vlaq_deep_read
+  * last_reviewed_pass: Pass 6
+  * confidence: high
+  * notes: Pass 5 deep read confirmed Furina's 500-year ordeal, emotional breakdown, and prophecy directly.
 * [CHAR-FURINA-TRAIT-006] Furina có thói quen mua sắm theo cảm xúc để bù đắp việc hưởng thụ cuộc sống bị bỏ qua trong quá khứ, dù nhiều đồ mua về không dùng được và phải đem tặng đoàn kịch làm đạo cụ.
   * label: CANON
   * source: `sources/voice_lines/characters/Furina.md` ("Muốn tìm hiểu Furina - Điều thứ 4")

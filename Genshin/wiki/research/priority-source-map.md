@@ -82,3 +82,33 @@ Corrected overconfident recommendations from Pass 4. Only claims with direct ins
 | CLM-009 | still_missing | source_missing | No change | External ingestion needed |
 | CLM-010 | keep_theory | keep_theory | No change; "shackles" not stated | None unless new source found |
 | CLM-011 | local_coverage_partial | needs_deep_read | Only opening portion inspected; Descender concept mentioned but not explained | Deep read full `Cội Nguồn Nghiêng Ngả` file |
+
+## Pass 5 Deep Read Update
+
+> **This is the current source of truth** for claims CLM-014, CLM-015, CLM-016, CLM-018, and CLM-011. Pass 4 and Pass 4.1 sections above are historical only.
+
+| Claim ID | Pass 4.1 status | Pass 5 result | Evidence file(s) | Current recommendation | Notes |
+| -------- | --------------- | ------------- | ---------------- | ---------------------- | ----- |
+| CLM-014 | partial_primary_ready | direct (all sub-claims) | Vở Kịch Của Sóng Đen Và Sương Trắng.md | primary_source_found_after_human_review | Focalors sacrifice, Oratrice, Neuvillette, Gnosis, Furina split, prophecy — all direct |
+| CLM-015 | needs_deep_read | direct (core); partial (name adoption) | Chim Đêm Sa Ngã Dưới Bức Rèm.md, Mời Uống Ly Rượu Mừng Chiến Thắng.md | primary_source_found_after_human_review | Irminsul rewrite + Traveler exception direct; "Wanderer" name not in batch |
+| CLM-016 | primary_source_found_for_identity; needs_deep_read_for_memory_erasure | direct (all sub-claims) | Mời Uống Ly Rượu Mừng Chiến Thắng.md, Ngày Jnagarbha.md | primary_source_found_after_human_review | Identity AND memory erasure both confirmed direct |
+| CLM-017 | primary_source_found_after_human_review | direct (unchanged) | VLAQ-INAZUMA-001, VLAQ-INAZUMA-002 | primary_source_found_after_human_review | No change from Pass 4 |
+| CLM-018 | needs_file_level_confirmation | direct (all major sub-claims) | 12 files across 3 quest arcs | primary_source_found_after_human_review | Sibling encounter, Abyss rank, Dainsleif, Khaenri'ah, Loom of Fate, motivation — all direct |
+| CLM-009 | source_missing | weak_indirect only | Vở Kịch Của Sóng Đen Và Sương Trắng.md (brief intro) | source_missing | Only brief introduction; no identity/Abyss lore |
+| CLM-010 | keep_theory | none (for "shackles" claim) | All 16 files checked | keep_theory | Gnosis as tool/resource confirmed; "shackles" framing absent |
+| CLM-011 | needs_deep_read | strong_indirect (concept); not_found (specific identity) | Chim Đêm Sa Ngã Dưới Bức Rèm.md | needs_external_source_or_later_quest | Descender concept confirmed; Third Descender ordinal identity NOT stated |
+
+## Pass 6 Human Review / Source Status Update
+
+> **This is the current source of truth** for page update readiness. Pass 5 Deep Read Update above remains the source of truth for evidence assessment.
+
+| Claim ID | Pass 5 recommendation | Pass 6 decision | Page update status | Current recommendation | Notes |
+| -------- | --------------------- | --------------- | ------------------ | ---------------------- | ----- |
+| CLM-014 | primary_source_found_after_human_review | approved_for_source_status_update | applied | source_status updated on Furina.md | VLAQ-FONTAINE-001, VLAQ-FONTAINE-003 |
+| CLM-015 | primary_source_found_after_human_review | approved_with_limitation | applied | source_status updated on Kẻ Lang Thang.md | VLAQ-WANDERER-001, VLAQ-SUMERU-002; name adoption still partial |
+| CLM-016 | primary_source_found_after_human_review | approved_for_source_status_update | applied | source_status updated on Nahida.md | VLAQ-SUMERU-002 |
+| CLM-017 | primary_source_found_after_human_review | approved_for_source_status_update | applied | source_status updated on Raiden Shogun.md | VLAQ-INAZUMA-001 |
+| CLM-018 | primary_source_found_after_human_review | approved_for_source_status_update | applied | source_status updated on Aether.md, Lumine.md | VLAQ-TRAVELER-001 |
+| CLM-009 | source_missing | blocked | not_applied | source_missing | No change |
+| CLM-010 | keep_theory | hold | not_applied | keep_theory | No change |
+| CLM-011 | needs_external_source_or_later_quest | hold | not_applied | needs_external_source_or_later_quest | No change |

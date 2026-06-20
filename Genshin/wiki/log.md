@@ -622,3 +622,86 @@
 - **next_recommended_steps:**
   - Pass 5: Deep Read for Partial VLAQ Claims.
 
+## 2026-06-20 — Claude Code Pass 5 Deep Read for Partial VLAQ Claims
+
+- **action:**
+  - Deep-read selected local VLAQ files for partial claims from Pass 4.1.
+  - Evaluated CLM-014, CLM-015, CLM-016, CLM-018, and CLM-011 using local source content.
+  - Read 16 files fully across 4 quest arc groups (Fontaine, Sumeru, Wanderer/Descender, Traveler/Abyss).
+  - Confirmed CLM-014 (all sub-claims direct), CLM-015 (core rewrite direct), CLM-016 (all sub-claims direct), CLM-018 (all major sub-claims direct across 12 files).
+  - Preserved CLM-017 as ready for human review (unchanged from Pass 4).
+  - Preserved CLM-009 as source_missing (only brief Skirk introduction found).
+  - Preserved CLM-010 as keep_theory (no "shackles" framing in any file).
+  - CLM-011 upgraded to strong_indirect (Descender concept confirmed; Third Descender ordinal identity NOT found).
+  - Created Pass 5 evidence and claim-source reports.
+  - Updated source-index.md: upgraded 3 existing IDs to deep_read_confirmed; added 2 new IDs (VLAQ-SUMERU-002, VLAQ-FONTAINE-003).
+  - Did not update character/entity/topic pages.
+- **files_changed:**
+  - wiki/research/pass-5-deep-read-report.md (new)
+  - wiki/research/pass-5-claim-source-matrix.md (new)
+  - wiki/research/pass-5-evidence-index.md (new)
+  - wiki/research/pass-5-source-gaps.md (new)
+  - wiki/research/pass-5-next-actions.md (new)
+  - wiki/research/priority-source-map.md (updated — Pass 5 section added)
+  - wiki/research/pass-4-vlaq-coverage-map.md (updated — supersession note added)
+  - wiki/research/pass-4-claim-source-matrix.md (updated — supersession note added)
+  - wiki/sources/source-index.md (updated — 3 IDs upgraded, 2 new IDs added)
+  - wiki/log.md (this entry)
+- **source_basis:**
+  - Existing local files in `sources/voice_lines/archon_quests/`.
+  - Pass 4.1 strictness rules.
+  - Source ID rules.
+- **unresolved_issues:**
+  - No lore backfill performed.
+  - No external ingestion performed.
+  - No page update performed.
+  - Any claim without direct evidence remains partial/source_missing/theory.
+  - Dottore remains blocked_by_missing_source.
+  - Sandrone remains blocked_by_missing_source.
+  - Columbina remains audited_source_light / indirect_source_only.
+  - Skirk remains source_missing (brief intro only, no identity lore).
+  - CLM-010 (Gnosis as shackles) remains keep_theory.
+  - CLM-011 (Third Descender identity) remains needs_external_source_or_later_quest.
+  - CLM-015 sub-claim ("Wanderer" name adoption) not found in this batch.
+- **next_recommended_steps:**
+  - Human review Pass 5 matrix.
+  - Then choose Pass 6: source_status update preparation, further local search, or controlled source ingestion.
+
+## 2026-06-20 — Claude Code Pass 6 Human Review + Source Status Update Preparation
+
+- **action:**
+  - Reviewed Pass 5 direct evidence for CLM-014, CLM-015, CLM-016, CLM-017, and CLM-018.
+  - Prepared and applied minimal source_status/source_id updates where claims already existed on relevant wiki pages.
+  - Preserved limitations for CLM-015 Wanderer name adoption.
+  - Preserved CLM-009 as source_missing, CLM-010 as keep_theory, and CLM-011 as unresolved.
+  - Did not perform lore backfill or external ingestion.
+- **files_changed:**
+  - wiki/research/pass-6-human-review-report.md (new)
+  - wiki/research/pass-6-page-update-plan.md (new)
+  - wiki/research/pass-6-source-status-changelog.md (new)
+  - wiki/research/pass-6-next-actions.md (new)
+  - wiki/research/priority-source-map.md (updated — Pass 6 section added)
+  - wiki/research/pass-5-next-actions.md (updated — supersession note added)
+  - wiki/entities/characters/Furina.md (source_status upgrade on TRAIT-005)
+  - wiki/entities/characters/Kẻ Lang Thang.md (source_status upgrade on TRAIT-001, TRAIT-002)
+  - wiki/entities/characters/Nahida.md (source_status upgrade on TRAIT-002, TRAIT-005)
+  - wiki/entities/characters/Raiden Shogun.md (source_status upgrade on TRAIT-001)
+  - wiki/entities/characters/Aether.md (source_status upgrade on TRAIT-003)
+  - wiki/entities/characters/Lumine.md (source_status upgrade on TRAIT-003)
+  - wiki/synthesis/contradiction-register.md (added VLAQ source refs to CON-0012, CON-0013, CON-0014)
+  - wiki/synthesis/power-system-governance.md (source_status upgrade on PWR-IRMINSUL-001)
+  - wiki/log.md (this entry)
+- **source_basis:**
+  - Pass 5 deep-read reports.
+  - Local VLAQ source IDs in source-index.
+  - Existing wiki page claims.
+- **unresolved_issues:**
+  - Dottore remains blocked_by_missing_source.
+  - Sandrone remains blocked_by_missing_source.
+  - Columbina remains indirect_source_only / theory for Kuutar claims.
+  - Skirk remains source_missing.
+  - Gnosis shackles remains keep_theory.
+  - Third Descender identity remains unresolved.
+  - Character stories and Nod-Krai Acts II–VII still require controlled ingestion.
+- **next_recommended_steps:**
+  - Pass 7 — Controlled Source Ingestion Test.

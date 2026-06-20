@@ -3,6 +3,8 @@
 Generated: 2026-06-20 — Claude Code Pass 4 Local VLAQ Coverage Mapping
 Updated: 2026-06-20 — Pass 4.1 Strictness Fix
 
+> **⚠️ SUPERSEDED BY PASS 5:** This file's recommendations have been superseded by Pass 5 Deep Read. Use `wiki/research/pass-5-claim-source-matrix.md` for current claim-source recommendations. This file is retained for historical reference.
+
 ## Purpose
 
 Map priority claims from `wiki/research/priority-source-map.md` to local VLAQ source files with evidence assessment.

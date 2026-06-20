@@ -45,10 +45,14 @@ Nahida (Thảo Thần Lesser Lord Kusanali / Buer) là Dendro Archon đương nh
   * confidence: medium
 * [CHAR-NAHIDA-TRAIT-002] Nahida đã xoá hoàn toàn sự tồn tại của Rukkhadevata khỏi Irminsul theo tâm nguyện của người để cứu cây thế giới, dẫn đến việc ký ức toàn bộ Teyvat (kể cả cô) bị sửa đổi để nhận diện cô là Thảo Thần duy nhất từ trước tới nay.
   * label: CANON
-  * source: `entities/character_intelligence/Nahida.md#L31`
-  * source_status: indirect_source_only
-  * needs_primary_source: true
-  * confidence: medium
+  * source: `sources/voice_lines/archon_quests/Akasha Rung Động, Kiếp Hỏa Dâng Trào/Mời Uống Ly Rượu Mừng Chiến Thắng.md`
+  * source_status: primary_source_found
+  * source_ids: VLAQ-SUMERU-002
+  * evidence_strength: direct
+  * evidence_basis: local_vlaq_deep_read
+  * last_reviewed_pass: Pass 6
+  * confidence: high
+  * notes: Pass 5 deep read confirmed Rukkhadevata memory erasure and Traveler as sole rememberer directly.
 * [CHAR-NAHIDA-TRAIT-003] Nahida có sở thích ăn uống đặc biệt là Ajilenakh Ngào Đường và Nước Dâu Bạc Hà vì giúp trí óc vận hành nhanh, và ghét các món ăn từ sinh vật biển sâu vì tạo cảm giác u tối lạnh lẽo đáy biển.
   * label: CANON
   * source: `sources/voice_lines/characters/Nahida.md` ("Món ăn yêu thích", "Món ăn ghét")
@@ -61,10 +65,14 @@ Nahida (Thảo Thần Lesser Lord Kusanali / Buer) là Dendro Archon đương nh
   * confidence: high
 * [CHAR-NAHIDA-TRAIT-005] Nahida đã dung thứ, bảo hộ và khôi phục ký ức gốc cho Kẻ Lang Thang sau khi hắn thăng thần thất bại và tự xoá mình khỏi Irminsul, cho hắn cơ hội làm lại cuộc đời.
   * label: CANON
-  * source: `entities/character_intelligence/Nahida.md#L32`
-  * source_status: indirect_source_only
-  * needs_primary_source: true
-  * confidence: medium
+  * source: `sources/voice_lines/archon_quests/Cội Nguồn Nghiêng Ngả/Chim Đêm Sa Ngã Dưới Bức Rèm.md`, `sources/voice_lines/archon_quests/Akasha Rung Động, Kiếp Hỏa Dâng Trào/Mời Uống Ly Rượu Mừng Chiến Thắng.md`
+  * source_status: primary_source_found
+  * source_ids: VLAQ-WANDERER-001, VLAQ-SUMERU-002
+  * evidence_strength: direct
+  * evidence_basis: local_vlaq_deep_read
+  * last_reviewed_pass: Pass 6
+  * confidence: high
+  * notes: Pass 5 deep read confirmed Nahida's role in Wanderer's rescue and memory restoration directly.
 
 ## Strongly Implied Traits
 

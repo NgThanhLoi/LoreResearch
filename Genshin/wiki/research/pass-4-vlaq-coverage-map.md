@@ -3,6 +3,8 @@
 Generated: 2026-06-20 — Claude Code Pass 4 Local VLAQ Coverage Mapping
 Updated: 2026-06-20 — Pass 4.1 Strictness Fix
 
+> **⚠️ SUPERSEDED BY PASS 5:** This file's coverage assessments have been superseded by Pass 5 Deep Read. Use `wiki/research/pass-5-deep-read-report.md` and `wiki/research/pass-5-claim-source-matrix.md` for current coverage status. This file is retained for historical reference.
+
 ## Purpose
 
 Map major claim groups to existing local VLAQ source files.

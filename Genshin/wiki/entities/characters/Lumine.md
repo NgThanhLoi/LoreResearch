@@ -51,10 +51,14 @@ Lumine là một thực thể ngoại giới bất tử (Descender - Kẻ Giáng
   * confidence: medium
 * [CHAR-LUMINE-TRAIT-003] Dưới vai trò Công chúa Vực Sâu, Lumine dẫn đầu Giáo Đoàn Vực Sâu trong cuộc chiến lật đổ Thiên Lý và đối đầu trực tiếp với anh trai Aether dưới tư cách Lữ Khách.
   * label: CANON
-  * source: `entities/character_intelligence/Lumine.md#L32`
-  * source_status: indirect_source_only
-  * needs_primary_source: true
-  * confidence: medium
+  * source: `sources/voice_lines/archon_quests/Chúng Ta Ắt Sẽ Trùng Phùng/Linh Hồn Ngăn Cách.md`
+  * source_status: primary_source_found
+  * source_ids: VLAQ-TRAVELER-001
+  * evidence_strength: direct
+  * evidence_basis: local_vlaq_deep_read
+  * last_reviewed_pass: Pass 6
+  * confidence: high
+  * notes: Pass 5 deep read confirmed direct sibling encounter, sibling addressed as royalty, and Abyss Order leadership.
 * [CHAR-LUMINE-TRAIT-004] Lumine có thói quen nói ngắn gọn, súc tích và thường xuyên trêu chọc Paimon (như gọi cô là thực phẩm khẩn cấp) để bộc lộ óc hài hước ngầm độc đáo của mình.
   * label: CANON
   * source: `sources/voice_lines/characters/Lumine.md` (các đoạn đối thoại với Paimon)
