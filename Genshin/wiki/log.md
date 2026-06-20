@@ -325,6 +325,7 @@
 
 - **action:**
   - Tightened Dottore blocked-source page (corrected Summary, UNVERIFIED identity table, removed external claims).
+  - Cleaned up Dottore usage notes and safe/unsafe uses to align with his blocked source-gap status, framing all portrayals as hypothetical/AU.
   - Downgraded or softened overconfident Columbina identity/moon claims (marked all Columbina-specific traits as indirect_source_only and Kuutar as THEORY/UNVERIFIED).
   - Normalized backlog and inventory status for blocked/source-light characters (Dottore, Columbina, Sandrone).
   - Confirmed Dottore Moon God and Columbina = Kuutar remain non-canon.
@@ -354,4 +355,140 @@
   - Do not choose premise.
   - Do not write outline.
   - Do not write chapters.
+
+## 2026-06-20 — Claude Code Pass 1 Workspace Audit
+
+- **action:**
+  - Mapped repository structure (1,820 files across 10 top-level folders).
+  - Audited source layer (612 source-rich files; 3 missing critical folders).
+  - Audited quest skeletons (56 files, 100% empty/outline-only, zero usable).
+  - Audited entity shells (649 files, 74% template-only).
+  - Audited topic summaries (9 files, theory risk flagged).
+  - Audited historical planning/foundation layer (27 files, historical only).
+  - Created 12 research reports under wiki/research/.
+- **files_changed:**
+  - wiki/research/README.md
+  - wiki/research/workspace-map.md
+  - wiki/research/repo-health-check.md
+  - wiki/research/source-layer-audit.md
+  - wiki/research/quest-layer-audit.md
+  - wiki/research/entity-shell-audit.md
+  - wiki/research/topic-layer-audit.md
+  - wiki/research/wiki-state-audit.md
+  - wiki/research/historical-layer-audit.md
+  - wiki/research/empty-file-report.md
+  - wiki/research/source-gap-report.md
+  - wiki/research/pass-1-next-actions.md
+  - wiki/log.md (this entry)
+- **source_basis:**
+  - Full workspace structure scan.
+  - File sampling across all layers.
+  - Existing wiki governance files.
+  - Root reliability reports (CHANGE_LOG, PATCH_VALIDATION_REPORT, RELIABILITY_SUMMARY, REMAINING_OPEN_ISSUES).
+- **unresolved_issues:**
+  - SG-0001: Dottore missing sources (Critical).
+  - SG-0002: Sandrone missing sources (Critical).
+  - SG-0005: Quest layer entirely empty (Critical).
+  - SG-0007: character_stories/ folder missing (Critical).
+  - SG-0008: Nod-Krai Acts II–VII no source (Critical).
+  - SG-0011: 56 quest skeletons not usable as source (Critical).
+  - 14 total source gaps documented in source-gap-report.md.
+- **next_recommended_steps:**
+  - Pass 2: Source Ingestion Framework + Priority Queue.
+  - Do not backfill lore yet.
+  - Do not fill quest skeletons from memory.
+  - Do not upgrade source-light claims.
+  - Human review needed: source archive trust, external ingestion policy, region priority.
+
+## 2026-06-20 — Claude Code Pass 1.1 Source Gap Wording Fix
+
+- **action:**
+  - Corrected misleading source-gap wording for Dottore and Columbina.
+  - Confirmed Dottore remains `blocked_by_missing_source`.
+  - Confirmed Columbina remains `audited_source_light` / `indirect_source_only`.
+  - Preserved Kuutar/Moon/Seelie claims as THEORY / UNVERIFIED.
+- **files_changed:**
+  - wiki/research/source-gap-report.md
+  - wiki/log.md
+- **source_basis:**
+  - wiki/entities/characters/Dottore.md
+  - wiki/entities/characters/Columbina.md
+  - wiki/entities/characters/character-inventory.md
+  - wiki/synthesis/character-audit-backlog.md
+- **unresolved_issues:**
+  - Dottore source package still missing.
+  - Columbina primary voice/source still missing.
+  - Character stories folder still missing.
+- **next_recommended_steps:**
+  - Pass 2: Source Ingestion Framework + Source Index Alignment.
+  - Do not backfill lore yet.
+
+## 2026-06-20 — Claude Code Pass 2 Source Ingestion Framework
+
+- **action:**
+  - Created source ingestion template and source ID rules.
+  - Created external source policy and classified user-provided external sources with exact URLs.
+  - Created source index alignment report comparing `wiki/sources/source-index.md` with real `sources/` folders.
+  - Created source ingestion queue and priority source map.
+  - Created API ingestion feasibility report.
+  - Created leak quarantine policy.
+- **files_changed:**
+  - wiki/sources/SOURCE_TEMPLATE.md
+  - wiki/sources/SOURCE_ID_RULES.md
+  - wiki/sources/EXTERNAL_SOURCE_POLICY.md
+  - wiki/research/source-index-alignment.md
+  - wiki/research/external-source-candidates.md
+  - wiki/research/source-ingestion-queue.md
+  - wiki/research/priority-source-map.md
+  - wiki/research/api-ingestion-feasibility.md
+  - wiki/research/leak-quarantine.md
+  - wiki/research/pass-2-next-actions.md
+  - wiki/research/README.md
+  - wiki/log.md
+- **source_basis:**
+  - Pass 1 workspace audit reports.
+  - Existing `sources/` folder structure.
+  - Existing `wiki/sources/source-index.md`.
+  - User-provided external source candidate list with exact URLs.
+- **unresolved_issues:**
+  - No lore backfill performed.
+  - Dottore, Sandrone, Columbina, Skirk, Nod-Krai still require source packages.
+  - character_stories/ and official/ folders still missing unless created later.
+- **next_recommended_steps:**
+  - Pass 3: Source Tool Tests + P0 Source Package Ingestion.
+  - Do not backfill lore until source files are locally ingested and claim-mapped.
+
+## 2026-06-20 — Claude Code Pass 2.1 Source Framework Consistency Fix
+
+- **action:**
+  - Retired legacy `QD/QD-ALL` wording and aligned quest source prefixes with `AQ/WQ/SQ/IQ` and `VLAQ/VLWQ`.
+  - Clarified that `sources/quest_dialogue/` does not exist and must not be used as proof.
+  - Corrected Dottore and Sandrone source package wording to avoid assuming character stories or direct voice-line files exist.
+  - Reclassified source-index alignment as `P0-Internal Cleanup` rather than a lore blocker.
+  - Verified or created required Pass 2 framework files.
+  - Verified exact URL preservation for external source candidates.
+- **files_changed:**
+  - wiki/sources/SOURCE_ID_RULES.md
+  - wiki/sources/source-index.md
+  - wiki/research/source-index-alignment.md
+  - wiki/research/source-ingestion-queue.md
+  - wiki/research/priority-source-map.md
+  - wiki/research/pass-2-next-actions.md
+  - wiki/log.md
+- **source_basis:**
+  - Pass 2 source framework files.
+  - Pass 1 structural audit findings.
+  - Current workspace source folder availability.
+- **unresolved_issues:**
+  - No lore backfill performed.
+  - Dottore remains `blocked_by_missing_source`.
+  - Sandrone remains `blocked_by_missing_source`.
+  - Columbina remains `audited_source_light` / `indirect_source_only`.
+  - character_stories/ still missing unless later ingested.
+  - official/ still missing unless later ingested.
+- **next_recommended_steps:**
+  - Pass 3: Source Tool Tests + P0 Source Package Ingestion.
+  - Start with small smoke tests and one sample source file.
+  - Do not mass ingest.
+  - Do not backfill lore until local source files are claim-mapped.
 

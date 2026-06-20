@@ -15,7 +15,7 @@ Bản chỉ mục này lập bản đồ các mã định danh nguồn (Source I
 | **VL-ALL** | `sources/voice_lines/` | Voice Lines | High | Câu chuyện, tính cách, quan hệ nhân vật | `../synthesis/headcanon-fanon-policy.md` | Lời thoại trực tiếp nhân vật |
 | **EN-ALL** | `entities/` | Entity Summaries | Medium | Thuộc tính nhân vật, thế lực, vũ khí, vật phẩm | (Nhiều trang entities/) | Nhiều file còn là template trống |
 | **TP-ALL** | `topics/` | Topic Analysis | Low/Medium | Các bài phân tích chủ đề, quan hệ cộng đồng | `../synthesis/contradiction-register.md` | Chứa nhiều lập luận chủ quan |
-| **QD-ALL** | `sources/quest_dialogue/` | Quest Dialogue | Unusable | Thư mục không tồn tại trong workspace | N/A | **Thư mục không tìm thấy trong workspace** |
+| **QD-ALL** | `sources/quest_dialogue/` | Quest Dialogue | Unusable | Thư mục không tồn tại trong workspace | N/A | **Thư mục không tìm thấy trong workspace.** Deprecated / legacy placeholder. Not usable for claim-level canon. Use VLAQ/VLWQ for existing quest voice-line files, and AQ/WQ/SQ/IQ for future full quest transcripts. |
 | **OF-ALL** | `sources/official/` | Official Sources | Unusable | Thư mục không tồn tại trong workspace | N/A | **Thư mục không tìm thấy trong workspace** |
 
 ## 2. Partial File-Level Source Index

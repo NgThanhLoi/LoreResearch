@@ -95,33 +95,34 @@ Voice guide requires primary voice-line source.
 ## Genre Usage Notes
 
 ### Canon-compliant
-Không khuyến khích sử dụng do hoàn toàn thiếu nguồn sơ cấp trong workspace.
+Cấm sử dụng hoặc xuất hiện trực tiếp trong cốt truyện chính do hoàn toàn thiếu cả nguồn sơ cấp và thứ cấp trong workspace. Mọi mô tả về vai trò hay hành vi của anh đều không thể kiểm chứng.
 
 ### AU
-Chỉ dùng trong các thế giới song song nơi các phân thân của Dottore hoạt động độc lập hoặc có thiết lập cốt truyện tùy biến.
+Chỉ dùng trong các thế giới song song nơi các giả thiết về phân thân (Segments) hoặc phòng thí nghiệm được thiết lập tùy biến, đi kèm cảnh báo thiếu nguồn rõ ràng.
 
 ### Romance
 Cấm viết mối quan hệ lãng mạn vô hại, trừ khi có tag AU cảnh báo trước cho người đọc về sự thay đổi tính cách cực đoan.
 
 ### Mystery / Detective
-Đóng vai trò kẻ chủ mưu ẩn mình trong bóng tối, thực hiện các âm mưu khoa học tàn nhẫn.
+Chỉ nên dùng như một cái tên ẩn danh hoặc thế lực bóng tối được đồn thổi, không khẳng định năng lực hay âm mưu khoa học cụ thể nào do thiếu nguồn.
 
 ### Slice of life
 Không áp dụng.
 
 ### Dark fantasy
-Khai thác các phòng thí nghiệm tàn ác và sự vô cảm của anh trước sinh mạng con người.
+Nếu được khai thác trong các bối cảnh u tối, mọi mô tả về thí nghiệm hay sự tàn nhẫn phải được cảnh báo là bối cảnh giả định (AU) chưa được xác minh bởi dữ liệu workspace.
 
 ### OC-insert
-OC trở thành vật thí nghiệm dưới tay anh, chịu sự tra tấn tâm lý và thể xác.
+Tránh viết OC tương tác trực tiếp hoặc làm vật thí nghiệm của Dottore trừ khi thiết lập bối cảnh AU hoàn toàn, do không có tệp thoại hay tính cách chính thức để đối chiếu hành vi của anh.
 
 ## Safe Uses
-* Giữ Dottore như một thế lực bóng tối bí ẩn, không xuất hiện trực tiếp hoặc chỉ xuất hiện qua những tác động gián tiếp từ phân thân của mình.
-* Thể hiện sự tàn nhẫn của các thí nghiệm thông qua lời kể của các nạn nhân khác.
+* Giữ Dottore hoàn toàn ngoài lề cốt truyện, chỉ nhắc đến qua các tin đồn xa lạ hoặc tài liệu nghiên cứu chưa rõ thực hư.
+* Coi nhân vật này như một thực thể chưa xác định trong dòng thời gian hiện tại của dự án.
 
 ## Unsafe Uses
+* Viết Dottore xuất hiện trực tiếp để thực hiện các hành vi tàn nhẫn hoặc thí nghiệm như một phần của cốt truyện canon-compliant chính thức.
 * Viết Dottore cải tà quy chính và trở thành anh hùng bảo hộ ấm áp.
-* Viết Dottore chế tạo thành công Thần Mặt Trăng Giả như một sự thật hiển nhiên của cốt truyện chính.
+* Viết Dottore chế tạo thành công Thần Mặt Trăng Giả hoặc thực hiện hệ thống phân thân (Segments) như một sự thật lịch sử hiển nhiên của cốt truyện chính.
 
 ## Sources
 
