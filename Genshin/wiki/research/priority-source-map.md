@@ -112,3 +112,43 @@ Corrected overconfident recommendations from Pass 4. Only claims with direct ins
 | CLM-009 | source_missing | blocked | not_applied | source_missing | No change |
 | CLM-010 | keep_theory | hold | not_applied | keep_theory | No change |
 | CLM-011 | needs_external_source_or_later_quest | hold | not_applied | needs_external_source_or_later_quest | No change |
+
+## Pass 7 Controlled Source Ingestion Test Update
+
+| Blocker / Claim | Pass 7 result | Local source created? | Current status | Next action |
+| --------------- | ------------- | --------------------- | -------------- | ----------- |
+| CLM-019 character stories | genshin-db package install and query succeeded, but no character-story fields were exposed for the tested characters | no | blocked_by_missing_character_story_source | Test an alternative route before any mass ingestion. |
+| Kaeya character story test | Character profile and separate voiceovers found; Vietnamese available; no character-story text field found | no | source_missing_for_character_story | Use Pass 8 alternative source test, such as a controlled Fandom API character-lore section query. |
+| Furina character story test | Character profile and separate voiceovers found; Vietnamese available; no character-story text field found | no | source_missing_for_character_story | Use Pass 8 alternative source test; do not override existing VLAQ support. |
+| Nahida character story test | Character profile and separate voiceovers found; Vietnamese available; no character-story text field found | no | source_missing_for_character_story | Use Pass 8 alternative source test; do not override existing VLAQ support. |
+| Dottore / Sandrone | Not included in Pass 7 by rule | no | still blocked_by_missing_source | Keep blocked until targeted direct source ingestion. |
+| Skirk | Not included in Pass 7 by rule | no | still source_missing | Needs direct quest/source ingestion later. |
+| Nod-Krai Acts II-VII | Not in Pass 7 scope | no | still source_missing | Needs separate quest transcript ingestion route. |
+
+## Pass 8 Fandom API Character Story Test Update
+
+| Blocker / Claim | Pass 8 result | Local source created? | Current status | Next action |
+| --------------- | ------------- | --------------------- | -------------- | ----------- |
+| CLM-019 character stories | Fandom MediaWiki API route succeeded for one controlled Kaeya test via `Kaeya/Profile`; no mass ingestion performed | yes, Kaeya only | partially_unblocked_for_kaeya_only | Claim-map `CS-KAEYA-001` in Pass 9 before any page update. |
+| Kaeya character story test | Extracted Character Details, Character Story 1-5, and Vision from structured `{{Character Story}}` template | yes | locally_ingested_needs_review | Pass 9 should compare against `wiki/entities/characters/Kaeya.md` and propose changes only in report. |
+| Dottore / Sandrone | Not included in Pass 8 by rule | no | still blocked_by_missing_source | Keep blocked until targeted direct source ingestion. |
+| Skirk | Not included in Pass 8 by rule | no | still source_missing | Needs direct quest/source ingestion later. |
+| Nod-Krai Acts II-VII | Not in Pass 8 scope | no | still source_missing | Needs separate quest transcript ingestion route. |
+
+## Pass NK-07 Nod-Krai Acts II-VII Deep-Read Update
+
+The deep read of the 13 pinned revisions in Pass NK-07 has updated the status of Nod-Krai and related character claims:
+
+| Claim ID | Claim/topic | Pass NK-07 Result | Evidence ID(s) | Current status | Next action |
+| -------- | ----------- | ----------------- | -------------- | -------------- | ----------- |
+| CLM-012 | Nod-Krai Acts II–VII story events | direct (all acts) | NK07-ACTS-II-VII-001 | `evidence_found_guarded` | approved_for_source_status_update |
+| CLM-001 | Dottore rank/faction | direct | NK07-HARBINGER-ACTIONS-001 | `evidence_found_guarded` | approved_for_source_status_update |
+| CLM-004 | Sandrone Harbinger identity | direct | NK07-HARBINGER-ACTIONS-001 | `evidence_found_guarded` | approved_for_source_status_update |
+| CLM-006 | Sandrone-Rotwang link | not_found | NK07-SANDRONE-ROTWANG-001 | `source_missing_after_deep_read` | keep_blocked |
+| CLM-007 | Columbina = Kuutar | direct | NK07-COLUMBINA-KUUTAR-001/002 | `evidence_found_guarded` | approved_for_source_status_update |
+| CLM-008 | Columbina ancient power | direct | NK07-MOON-AUTHORITY-001 | `evidence_found_guarded` | approved_for_source_status_update |
+| CLM-009 | Skirk identity and Abyss connection | not_found | NK07-SKIRK-DESCENDER-001 | `source_missing_after_deep_read` | keep_blocked |
+| CLM-013 | Nod-Krai mythology (3 moons, Kuuvahki) | direct | NK07-TRUE-WELKIN-001, NK07-FALSE-SKY-001 | `evidence_found_guarded` | approved_for_source_status_update |
+| CLM-018 | Traveler vs Abyss sibling roles | direct (phantom reveal) | NK07-ABYSS-SIBLING-001 | `evidence_found_guarded` | approved_for_source_status_update |
+| CLM-021 | Power system indirect claims | direct (Trilune, Kuuvahki) | NK07-MOON-AUTHORITY-001, PWR-KUUVAHKI-001 | `evidence_found_guarded` | approved_for_source_status_update |
+

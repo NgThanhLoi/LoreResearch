@@ -1,0 +1,22 @@
+{
+  "api": "https://genshin-impact.fandom.com/api.php",
+  "target": "Kaeya",
+  "successful_page": "Kaeya/Profile",
+  "extracted_section_titles": [
+    "Character Details",
+    "Character Story 1",
+    "Character Story 2",
+    "Character Story 3",
+    "Character Story 4",
+    "Character Story 5",
+    "Vision"
+  ],
+  "extracted_section_count": 7,
+  "revision_meta": {
+    "pageid": 12187,
+    "title": "Kaeya/Profile",
+    "revid": 2108515,
+    "parentid": 2062397,
+    "timestamp": "2026-06-09T03:14:34Z"
+  }
+}

@@ -67,14 +67,18 @@ Columbina được quản trị trong wiki này như một nhân vật Fatui thu
   * confidence: low
   * notes: Được ngụ ý qua sự e ngại rõ rệt của các Quan Chấp Hành khác về sức mạnh ẩn sau vẻ ngoài ngây thơ của cô.
 
+## Source Coverage Notes
+
+- **Nod-Krai Acts II-VIII Source Status**: Pass NK-07 deep-read of `AQ-NK-ACT2`, `AQ-NK-ACT5`, `AQ-NK-ACT6`, và `AQ-NK-ACT8` wikitext đã tìm thấy bằng chứng đối thoại cho thấy Columbina / Damselette liên kết với thuật ngữ Kuutar Moon Maiden trong các checked pinned revisions. Tuy nhiên, Alice và Arlecchino cũng xác nhận đây chỉ là codenames/vai diễn và không phải là tên thật của cô. Các tuyên bố này được xếp vào diện `evidence_found_guarded` chờ kiểm duyệt tổng thể.
+
 ## Theory / Interpretation
 
 * [CHAR-COLUMBINA-THEORY-001] Columbina là một Seelie cổ đại hoặc hậu duệ của Không Nguyệt (Thiếu nữ mặt trăng) tên là Kuutar đã trở về quê hương Nod-Krai.
   * label: THEORY
-  * source: `entities/character_intelligence/Columbina.md#L23`, `wiki/synthesis/unverified-lore-register.md`
-  * source_status: indirect_source_only
-  * confidence: low
-  * notes: Đây là một giả thuyết có độ rủi ro cao, chỉ được phép sử dụng ở dạng lời đồn hoặc đức tin của nhân vật, cấm dùng làm nền tảng cốt truyện chính thức (plot foundation) trong truyện canon-compliant.
+  * source: `entities/character_intelligence/Columbina.md#L23`, `sources/provenance/archon_quests/nod-krai/AQ-NK-ACT2.md`, `AQ-NK-ACT5.md`
+  * source_status: evidence_found_guarded
+  * confidence: medium
+  * notes: Bằng chứng hội thoại (Pass NK-07) cho thấy Columbina / Damselette liên kết với thuật ngữ Kuutar Moon Maiden trong các checked pinned revisions, nhưng Alice/Arlecchino chỉ ra rằng đây không phải là tên thật. Vẫn giữ ở trạng thái được bảo vệ (guarded) chờ phê duyệt.
 * [CHAR-COLUMBINA-THEORY-002] Columbina sở hữu sức mạnh nguyên thủy từ trước thời đại Bảy Nguyên Tố và liên kết với tổ chức Sảnh Trăng Bạc.
   * label: THEORY
   * source: `entities/character_intelligence/Columbina.md#L25`
@@ -147,8 +151,8 @@ OC là thuộc hạ dưới quyền trong Sảnh Trăng Bạc, đối mặt vớ
 
 ## Sources
 
-* Primary sources: none
-* Indirect sources: `entities/character_intelligence/Columbina.md`
+* Primary sources: `sources/provenance/archon_quests/nod-krai/AQ-NK-ACT2.md`, `AQ-NK-ACT5.md`, `AQ-NK-ACT6.md`, `AQ-NK-ACT8.md` (evidence_found_guarded)
+* Indirect sources: `wiki/research/pass-nk-07-evidence-index.md`
 * Analysis sources: `wiki/synthesis/unverified-lore-register.md`, `wiki/synthesis/headcanon-fanon-policy.md`, `wiki/synthesis/ooc-risk-index.md`
 * Missing sources: `sources/voice_lines/characters/Columbina.md`
 

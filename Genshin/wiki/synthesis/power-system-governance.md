@@ -16,7 +16,7 @@ Tài liệu này đóng vai trò khóa van an toàn cho hệ thống sức mạn
 | **Khemia** | CANON | High | Yes | No | Đòi hỏi nguyên liệu hiếm và tri thức sâu, cấm tạo ma vật bừa bãi. |
 | **Irminsul** | CANON | Medium | Conditional | Yes | **Không thể thay đổi sự kiện vật lý**, chỉ sửa đổi ký ức/văn bản. |
 | **Forbidden Knowledge** | CANON | Medium | Conditional | No | Gây điên loạn, eleazar. Cấm dùng làm combat ma thuật thường. |
-| **Kuuvahki** | THEORY / UNVERIFIED | Low | No | Yes | Chỉ giới hạn giải đố cơ khí ở Nod-Krai, cấm đem ra ngoài. |
+| **Kuuvahki** | CANON | High | Conditional | Yes | Dùng cho cơ khí hạt nhân trăng lạnh và giải đố, cấm mang ra ngoài. |
 | **Celestia / Heavenly Principles** | CANON | Medium | Conditional | No | Răn đe thụ động, im lặng. Tấn công là tự sát lập tức. |
 | **Descender Logic** | CANON | High | Yes | Yes | Miễn nhiễm xóa ký ức Irminsul. Chỉ áp dụng cho Descender. |
 
@@ -163,15 +163,27 @@ Tài liệu này đóng vai trò khóa van an toàn cho hệ thống sức mạn
 
 ### Kuuvahki
 
-- [PWR-KUUVAHKI-001] Năng lượng mặt trăng rơi xuống đất Nod-Krai hoạt động dưới dạng từ tính đỏ/xanh dùng để giải đố cơ khí.
-  - label: THEORY / UNVERIFIED
-  - source: `topics/nod-krai/mythology.md#L16`
-  - source_status: indirect_source_only
-  - needs_primary_source: true
-  - confidence: low
-  - narrator_safe: no
-  - fanfic_rule: Chỉ giới hạn ở vùng tự trị Nod-Krai để giải đố, cấm mang ra ngoài hoặc dùng làm combat ma thuật.
-  - notes: Giả thuyết unverified dựa trên tóm tắt của nhà nghiên cứu, thiếu raw dialogue.
+- [PWR-KUUVAHKI-001] Năng lượng mặt trăng trong đất Nod-Krai đóng vai trò đối lập với năng lượng Vực Sâu (Wild Hunt), có khả năng tiêu diệt dị tượng nhỏ nhưng có thể bị hấp thụ bởi các thực thể mạnh (như Rerir).
+  - label: CANON
+  - source: `sources/provenance/archon_quests/nod-krai/AQ-NK-ACT2.md`, `AQ-NK-ACT7.md`
+  - source_status: evidence_found_guarded
+  - needs_primary_source: false
+  - confidence: high
+  - narrator_safe: conditional
+  - fanfic_rule: Dùng để giải đố cơ khí hoặc chế tạo đạn pháo tiêu diệt dị tượng Wild Hunt. Hấp thụ kuuvahki quá mức gây mất kiểm soát hoặc phản phệ.
+  - notes: Xác minh qua đối thoại của Flins, Aino và Rerir trong deep read Pass NK-07.
+
+### Moon Authority
+
+- [PWR-MOON-001] Quyền năng tối cổ (Trilunar Authority) của ba nữ thần mặt trăng (Aria, Sonnet, Canon) có khả năng thao túng không-thời gian và mở cổng Moon Gate nối với Mặt Trăng.
+  - label: CANON
+  - source: `sources/provenance/archon_quests/nod-krai/AQ-NK-ACT7.md`, `AQ-NK-ACT8.md`
+  - source_status: evidence_found_guarded
+  - needs_primary_source: false
+  - confidence: high
+  - narrator_safe: conditional
+  - fanfic_rule: Việc chiếm đoạt quyền năng này yêu cầu năng lượng khổng lồ từ cả ba Moon Marrows (như Dottore đã thử). Columbina chỉ có thể tái hợp thể xác bằng quyền năng này sau khi chết vật lý và giải phóng Moonlight.
+  - notes: Được xác minh qua kế hoạch Heretic of the False Moon của Dottore và sự thức tỉnh của Trilune Goddess ở Act VIII.
 
 ### Celestia / Heavenly Principles
 

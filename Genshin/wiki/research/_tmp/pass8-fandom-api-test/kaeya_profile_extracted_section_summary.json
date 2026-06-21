@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Character Details",
+    "template_index": 1,
+    "friendship": "",
+    "mentions": "Diluc,Jean",
+    "char_count": 353
+  },
+  {
+    "title": "Character Story 1",
+    "template_index": 2,
+    "friendship": "2",
+    "mentions": "",
+    "char_count": 1009
+  },
+  {
+    "title": "Character Story 2",
+    "template_index": 3,
+    "friendship": "3",
+    "mentions": "Jean,Varka",
+    "char_count": 1265
+  },
+  {
+    "title": "Character Story 3",
+    "template_index": 4,
+    "friendship": "4",
+    "mentions": "",
+    "char_count": 957
+  },
+  {
+    "title": "Character Story 4",
+    "template_index": 5,
+    "friendship": "5",
+    "mentions": "Crepus,Varka",
+    "char_count": 1059
+  },
+  {
+    "title": "Character Story 5",
+    "template_index": 6,
+    "friendship": "6",
+    "mentions": "Crepus,Diluc,Ursa the Drake",
+    "char_count": 1297
+  },
+  {
+    "title": "Vision",
+    "template_index": 8,
+    "friendship": "6",
+    "mentions": "Crepus,Diluc",
+    "char_count": 2992
+  }
+]

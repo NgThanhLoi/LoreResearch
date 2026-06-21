@@ -705,3 +705,677 @@
   - Character stories and Nod-Krai Acts II–VII still require controlled ingestion.
 - **next_recommended_steps:**
   - Pass 7 — Controlled Source Ingestion Test.
+
+## 2026-06-20 - Codex Pass 7 Controlled Source Ingestion Test
+
+- **action:**
+  - Tested controlled ingestion of character story sources using an isolated temp workspace.
+  - Attempted character story retrieval for Kaeya, Furina, and Nahida only.
+  - Confirmed `genshin-db` install and query success in `wiki/research/_tmp/pass7-genshin-db-test/`.
+  - Found profile metadata and separate voiceover data, including Vietnamese output, but did not find character-story text fields.
+  - Created no local `sources/character_stories/` files because retrieval and provenance validation did not produce character-story content.
+  - Did not update source-index because no validated local source files were created.
+  - Created Pass 7 ingestion reports.
+  - Did not perform mass ingestion or page backfill.
+- **files_changed:**
+  - wiki/research/pass-7-ingestion-test-report.md
+  - wiki/research/pass-7-created-sources-report.md
+  - wiki/research/pass-7-claim-candidate-map.md
+  - wiki/research/pass-7-source-index-update-report.md
+  - wiki/research/pass-7-next-actions.md
+  - wiki/research/priority-source-map.md
+  - wiki/log.md
+- **source_basis:**
+  - Pass 6 next actions.
+  - SOURCE_ID_RULES.
+  - EXTERNAL_SOURCE_POLICY.
+  - Controlled genshin-db test output.
+- **unresolved_issues:**
+  - No mass character story ingestion performed.
+  - No `CS-*` source IDs added.
+  - Dottore remains blocked unless directly ingested later.
+  - Sandrone remains blocked unless directly ingested later.
+  - Columbina remains source-light/theory.
+  - Skirk remains source_missing.
+  - Nod-Krai Acts II-VII remain source_missing.
+- **next_recommended_steps:**
+  - Pass 8 - Alternative Source Ingestion Route.
+
+## 2026-06-20 - Codex Pass 8 Fandom API Character Story Ingestion Test
+
+- **action:**
+  - Tested Fandom MediaWiki API as an alternative character story ingestion route.
+  - Targeted Kaeya only.
+  - Created `sources/character_stories/Kaeya.md` after character-story/profile-story text was found through `Kaeya/Profile` and provenance was validated.
+  - Updated `source-index.md` only after the validated local source file was created.
+  - Created Pass 8 API, extraction, source, and claim-candidate reports.
+  - Did not perform mass ingestion or page backfill.
+- **files_changed:**
+  - wiki/research/pass-8-fandom-api-test-report.md
+  - wiki/research/pass-8-created-source-report.md
+  - wiki/research/pass-8-kaeya-extraction-notes.md
+  - wiki/research/pass-8-claim-candidate-map.md
+  - wiki/research/pass-8-source-index-update-report.md
+  - wiki/research/pass-8-next-actions.md
+  - wiki/research/priority-source-map.md
+  - wiki/sources/source-index.md
+  - wiki/log.md
+  - sources/character_stories/Kaeya.md
+- **source_basis:**
+  - Pass 7 failure to retrieve character-story text via genshin-db.
+  - Fandom MediaWiki API controlled test output.
+  - SOURCE_ID_RULES.
+  - EXTERNAL_SOURCE_POLICY.
+- **unresolved_issues:**
+  - No mass character story ingestion performed.
+  - Kaeya source file remains not yet claim-mapped.
+  - Dottore remains blocked_by_missing_source.
+  - Sandrone remains blocked_by_missing_source.
+  - Columbina remains indirect_source_only / theory.
+  - Skirk remains source_missing.
+  - Nod-Krai Acts II-VII remain source_missing.
+- **next_recommended_steps:**
+  - Pass 9 - Kaeya Character Story Claim Mapping.
+
+## 2026-06-21 - Codex Pass 8.1 Kaeya Source File Hardening
+
+- **action:**
+  - Re-opened Fandom MediaWiki API revision/oldid `2108515` for `Kaeya/Profile`.
+  - Confirmed exact `{{Character Story}}` fields for Character Details, Character Story 1-5, and Vision are extractable from the pinned revision.
+  - Hardened `sources/character_stories/Kaeya.md` into an API provenance/extraction index because exact long story text should not be stored locally under the external source policy.
+  - Downgraded local source wording from transcript candidate to provenance record / extraction index candidate.
+  - Did not update any character page or claim.
+- **files_changed:**
+  - sources/character_stories/Kaeya.md
+  - wiki/research/pass-8-1-kaeya-source-hardening-report.md
+  - wiki/research/pass-8-next-actions.md
+  - wiki/sources/source-index.md
+  - wiki/log.md
+- **source_basis:**
+  - Fandom MediaWiki API `Kaeya/Profile` revision/oldid `2108515`.
+  - Pass 8 Fandom API reports.
+  - EXTERNAL_SOURCE_POLICY copyright/excerpt rules.
+- **unresolved_issues:**
+  - Exact character-story text is not stored locally.
+  - Pass 9 claim mapping must re-open API revision `2108515`.
+  - `CS-KAEYA-001` remains valid as a local provenance record, not as a full local transcript.
+- **next_recommended_steps:**
+  - Pass 9 - Kaeya Character Story Claim Mapping with API reopen and human review before page updates.
+
+## 2026-06-21 — Codex Pass 9 Kaeya Character Story Claim Mapping
+
+- **action:**
+  - Re-opened Fandom MediaWiki API revision `2108515` for `Kaeya/Profile`.
+  - Verified `CS-KAEYA-001` evidence fields using char counts and SHA-256 hashes.
+  - Mapped Kaeya character story candidate claims against existing `wiki/entities/characters/Kaeya.md`.
+  - Created page update proposal reports only.
+  - Did not update Kaeya page or upgrade claims directly.
+- **files_changed:**
+  - wiki/research/pass-9-kaeya-evidence-verification-report.md
+  - wiki/research/pass-9-kaeya-claim-mapping-report.md
+  - wiki/research/pass-9-kaeya-page-update-proposal.md
+  - wiki/research/pass-9-next-actions.md
+  - wiki/research/pass-8-next-actions.md
+  - wiki/log.md
+- **source_basis:**
+  - sources/character_stories/Kaeya.md
+  - Fandom MediaWiki API revision 2108515
+  - wiki/entities/characters/Kaeya.md
+  - sources/voice_lines/characters/Kaeya.md
+- **unresolved_issues:**
+  - Human review still required before Kaeya page update.
+  - Full character story ingestion not performed.
+  - Dottore, Sandrone, Columbina, Skirk, and Nod-Krai remain blocked/source-light.
+- **next_recommended_steps:**
+  - If mapping is clean: Pass 10 — Human Review and Controlled Kaeya Page Source Status Update.
+  - If verification mismatch exists: Pass 10 — Kaeya Source Verification Fix.
+
+## 2026-06-21 — Codex Pass 10 Controlled Kaeya Page Source Status Update
+
+* **action:**
+
+  * Applied approved Pass 9 Kaeya source-status updates to `wiki/entities/characters/Kaeya.md`.
+  * Added `CS-KAEYA-001` and relevant evidence IDs to selected existing Kaeya claims.
+  * Preserved cautious handling for Khaenri'ah-related burden and relationship-history claims.
+  * Did not perform lore rewrite, mass ingestion, or unrelated page updates.
+* **files_changed:**
+
+  * wiki/entities/characters/Kaeya.md
+  * wiki/research/pass-10-kaeya-update-report.md
+  * wiki/research/pass-10-source-status-changelog.md
+  * wiki/research/pass-10-next-actions.md
+  * wiki/log.md
+* **source_basis:**
+
+  * sources/character_stories/Kaeya.md
+  * wiki/research/pass-9-kaeya-evidence-verification-report.md
+  * wiki/research/pass-9-kaeya-claim-mapping-report.md
+  * wiki/research/pass-9-kaeya-page-update-proposal.md
+  * sources/voice_lines/characters/Kaeya.md
+* **unresolved_issues:**
+
+  * Full character story ingestion not performed.
+  * Dottore remains blocked_by_missing_source.
+  * Sandrone remains blocked_by_missing_source.
+  * Columbina remains source-light / theory.
+  * Skirk remains source_missing.
+  * Nod-Krai Acts II-VII remain source_missing.
+* **next_recommended_steps:**
+
+  * Stop the Kaeya pipeline here.
+  * Begin premise/outline planning, or ingest only story-relevant characters later.
+
+## 2026-06-21 — Codex Pass 11 Full Character Coverage Plan
+
+- **action:**
+  - Audited the current character layer for coverage, source status, and future batch planning.
+  - Created a full character coverage plan, character tier map, source gap map, and batch roadmap.
+  - Did not update character pages or perform source ingestion.
+  - Kept the global LLM Wiki focused on canon/source/character foundation rather than project-specific fanfic plotting.
+- **files_changed:**
+  - wiki/research/pass-11-full-character-coverage-plan.md
+  - wiki/research/pass-11-character-tier-map.md
+  - wiki/research/pass-11-character-source-gap-map.md
+  - wiki/research/pass-11-batch-roadmap.md
+  - wiki/research/pass-11-next-actions.md
+  - wiki/log.md
+- **source_basis:**
+  - wiki/entities/characters/
+  - wiki/entities/characters/character-inventory.md
+  - wiki/synthesis/character-audit-backlog.md
+  - wiki/synthesis/ooc-risk-index.md
+  - wiki/synthesis/headcanon-fanon-policy.md
+  - wiki/sources/source-index.md
+  - sources/voice_lines/characters/
+  - sources/character_stories/
+  - Pass 8–10 Kaeya pipeline reports
+- **unresolved_issues:**
+  - Character pages still need future batch normalization.
+  - Character-story provenance is not complete for all playable characters.
+  - Blocked/source-light characters must remain guarded until source packages exist.
+- **next_recommended_steps:**
+  - Pass 12 — Character Template v2.
+
+## 2026-06-21 - Codex Pass 12 Character Template v2
+
+- **action:**
+  - Created the Character Foundation Page template v2 for the Genshin LLM Wiki.
+  - Added standard, source-light, blocked, and Level 4 claim-mapped template variants.
+  - Created a template usage guide for future character foundation batches.
+  - Did not update existing character pages or perform source ingestion.
+- **files_changed:**
+  - wiki/entities/characters/_character-template-v2.md
+  - wiki/research/pass-12-character-template-report.md
+  - wiki/research/pass-12-template-usage-guide.md
+  - wiki/research/pass-12-next-actions.md
+  - wiki/log.md
+- **source_basis:**
+  - wiki/entities/characters/Kaeya.md
+  - wiki/entities/characters/Dottore.md
+  - wiki/entities/characters/Sandrone.md
+  - wiki/entities/characters/Columbina.md
+  - wiki/research/pass-11-full-character-coverage-plan.md
+  - wiki/research/pass-11-character-tier-map.md
+  - wiki/research/pass-11-character-source-gap-map.md
+  - wiki/research/pass-11-batch-roadmap.md
+  - wiki/research/pass-11-next-actions.md
+  - wiki/sources/SOURCE_ID_RULES.md
+  - wiki/sources/EXTERNAL_SOURCE_POLICY.md
+- **unresolved_issues:**
+  - Character pages still need future batch updates using the new template.
+  - Character-story provenance remains incomplete outside Kaeya.
+  - Blocked/source-light characters must remain guarded until direct source packages exist.
+- **next_recommended_steps:**
+  - Pass 13 - Mondstadt Character Foundation Batch.
+
+## 2026-06-21 — Codex Pass NK-01 Nod-Krai Source Recon
+
+- **action:**
+  - Conducted a source-governance and structure audit of Nod-Krai and Snezhnayan pre-history.
+  - Audited local book candidate files in `sources/book_texts/nod-krai/` and synthesis files in `topics/nod-krai/`.
+  - Identified and indexed 8 valid local book/quest summary files as source candidates and highlighted the misplaced Natlan Act V file.
+  - Mapped source gaps for regions, playable characters, Harbingers (Dottore, Columbina, Sandrone), and mythology, keeping Acts II-VII as guarded.
+  - Did not update any existing character pages, rewrite lore, or upgrade claims.
+- **files_changed:**
+  - wiki/research/pass-nk-01-nod-krai-structure-audit.md
+  - wiki/research/pass-nk-01-nod-krai-source-recon-report.md
+  - wiki/research/pass-nk-01-nod-krai-source-candidate-index.md
+  - wiki/research/pass-nk-01-nod-krai-source-gap-map.md
+  - wiki/research/pass-nk-01-next-actions.md
+  - wiki/log.md
+- **source_basis:**
+  - sources/book_texts/nod-krai/
+  - topics/nod-krai/
+  - entities/nations/Nod_Krai.md
+  - wiki/sources/SOURCE_ID_RULES.md
+  - wiki/sources/EXTERNAL_SOURCE_POLICY.md
+- **unresolved_issues:**
+  - Nod-Krai source candidates are not yet ingested or assigned source IDs in the main index.
+  - Acts II-VII remain guarded/source_missing due to lack of raw dialogue transcripts.
+  - Natlan Act V file is misplaced in the Nod-Krai directory.
+- **next_recommended_steps:**
+  - Pass NK-02 — Nod-Krai Local Source / Provenance Index Build.
+
+## 2026-06-21 — Codex Pass NK-02 Nod-Krai Local Source / Provenance Index Build
+
+- **action:**
+  - Formally indexed 7 new local source entries and confirmed 1 pre-existing Nod-Krai book source in the central source index (`wiki/sources/source-index.md`).
+  - Audited and verified all local files in `sources/book_texts/nod-krai/` against collision rules and formatting guidelines.
+  - Created a source-to-claim-group map detailing safety levels for 21 claim groups, keeping Acts II-VII, Dottore false moon, Columbina true identity, and Sandrone Rotwang links blocked/guarded.
+  - Quarantined the misplaced Natlan Archon Quest Act V file without moving it.
+  - Documented risks and guardrails, detailing structural, lore, and technical safety parameters.
+- **files_changed:**
+  - wiki/sources/source-index.md
+  - wiki/research/pass-nk-02-local-source-provenance-index.md
+  - wiki/research/pass-nk-02-source-index-update-report.md
+  - wiki/research/pass-nk-02-source-to-claim-group-map.md
+  - wiki/research/pass-nk-02-quarantine-and-misplaced-files-report.md
+  - wiki/research/pass-nk-02-risk-and-guardrail-report.md
+  - wiki/research/pass-nk-02-next-actions.md
+  - wiki/log.md
+- **source_basis:**
+  - sources/book_texts/nod-krai/
+  - wiki/sources/SOURCE_ID_RULES.md
+  - wiki/sources/EXTERNAL_SOURCE_POLICY.md
+  - wiki/research/pass-nk-01-nod-krai-source-candidate-index.md
+- **unresolved_issues:**
+  - Faction governance profiles and regional power systems are not yet codified in the synthesis layer.
+  - Playable characters (Lauma, Flins, Aino) and Harbingers remain blocked or guarded from upgrades until governance notes are built.
+  - The misplaced Natlan Archon Quest file remains quarantined in the Nod-Krai directory pending a data-cleaning pass.
+- **next_recommended_steps:**
+  - Pass NK-03 — Nod-Krai Region / Faction Governance Notes.
+
+## 2026-06-21 - Codex Pass 13 Mondstadt Character Foundation Batch
+
+- **action:**
+  - Created Level 2 Character Foundation Pages for the Mondstadt Pass 13 batch using `_character-template-v2.md`.
+  - Included Aloy because Pass 11/12 roadmap files place her in the Pass 13 Mondstadt/collaboration scope.
+  - Inspected existing Mondstadt pages and left Kaeya, Diluc, Jean, Lisa, Klee, Albedo, and Venti unchanged to preserve existing audit status and limitations.
+  - Kept character-story, backstory, relationship, power, and major lore gaps guarded with explicit source status labels.
+  - Did not ingest external sources, create source IDs, claim-map the batch, or add fanfic plot material.
+- **files_changed:**
+  - wiki/entities/characters/Amber.md
+  - wiki/entities/characters/Barbara.md
+  - wiki/entities/characters/Bennett.md
+  - wiki/entities/characters/Diona.md
+  - wiki/entities/characters/Eula.md
+  - wiki/entities/characters/Fischl.md
+  - wiki/entities/characters/Mika.md
+  - wiki/entities/characters/Mona.md
+  - wiki/entities/characters/Noelle.md
+  - wiki/entities/characters/Razor.md
+  - wiki/entities/characters/Rosaria.md
+  - wiki/entities/characters/Sucrose.md
+  - wiki/entities/characters/Aloy.md
+  - wiki/research/pass-13-mondstadt-character-foundation-report.md
+  - wiki/research/pass-13-character-update-list.md
+  - wiki/research/pass-13-source-coverage-notes.md
+  - wiki/research/pass-13-risk-and-guardrail-report.md
+  - wiki/research/pass-13-next-actions.md
+  - wiki/log.md
+- **reason:**
+  - Execute Pass 13 from the character roadmap and make Mondstadt characters usable as source-status-explicit Level 2 foundation pages.
+- **source_basis:**
+  - wiki/entities/characters/_character-template-v2.md
+  - wiki/entities/characters/character-inventory.md
+  - wiki/research/pass-11-full-character-coverage-plan.md
+  - wiki/research/pass-11-character-tier-map.md
+  - wiki/research/pass-11-character-source-gap-map.md
+  - wiki/research/pass-11-batch-roadmap.md
+  - wiki/research/pass-12-template-usage-guide.md
+  - wiki/sources/source-index.md
+  - wiki/sources/SOURCE_ID_RULES.md
+  - wiki/sources/EXTERNAL_SOURCE_POLICY.md
+  - wiki/synthesis/ooc-risk-index.md
+  - wiki/synthesis/headcanon-fanon-policy.md
+  - wiki/synthesis/contradiction-register.md
+  - wiki/synthesis/power-system-governance.md
+  - sources/voice_lines/characters/
+  - entities/character_intelligence/ as indirect guidance only
+- **unresolved_issues:**
+  - Character-story provenance remains missing for all newly created pages.
+  - Relationship, backstory, power-limit, and major lore claims remain guarded until later provenance and claim-mapping passes.
+  - Aloy remains a collaboration/outlander page with external franchise canon blocked from local canon use.
+  - Existing audited Mondstadt pages still predate full template-v2 normalization but were preserved to avoid reliability loss.
+- **next_recommended_steps:**
+  - Pass 14 - Liyue Character Foundation Batch.
+  - Keep character-story provenance ingestion for Pass 20+ unless explicitly approved.
+
+## 2026-06-21 — Codex Pass NK-03 Nod-Krai Region / Faction Governance Notes
+
+- **action:**
+  - Created source-status-explicit governance notes for Nod-Krai's region profile, factions, and power system mechanics.
+  - Codified safety levels, allowed uses, and banned uses for 14 safe claim groups and 7 guarded/theory groups.
+  - Formulated a terminology and source status matrix for 26 core regional terms.
+  - Drafted a guarded claims register outlining boundaries for Acts II-VII, Dottore's false moon, Columbina's Kuutar identity, Sandrone's Rotwang link, and the Voynich Guild.
+  - Conducted a risk and non-duplication audit confirming no character pages were created, modified, or batch-normalized.
+- **files_changed:**
+  - wiki/research/pass-nk-03-region-governance-notes.md
+  - wiki/research/pass-nk-03-faction-governance-notes.md
+  - wiki/research/pass-nk-03-power-mechanics-governance-notes.md
+  - wiki/research/pass-nk-03-terminology-and-source-status-matrix.md
+  - wiki/research/pass-nk-03-guarded-claims-register.md
+  - wiki/research/pass-nk-03-risk-and-non-duplication-report.md
+  - wiki/research/pass-nk-03-next-actions.md
+  - wiki/log.md (this entry)
+- **reason:**
+  - Codify regional, factional, and mechanical governance parameters to safely handle Nod-Krai wiki sections without duplicating character work or violating canon guardrails.
+- **source_basis:**
+  - sources/book_texts/nod-krai/
+  - wiki/sources/source-index.md
+  - wiki/research/pass-nk-02-local-source-provenance-index.md
+  - wiki/research/pass-nk-02-source-to-claim-group-map.md
+  - wiki/research/pass-nk-02-risk-and-guardrail-report.md
+- **unresolved_issues:**
+  - Acts II-VII remain strictly blocked due to zero local dialogue transcripts.
+  - Voynich Guild remains blocked and marked as source_missing.
+  - Columbina = Kuutar remains guarded as a local legend / community theory only.
+  - Dottore's false moon god and Sandrone's Rotwang connection remain blocked.
+  - Character foundations for Lauma, Flins, and Aino remain unwritten, pending integration into the global Full Character Foundation Plan.
+- **next_recommended_steps:**
+  - Pass NK-04 — Nod-Krai Character Inventory / Tier / Source Gap Prep (inventory and gap prep only, no character page generation; character work must merge into the global Full Character Foundation Plan).
+
+## 2026-06-21 — Codex Pass NK-04 Nod-Krai Character Inventory / Tier / Source Gap Prep
+
+- **action:**
+  - Conducted an inventory and source-gap preparation pass for characters related to Nod-Krai.
+  - Discovered and categorized 19 character entities (local, cross-region, Harbingers, blocked, and background) based on registered local sources and governance records.
+  - Created a character tier map assigning priority, criteria, and allowed/forbidden actions to five distinct tiers.
+  - Formulated a character source gap map detailing gaps in voice lines, character stories, raw quest dialogues, relationships, and blocked high-risk claims.
+  - Drafted merge guidelines proposing integration of findings into the global Full Character Foundation Plan as a later-region batch.
+  - Conducted a risk and non-duplication audit confirming no character pages were created, modified, or batch-normalized.
+- **files_changed:**
+  - wiki/research/pass-nk-04-character-inventory-prep.md
+  - wiki/research/pass-nk-04-character-tier-map.md
+  - wiki/research/pass-nk-04-character-source-gap-map.md
+  - wiki/research/pass-nk-04-full-character-plan-merge-notes.md
+  - wiki/research/pass-nk-04-risk-and-non-duplication-report.md
+  - wiki/research/pass-nk-04-next-actions.md
+  - wiki/log.md (this entry)
+- **reason:**
+  - Map Nod-Krai character inventory, tier priorities, and source gaps for future integration into the global character plan without performing premature character page upgrades or violating workspace boundaries.
+- **source_basis:**
+  - sources/book_texts/nod-krai/
+  - wiki/research/pass-nk-02-local-source-provenance-index.md
+  - wiki/research/pass-nk-03-region-governance-notes.md
+  - wiki/research/pass-nk-03-faction-governance-notes.md
+  - wiki/research/pass-nk-03-terminology-and-source-status-matrix.md
+  - wiki/research/pass-nk-03-guarded-claims-register.md
+  - wiki/research/pass-11-character-tier-map.md
+  - wiki/research/pass-11-character-source-gap-map.md
+- **unresolved_issues:**
+  - Physical voice lines, character stories, and raw quest dialogues remain missing for all local characters.
+  - Snezhnaya AQ Acts II-VII remain strictly blocked.
+  - High-risk claims (Columbina deity link, Dottore false moon, Sandrone Rotwang link, Skirk Descender link) remain blocked.
+- **next_recommended_steps:**
+  - Return to the global Full Character Foundation Plan.
+
+## 2026-06-21 — Codex Pass NK-05 Nod-Krai / Snezhnaya Acts II–VII Raw Source Search & Provenance Feasibility
+
+- **action:**
+  - Conducted a thorough web search for official and wiki transcripts of "Song of the Welkin Moon" Acts II–VII (and Act VIII).
+  - Fetched and parsed the live Genshin Impact Fandom Wiki article for "Song of the Welkin Moon" to extract its structure and details.
+  - Documented the act titles, quest lists, and lack of raw transcripts for Acts II-VII, proving that they are community-created fanon content.
+  - Compiled a provenance feasibility assessment indicating that local ingestion into the canon layer is unfeasible.
+  - Created a claim group coverage map showing that all related claims must remain blocked or strictly guarded.
+  - Evaluated the quality of external source families, classifying them under the repository's source policy.
+  - Formulated a local ingestion plan for fanon/AU metadata, a risk and quarantine report, and next actions.
+- **files_changed:**
+  - wiki/research/pass-nk-05-acts-ii-vii-source-search-report.md
+  - wiki/research/pass-nk-05-acts-ii-vii-source-candidate-index.md
+  - wiki/research/pass-nk-05-acts-ii-vii-provenance-feasibility.md
+  - wiki/research/pass-nk-05-acts-ii-vii-claim-group-coverage-map.md
+  - wiki/research/pass-nk-05-external-source-quality-report.md
+  - wiki/research/pass-nk-05-local-ingestion-plan.md
+  - wiki/research/pass-nk-05-risk-and-quarantine-report.md
+  - wiki/research/pass-nk-05-next-actions.md
+  - wiki/log.md (this entry)
+- **reason:**
+  - Audit and check the feasibility of unlocking Snezhnaya / Nod-Krai AQ Acts II-VII from blocked status by searching for physical/raw transcripts.
+- **source_basis:**
+  - Genshin Impact Fandom Wiki (online)
+  - Genshin Impact Fanon Wiki (online)
+  - topics/nod-krai/story_summary.md
+  - wiki/sources/SOURCE_ID_RULES.md
+  - wiki/sources/EXTERNAL_SOURCE_POLICY.md
+- **unresolved_issues:**
+  - Snezhnaya Acts II-VII are confirmed as fanon and remain blocked/unavailable in the primary canon layer.
+  - High-risk claims (Columbina deity link, Dottore false moon, Sandrone Rotwang link, Skirk Descender link) remain strictly blocked/guarded.
+- **next_recommended_steps:**
+  - Return to the global Full Character Foundation Plan (Option B) since no official raw sources exist for Nod-Krai Acts II-VII.
+
+## 2026-06-21 — Codex Pass NK-05.1 Nod-Krai / Snezhnaya Acts II–VII Official/Fandom Reclassification Patch
+
+- **action:**
+  - Performed a corrective re-audit of "Song of the Welkin Moon" Acts II–VII (and Act VIII).
+  - Cross-confirmed the official existence of the quests and version updates (Luna I–IV) on `genshin.hoyoverse.com` (Tier A).
+  - Queried the Fandom MediaWiki API to verify page IDs, revision IDs, and timestamps for the main-wiki official-game pages.
+  - Audited the subquest pages, discovering that they contain full, high-quality raw dialogue transcripts (up to 72.8k characters) complete with voice line audio codes.
+  - Reclassified all `EX-` candidates to `AQ-NK-ACT*-PROV-CANDIDATE` (Tier B).
+  - Reassessed the high-risk claim groups, marking them as eligible for future mapping after local ingestion while keeping them strictly guarded.
+  - Formulated a local ingestion readiness plan, risk and correction report, and recommended Option A (Pass NK-06) as the next step.
+- **files_changed:**
+  - wiki/research/pass-nk-05-1-source-reclassification-report.md
+  - wiki/research/pass-nk-05-1-official-source-verification.md
+  - wiki/research/pass-nk-05-1-fandom-page-audit.md
+  - wiki/research/pass-nk-05-1-acts-ii-vii-provenance-candidate-index.md
+  - wiki/research/pass-nk-05-1-claim-group-reassessment.md
+  - wiki/research/pass-nk-05-1-local-ingestion-readiness.md
+  - wiki/research/pass-nk-05-1-risk-and-correction-report.md
+  - wiki/research/pass-nk-05-1-next-actions.md
+  - wiki/log.md (this entry)
+- **reason:**
+  - Correct the misclassification from Pass NK-05 which treated official game main-wiki pages as fanon, and re-audit the source candidates.
+- **source_basis:**
+  - Genshin Impact Fandom Wiki (online - genshin-impact.fandom.com)
+  - HoYoverse Official news & patch notes (online - genshin.hoyoverse.com)
+  - MediaWiki API (online query)
+  - wiki/sources/SOURCE_ID_RULES.md
+  - wiki/sources/EXTERNAL_SOURCE_POLICY.md
+- **invalidated_previous_conclusions:**
+  - Treated `genshin-impact.fandom.com` as the Fanon Wiki.
+  - Concluded that "Song of the Welkin Moon Acts II–VII are entirely fan-created content."
+  - Concluded that "No official raw dialogue transcripts exist because these acts do not exist in the official live game."
+- **unresolved_issues:**
+  - Transcripts are not yet locally ingested (local directories are empty / `local_source_missing`).
+  - High-risk claims remain guarded and must not be upgraded in the wiki pages until full verification.
+- **next_recommended_steps:**
+  - Pass NK-06: Acts II–VII Provenance Ingestion & Source Index Candidate Registration (Option A).
+
+## 2026-06-21 — Codex Pass 14 Liyue Character Foundation Batch
+
+- **action:**
+  - Created 20 Level 2 Character Foundation Pages for the Liyue batch using `_character-template-v2.md`.
+  - Characters created: Baizhu, Beidou, Chongyun, Gaming, Ganyu, Hu Tao, Keqing, Lan Yan, Ningguang, Qiqi, Shenhe, Xiangling, Xianyun, Xiao, Xingqiu, Xinyan, Yanfei, Yaoyao, Yelan, Yun Jin.
+  - Preserved Zhongli.md unchanged (existing Level 2 OOC Risk Audit page with voice-line citations).
+  - All pages include 18 required template sections with source-status-explicit guardrails.
+  - Did not ingest external sources, create source IDs, claim-map the batch, or add fanfic/plot material.
+  - Created 5 research/report files for Pass 14.
+- **files_changed:**
+  - wiki/entities/characters/Baizhu.md
+  - wiki/entities/characters/Beidou.md
+  - wiki/entities/characters/Chongyun.md
+  - wiki/entities/characters/Gaming.md
+  - wiki/entities/characters/Ganyu.md
+  - wiki/entities/characters/Hu Tao.md
+  - wiki/entities/characters/Keqing.md
+  - wiki/entities/characters/Lan Yan.md
+  - wiki/entities/characters/Ningguang.md
+  - wiki/entities/characters/Qiqi.md
+  - wiki/entities/characters/Shenhe.md
+  - wiki/entities/characters/Xiangling.md
+  - wiki/entities/characters/Xianyun.md
+  - wiki/entities/characters/Xiao.md
+  - wiki/entities/characters/Xingqiu.md
+  - wiki/entities/characters/Xinyan.md
+  - wiki/entities/characters/Yanfei.md
+  - wiki/entities/characters/Yaoyao.md
+  - wiki/entities/characters/Yelan.md
+  - wiki/entities/characters/Yun Jin.md
+  - wiki/research/pass-14-liyue-character-foundation-report.md
+  - wiki/research/pass-14-character-update-list.md
+  - wiki/research/pass-14-source-coverage-notes.md
+  - wiki/research/pass-14-risk-and-guardrail-report.md
+  - wiki/research/pass-14-next-actions.md
+  - wiki/log.md
+- **reason:**
+  - Execute Pass 14 from the character roadmap and make Liyue characters usable as source-status-explicit Level 2 foundation pages.
+- **source_basis:**
+  - wiki/entities/characters/_character-template-v2.md
+  - wiki/entities/characters/character-inventory.md
+  - wiki/research/pass-11-full-character-coverage-plan.md
+  - wiki/research/pass-11-character-tier-map.md
+  - wiki/research/pass-11-character-source-gap-map.md
+  - wiki/research/pass-11-batch-roadmap.md
+  - wiki/research/pass-12-template-usage-guide.md
+  - wiki/research/pass-13-mondstadt-character-foundation-report.md
+  - wiki/research/pass-13-next-actions.md
+  - wiki/sources/source-index.md
+  - wiki/sources/SOURCE_ID_RULES.md
+  - wiki/sources/EXTERNAL_SOURCE_POLICY.md
+  - wiki/synthesis/ooc-risk-index.md
+  - wiki/synthesis/headcanon-fanon-policy.md
+  - wiki/synthesis/contradiction-register.md
+  - wiki/synthesis/power-system-governance.md
+  - sources/voice_lines/characters/ (all 21 Liyue characters)
+  - entities/character_intelligence/ as indirect guidance only
+- **unresolved_issues:**
+  - Character-story provenance remains missing for all newly created pages.
+  - Relationship, backstory, power-limit, and major lore claims remain guarded until later provenance and claim-mapping passes.
+  - Zhongli page preserved unchanged but still predates full template-v2 normalization in some areas.
+  - Minor format variation exists across pages (some use table format for Audit Status, others use bullet lists).
+- **next_recommended_steps:**
+  - Pass 15 — Inazuma Character Foundation Batch.
+  - Keep character-story provenance ingestion for Pass 20+ unless explicitly approved.
+  - Keep claim mapping for Pass 26+ unless explicitly approved.
+
+## 2026-06-21 — Codex Pass NK-05.1a Nod-Krai / Snezhnaya Acts II–VII Metadata & Wording Strictness Patch
+
+- **action:**
+  - Applied corrective patch NK-05.1a to resolve metadata and wording strictness issues.
+  - Reaudited and verified all official HoYoverse update URLs for Luna I–IV on `genshin.hoyoverse.com`, correcting them to verified URLs (`159349`, `160521`, `161275`, `162159`, `162081`).
+  - Patched and corrected API metadata (Page IDs, revision IDs, and timestamps) for Snezhnaya Archon Quest Acts II–VIII and all 19 individual subquest pages in `pass-nk-05-1-fandom-page-audit.md`.
+  - Corrected copy-paste metadata typos (Act V page ID is `420143`; *The Dark Side of Memory* revision ID is `2113334`).
+  - Refined wording for all 16 claim groups in `pass-nk-05-1-claim-group-reassessment.md` from "confirmed in transcripts" to "transcript candidate found; eligible for future claim mapping after local ingestion".
+  - Enforced four strict safety statuses (`transcript_candidate_found`, `requires_local_ingestion`, `requires_claim_level_extraction`, `requires_human_review`) for all high-risk claim groups, keeping them strictly flagged as `guarded` or `pending` to prevent premature canonization.
+  - Updated `pass-nk-05-1-risk-and-correction-report.md` and `pass-nk-05-1-next-actions.md` to reflect patch completion and readiness for Pass NK-06.
+- **files_changed:**
+  - [wiki/research/pass-nk-05-1-fandom-page-audit.md](./research/pass-nk-05-1-fandom-page-audit.md)
+  - [wiki/research/pass-nk-05-1-claim-group-reassessment.md](./research/pass-nk-05-1-claim-group-reassessment.md)
+  - [wiki/research/pass-nk-05-1-risk-and-correction-report.md](./research/pass-nk-05-1-risk-and-correction-report.md)
+  - [wiki/research/pass-nk-05-1-next-actions.md](./research/pass-nk-05-1-next-actions.md)
+  - [wiki/log.md](./log.md) (this entry)
+- **reason:**
+  - Address three critical metadata and wording issues identified in Pass NK-05.1 before opening Pass NK-06.
+- **source_basis:**
+  - HoYoverse Official Announcement & Update URLs (online)
+  - Fandom MediaWiki API page metadata (from local query cache results)
+- **unresolved_issues:**
+  - Local dialogue transcripts under `sources/voice_lines/archon_quests/` are empty.
+  - High-risk claims remain guarded and blocked until revision-pinned transcripts are locally ingested in Pass NK-06 and claim-mapped in Pass NK-07.
+- **next_recommended_steps:**
+  - Proceed to Pass NK-06 (Option A) to ingest Snezhnaya / Nod-Krai AQ Acts II-VII transcripts.
+
+## 2026-06-21 — Codex Pass NK-06 Acts II–VII Provenance Ingestion & Source Index Candidate Registration
+
+- **action:**
+  - Formally created 7 local provenance index files for Snezhnaya / Nod-Krai Archon Quest Acts II–VII (and Act VIII as an appendix candidate) under `sources/provenance/archon_quests/nod-krai/`.
+  - Registered these source IDs (AQ-NK-ACT2 through AQ-NK-ACT8) as provenance candidates in `wiki/sources/source-index.md` with reliability "Medium / provenance candidate" and status "provenance_candidate".
+  - Pin-revisioned all 6 acts and 19 subquests to specific MediaWiki oldids and timestamps to secure the index against future community drift.
+  - Mapped high-risk claim groups to potential evidence locations using strictly guarded candidate terminology (e.g. `provenance_candidate_found`, `needs_deep_read`).
+  - Did not ingest full dialogue transcripts, copy walkthrough texts, or update any character, region, faction, or timeline synthesis pages.
+- **files_changed:**
+  - sources/provenance/archon_quests/nod-krai/AQ-NK-ACT2.md
+  - sources/provenance/archon_quests/nod-krai/AQ-NK-ACT3.md
+  - sources/provenance/archon_quests/nod-krai/AQ-NK-ACT4.md
+  - sources/provenance/archon_quests/nod-krai/AQ-NK-ACT5.md
+  - sources/provenance/archon_quests/nod-krai/AQ-NK-ACT6.md
+  - sources/provenance/archon_quests/nod-krai/AQ-NK-ACT7.md
+  - sources/provenance/archon_quests/nod-krai/AQ-NK-ACT8.md
+  - wiki/sources/source-index.md
+  - wiki/research/pass-nk-06-provenance-ingestion-report.md
+  - wiki/research/pass-nk-06-created-provenance-files-report.md
+  - wiki/research/pass-nk-06-source-index-update-report.md
+  - wiki/research/pass-nk-06-act-subquest-revision-map.md
+  - wiki/research/pass-nk-06-transcript-coverage-index.md
+  - wiki/research/pass-nk-06-claim-mapping-prep.md
+  - wiki/research/pass-nk-06-risk-and-guardrail-report.md
+  - wiki/research/pass-nk-06-next-actions.md
+  - wiki/log.md (this entry)
+- **reason:**
+  - Move Snezhnaya / Nod-Krai Acts II–VII from source_missing to provenance_candidate_registered, creating a secure revision-pinned bridge to the script metadata without violating copyright policies or prematurely modifying canon pages.
+- **source_basis:**
+  - wiki/research/pass-nk-05-1-fandom-page-audit.md
+  - wiki/research/pass-nk-05-1-official-source-verification.md
+  - wiki/research/pass-nk-05-1-acts-ii-vii-provenance-candidate-index.md
+  - wiki/research/pass-nk-05-1-claim-group-reassessment.md
+  - wiki/sources/SOURCE_ID_RULES.md
+  - wiki/sources/EXTERNAL_SOURCE_POLICY.md
+- **unresolved_issues:**
+  - High-risk claims remain guarded and must not be upgraded in the wiki pages.
+  - Dialogue transcripts remain unread and unmapped at the claim level.
+- **next_recommended_steps:**
+  - Pass NK-07 — Acts II–VII Deep Read / Claim-Level Extraction Map.
+
+## 2026-06-21 — Codex Pass NK-06.1 Nod-Krai / Snezhnaya Acts II–VII Subquest Count / Coverage Consistency Patch
+
+- **action:**
+  - Recounted and verified the subquests of Snezhnaya / Nod-Krai Archon Quest Acts II–VII from the audited Fandom act pages.
+  - Confirmed all 19 subquests are correctly mapped in the revision maps and transcript coverage indices.
+  - Corrected text summary typos counting "18 subquests" to "19 subquests" across the ingestion report, the global log, and the compact review bundle.
+  - Ensured no changes were made beyond the provenance_candidate status, and kept all high-risk claim groups guarded.
+- **files_changed:**
+  - wiki/research/pass-nk-06-provenance-ingestion-report.md
+  - wiki/research/review-bundle-nk-06.md
+  - wiki/log.md (this entry)
+- **reason:**
+  - Ensure total consistency and correctness of the subquest count and revision mappings across all Pass NK-06 output files.
+- **source_basis:**
+  - wiki/research/pass-nk-05-1-fandom-page-audit.md
+  - wiki/research/pass-nk-06-act-subquest-revision-map.md
+- **unresolved_issues:**
+  - None. Subquest counts are fully consistent.
+- **next_recommended_steps:**
+  - Pass NK-07 — Acts II–VII Deep Read / Claim-Level Extraction Map.
+
+## 2026-06-21 — Codex Pass NK-07 Snezhnaya / Nod-Krai Acts II–VII Deep Read, Claim-Level Extraction, and Controlled Page Source-Status Patch
+
+- **action:**
+  - Completed deep-read of revision-pinned wikitext files and compiled the evidence index of 16 high-risk Snezhnaya/Nod-Krai claim groups.
+  - Registered 16 evidence ID entries under the `NK07-*` naming convention in `wiki/research/pass-nk-07-evidence-index.md`.
+  - Created claim-level extraction map and page patch plan.
+  - Applied controlled source-status patches (Source Coverage Notes, Theory updates, and Source registration) to existing character profiles (`Dottore.md`, `Columbina.md`, `Sandrone.md`, `Aether.md`, and `Lumine.md`).
+  - Patched synthesis registers (`unverified-lore-register.md`, `contradiction-register.md`, `power-system-governance.md`, `priority-source-map.md`) to reflect the new deep-read statuses.
+  - Maintained all claims in strictly guarded status (e.g. `evidence_found_guarded`) instead of declaring them narrator-safe canon.
+  - No new character profiles (like Skirk, Paimon, or Traveler) were created, and no Full Character Plan batches were duplicated.
+  - No dialogue transcripts were copied into the main wiki.
+- **files_changed:**
+  - [wiki/entities/characters/Dottore.md](./entities/characters/Dottore.md)
+  - [wiki/entities/characters/Columbina.md](./entities/characters/Columbina.md)
+  - [wiki/entities/characters/Sandrone.md](./entities/characters/Sandrone.md)
+  - [wiki/entities/characters/Aether.md](./entities/characters/Aether.md)
+  - [wiki/entities/characters/Lumine.md](./entities/characters/Lumine.md)
+  - [wiki/synthesis/unverified-lore-register.md](./synthesis/unverified-lore-register.md)
+  - [wiki/synthesis/contradiction-register.md](./synthesis/contradiction-register.md)
+  - [wiki/synthesis/power-system-governance.md](./synthesis/power-system-governance.md)
+  - [wiki/research/priority-source-map.md](./research/priority-source-map.md)
+  - [wiki/research/pass-nk-07-deep-read-report.md](./research/pass-nk-07-deep-read-report.md)
+  - [wiki/research/pass-nk-07-evidence-index.md](./research/pass-nk-07-evidence-index.md)
+  - [wiki/research/pass-nk-07-claim-level-extraction-map.md](./research/pass-nk-07-claim-level-extraction-map.md)
+  - [wiki/research/pass-nk-07-page-patch-plan.md](./research/pass-nk-07-page-patch-plan.md)
+  - [wiki/research/pass-nk-07-page-patch-report.md](./research/pass-nk-07-page-patch-report.md)
+  - [wiki/research/pass-nk-07-risk-and-guardrail-report.md](./research/pass-nk-07-risk-and-guardrail-report.md)
+  - [wiki/research/pass-nk-07-next-actions.md](./research/pass-nk-07-next-actions.md)
+  - [wiki/research/review-bundle-nk-07.md](./research/review-bundle-nk-07.md)
+  - [wiki/log.md](./log.md) (this entry)
+- **reason:**
+  - Map and register evidence for high-risk Snezhnaya / Nod-Krai claims based on revision-pinned provenance records, and apply controlled status patches to character profiles and registers without canonizing unverified lore or colliding with the character plan.
+- **source_basis:**
+  - Local provenance index files under `sources/provenance/archon_quests/nod-krai/`
+  - Fandom MediaWiki API page wikitext records (downloaded and parsed locally)
+- **unresolved_issues:**
+  - High-risk claims remain guarded and require human-in-the-loop review and cross-source verification.
+  - Character profiles remain locked/blocked pending official voice lines and developer-provided profile details.
+- **next_recommended_steps:**
+  - Return to Full Character Plan — Pass 15 Inazuma Character Foundation Batch.
+  - Optional NK-08 only if human review wants to approve source-status wording.

@@ -53,14 +53,18 @@ Dottore là nhân vật thuộc nhóm rủi ro cao và hiện đang bị khóa k
   * confidence: low
   * notes: Hệ thống phân thân (Segments) chỉ là phác thảo lý thuyết từ tài liệu bên ngoài, chưa được xác minh bằng tệp nguồn vật lý nào trong workspace.
 
+## Source Coverage Notes
+
+- **Nod-Krai Acts II-VIII Source Status**: Pass NK-07 deep-read of `AQ-NK-ACT7` and `AQ-NK-ACT8` wikitext has mapped candidate evidence for Dottore assuming the form "Heretic of the False Moon" and seeking to usurp the authority of the three moons. However, these claims remain `evidence_found_guarded` pending human review and cross-source check. They should not be treated as narrator-safe canon yet.
+
 ## Theory / Interpretation
 
 * [CHAR-DOTTORE-THEORY-001] Giả thuyết Dottore chế tạo Thần Mặt Trăng Giả tại Nod-Krai.
   * label: THEORY
   * source: `wiki/synthesis/unverified-lore-register.md`
-  * source_status: indirect_source_only
-  * confidence: low
-  * notes: Giả thuyết chưa có nguồn xác minh chính thức, tuyệt đối cấm dùng làm xương sống cốt truyện chính.
+  * source_status: evidence_found_guarded
+  * confidence: medium
+  * notes: Bằng chứng hội thoại (Pass NK-07) cho thấy Dottore hóa thân thành "Heretic of the False Moon" và chiếm đoạt Moon Marrow/Authority. Tuy nhiên, thuyết này vẫn nằm trong diện bảo vệ (guarded) chờ kiểm duyệt phê duyệt chính thức.
 
 ## Headcanon / Fanon
 
@@ -126,8 +130,8 @@ Tránh viết OC tương tác trực tiếp hoặc làm vật thí nghiệm củ
 
 ## Sources
 
-* Primary sources: none
-* Indirect sources: none
+* Primary sources: `sources/provenance/archon_quests/nod-krai/AQ-NK-ACT7.md`, `AQ-NK-ACT8.md` (evidence_found_guarded)
+* Indirect sources: `wiki/research/pass-nk-07-evidence-index.md`
 * Analysis sources: `wiki/synthesis/unverified-lore-register.md`, `wiki/synthesis/headcanon-fanon-policy.md`, `wiki/synthesis/ooc-risk-index.md`
 * Missing sources: `entities/character_intelligence/Dottore.md`, `sources/voice_lines/characters/Dottore.md`
 

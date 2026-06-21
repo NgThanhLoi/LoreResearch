@@ -1,0 +1,768 @@
+[
+  {
+    "title": "Kaeya/Lore",
+    "sections": {
+      "parse": {
+        "title": "Kaeya/Lore",
+        "pageid": 408651,
+        "sections": []
+      }
+    },
+    "revision": {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "408651": {
+            "pageid": 408651,
+            "ns": 0,
+            "title": "Kaeya/Lore",
+            "revisions": [
+              {
+                "revid": 1861154,
+                "parentid": 0,
+                "user": "Mikevoir",
+                "timestamp": "2025-10-14T10:46:22Z",
+                "comment": "Mikevoir moved page [[Kaeya/Lore]] to [[Kaeya/Profile]]: new standard"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "title": "Kaeya",
+    "sections": {
+      "parse": {
+        "title": "Kaeya",
+        "pageid": 130,
+        "sections": [
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Gameplay Info",
+            "number": "1",
+            "index": "1",
+            "fromtitle": "Kaeya",
+            "byteoffset": 2667,
+            "anchor": "Gameplay_Info",
+            "linkAnchor": "Gameplay_Info"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Ascensions and Stats",
+            "number": "1.1",
+            "index": "2",
+            "fromtitle": "Kaeya",
+            "byteoffset": 2685,
+            "anchor": "Ascensions_and_Stats",
+            "linkAnchor": "Ascensions_and_Stats"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Talents",
+            "number": "1.2",
+            "index": "3",
+            "fromtitle": "Kaeya",
+            "byteoffset": 2748,
+            "anchor": "Talents",
+            "linkAnchor": "Talents"
+          },
+          {
+            "toclevel": 3,
+            "level": "4",
+            "line": "Talent Upgrade",
+            "number": "1.2.1",
+            "index": "4",
+            "fromtitle": "Kaeya",
+            "byteoffset": 2780,
+            "anchor": "Talent_Upgrade",
+            "linkAnchor": "Talent_Upgrade"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Constellation",
+            "number": "1.3",
+            "index": "5",
+            "fromtitle": "Kaeya",
+            "byteoffset": 2823,
+            "anchor": "Constellation",
+            "linkAnchor": "Constellation"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Availability",
+            "number": "2",
+            "index": "6",
+            "fromtitle": "Kaeya",
+            "byteoffset": 2868,
+            "anchor": "Availability",
+            "linkAnchor": "Availability"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Paimon's Bargains",
+            "number": "2.1",
+            "index": "7",
+            "fromtitle": "Kaeya",
+            "byteoffset": 2977,
+            "anchor": "Paimon's_Bargains",
+            "linkAnchor": "Paimon's_Bargains"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Character Event Wishes",
+            "number": "2.2",
+            "index": "8",
+            "fromtitle": "Kaeya",
+            "byteoffset": 3032,
+            "anchor": "Character_Event_Wishes",
+            "linkAnchor": "Character_Event_Wishes"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Chronicled Wishes",
+            "number": "2.3",
+            "index": "9",
+            "fromtitle": "Kaeya",
+            "byteoffset": 3074,
+            "anchor": "Chronicled_Wishes",
+            "linkAnchor": "Chronicled_Wishes"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Notes",
+            "number": "3",
+            "index": "10",
+            "fromtitle": "Kaeya",
+            "byteoffset": 3125,
+            "anchor": "Notes",
+            "linkAnchor": "Notes"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Other Languages",
+            "number": "4",
+            "index": "11",
+            "fromtitle": "Kaeya",
+            "byteoffset": 3155,
+            "anchor": "Other_Languages",
+            "linkAnchor": "Other_Languages"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Change History",
+            "number": "5",
+            "index": "12",
+            "fromtitle": "Kaeya",
+            "byteoffset": 3511,
+            "anchor": "Change_History",
+            "linkAnchor": "Change_History"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "References",
+            "number": "6",
+            "index": "13",
+            "fromtitle": "Kaeya",
+            "byteoffset": 3554,
+            "anchor": "References",
+            "linkAnchor": "References"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Navigation",
+            "number": "7",
+            "index": "14",
+            "fromtitle": "Kaeya",
+            "byteoffset": 3584,
+            "anchor": "Navigation",
+            "linkAnchor": "Navigation"
+          }
+        ],
+        "showtoc": ""
+      }
+    },
+    "revision": {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "130": {
+            "pageid": 130,
+            "ns": 0,
+            "title": "Kaeya",
+            "revisions": [
+              {
+                "revid": 2077370,
+                "parentid": 2077369,
+                "user": "Leochan100",
+                "timestamp": "2026-04-13T14:36:10Z",
+                "comment": "Undo revision 2077369 by [[Special:Contributions/Uism2|Uism2]] ([[Message Wall:Uism2|wall]])"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "title": "Kaeya/Story",
+    "sections": {
+      "parse": {
+        "title": "Kaeya/Story",
+        "pageid": 95768,
+        "sections": []
+      }
+    },
+    "revision": {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "95768": {
+            "pageid": 95768,
+            "ns": 0,
+            "title": "Kaeya/Story",
+            "revisions": [
+              {
+                "revid": 1861675,
+                "parentid": 424650,
+                "user": "MistySolarBot",
+                "timestamp": "2025-10-14T11:11:10Z",
+                "comment": "/* top */ update redirect target due to /Lore to /Profile move"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "title": "Kaeya/Profile",
+    "sections": {
+      "parse": {
+        "title": "Kaeya/Profile",
+        "pageid": 12187,
+        "sections": [
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Personality",
+            "number": "1",
+            "index": "1",
+            "fromtitle": "Kaeya/Profile",
+            "byteoffset": 617,
+            "anchor": "Personality",
+            "linkAnchor": "Personality"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Appearance",
+            "number": "2",
+            "index": "2",
+            "fromtitle": "Kaeya/Profile",
+            "byteoffset": 2557,
+            "anchor": "Appearance",
+            "linkAnchor": "Appearance"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Character Stories",
+            "number": "3",
+            "index": "3",
+            "fromtitle": "Kaeya/Profile",
+            "byteoffset": 4075,
+            "anchor": "Character_Stories",
+            "linkAnchor": "Character_Stories"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Character Details",
+            "number": "3.1",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "Character_Details",
+            "linkAnchor": "Character_Details"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Character Story 1",
+            "number": "3.2",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "Character_Story_1",
+            "linkAnchor": "Character_Story_1"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Character Story 2",
+            "number": "3.3",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "Character_Story_2",
+            "linkAnchor": "Character_Story_2"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Character Story 3",
+            "number": "3.4",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "Character_Story_3",
+            "linkAnchor": "Character_Story_3"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Character Story 4",
+            "number": "3.5",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "Character_Story_4",
+            "linkAnchor": "Character_Story_4"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Character Story 5",
+            "number": "3.6",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "Character_Story_5",
+            "linkAnchor": "Character_Story_5"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "A List",
+            "number": "3.7",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "A_List",
+            "linkAnchor": "A_List"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Vision",
+            "number": "3.8",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "Vision",
+            "linkAnchor": "Vision"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Namecard",
+            "number": "4",
+            "index": "4",
+            "fromtitle": "Kaeya/Profile",
+            "byteoffset": 15012,
+            "anchor": "Namecard",
+            "linkAnchor": "Namecard"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Constellation",
+            "number": "5",
+            "index": "5",
+            "fromtitle": "Kaeya/Profile",
+            "byteoffset": 15059,
+            "anchor": "Constellation",
+            "linkAnchor": "Constellation"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Quests and Events",
+            "number": "6",
+            "index": "6",
+            "fromtitle": "Kaeya/Profile",
+            "byteoffset": 15114,
+            "anchor": "Quests_and_Events",
+            "linkAnchor": "Quests_and_Events"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Archon Quests",
+            "number": "6.1",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "Archon_Quests",
+            "linkAnchor": "Archon_Quests"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Story Quests",
+            "number": "6.2",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "Story_Quests",
+            "linkAnchor": "Story_Quests"
+          },
+          {
+            "toclevel": 3,
+            "level": "4",
+            "line": "Hangout Events",
+            "number": "6.2.1",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "Hangout_Events",
+            "linkAnchor": "Hangout_Events"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Anecdotes",
+            "number": "6.3",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "Anecdotes",
+            "linkAnchor": "Anecdotes"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Events",
+            "number": "6.4",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "Events",
+            "linkAnchor": "Events"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Web Events",
+            "number": "6.5",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "Web_Events",
+            "linkAnchor": "Web_Events"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Character Trials",
+            "number": "7",
+            "index": "7",
+            "fromtitle": "Kaeya/Profile",
+            "byteoffset": 15159,
+            "anchor": "Character_Trials",
+            "linkAnchor": "Character_Trials"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Domain Levels",
+            "number": "7.1",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "Domain_Levels",
+            "linkAnchor": "Domain_Levels"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Quests",
+            "number": "7.2",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "Quests",
+            "linkAnchor": "Quests"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Quest Domains",
+            "number": "7.3",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "Quest_Domains",
+            "linkAnchor": "Quest_Domains"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Events",
+            "number": "7.4",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "Events_2",
+            "linkAnchor": "Events_2"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Test Run Events",
+            "number": "7.5",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "Test_Run_Events",
+            "linkAnchor": "Test_Run_Events"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Character Mentions",
+            "number": "8",
+            "index": "8",
+            "fromtitle": "Kaeya/Profile",
+            "byteoffset": 15205,
+            "anchor": "Character_Mentions",
+            "linkAnchor": "Character_Mentions"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Character Stories",
+            "number": "8.1",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "Character_Stories_2",
+            "linkAnchor": "Character_Stories_2"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Character Voice-Overs",
+            "number": "8.2",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "Character_Voice-Overs",
+            "linkAnchor": "Character_Voice-Overs"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Mails",
+            "number": "8.3",
+            "index": "",
+            "byteoffset": null,
+            "anchor": "Mails",
+            "linkAnchor": "Mails"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Other Appearances",
+            "number": "9",
+            "index": "9",
+            "fromtitle": "Kaeya/Profile",
+            "byteoffset": 15252,
+            "anchor": "Other_Appearances",
+            "linkAnchor": "Other_Appearances"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Manga",
+            "number": "9.1",
+            "index": "10",
+            "fromtitle": "Kaeya/Profile",
+            "byteoffset": 15274,
+            "anchor": "Manga",
+            "linkAnchor": "Manga"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Mail",
+            "number": "10",
+            "index": "11",
+            "fromtitle": "Kaeya/Profile",
+            "byteoffset": 16147,
+            "anchor": "Mail",
+            "linkAnchor": "Mail"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Trivia",
+            "number": "11",
+            "index": "12",
+            "fromtitle": "Kaeya/Profile",
+            "byteoffset": 16207,
+            "anchor": "Trivia",
+            "linkAnchor": "Trivia"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Etymology",
+            "number": "11.1",
+            "index": "13",
+            "fromtitle": "Kaeya/Profile",
+            "byteoffset": 22510,
+            "anchor": "Etymology",
+            "linkAnchor": "Etymology"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Other Languages",
+            "number": "12",
+            "index": "14",
+            "fromtitle": "Kaeya/Profile",
+            "byteoffset": 23063,
+            "anchor": "Other_Languages",
+            "linkAnchor": "Other_Languages"
+          },
+          {
+            "toclevel": 2,
+            "level": "3",
+            "line": "Character Title: Frostwind Swordsman",
+            "number": "12.1",
+            "index": "15",
+            "fromtitle": "Kaeya/Profile",
+            "byteoffset": 23083,
+            "anchor": "Character_Title:_Frostwind_Swordsman",
+            "linkAnchor": "Character_Title:_Frostwind_Swordsman"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "References",
+            "number": "13",
+            "index": "16",
+            "fromtitle": "Kaeya/Profile",
+            "byteoffset": 24070,
+            "anchor": "References",
+            "linkAnchor": "References"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Navigation",
+            "number": "14",
+            "index": "17",
+            "fromtitle": "Kaeya/Profile",
+            "byteoffset": 24100,
+            "anchor": "Navigation",
+            "linkAnchor": "Navigation"
+          }
+        ],
+        "showtoc": ""
+      }
+    },
+    "revision": {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "12187": {
+            "pageid": 12187,
+            "ns": 0,
+            "title": "Kaeya/Profile",
+            "revisions": [
+              {
+                "revid": 2108515,
+                "parentid": 2062397,
+                "user": "MartinZ02",
+                "timestamp": "2026-06-09T03:14:34Z",
+                "comment": ""
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "title": "Kaeya/Voice-Overs",
+    "sections": {
+      "parse": {
+        "title": "Kaeya/Voice-Overs",
+        "pageid": 12338,
+        "sections": [
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Story",
+            "number": "1",
+            "index": "1",
+            "fromtitle": "Kaeya/Voice-Overs",
+            "byteoffset": 45,
+            "anchor": "Story",
+            "linkAnchor": "Story"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Combat",
+            "number": "2",
+            "index": "2",
+            "fromtitle": "Kaeya/Voice-Overs",
+            "byteoffset": 15800,
+            "anchor": "Combat",
+            "linkAnchor": "Combat"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Trivia",
+            "number": "3",
+            "index": "3",
+            "fromtitle": "Kaeya/Voice-Overs",
+            "byteoffset": 18096,
+            "anchor": "Trivia",
+            "linkAnchor": "Trivia"
+          },
+          {
+            "toclevel": 1,
+            "level": "2",
+            "line": "Navigation",
+            "number": "4",
+            "index": "4",
+            "fromtitle": "Kaeya/Voice-Overs",
+            "byteoffset": 18576,
+            "anchor": "Navigation",
+            "linkAnchor": "Navigation"
+          }
+        ],
+        "showtoc": ""
+      }
+    },
+    "revision": {
+      "batchcomplete": "",
+      "query": {
+        "pages": {
+          "12338": {
+            "pageid": 12338,
+            "ns": 0,
+            "title": "Kaeya/Voice-Overs",
+            "revisions": [
+              {
+                "revid": 2100113,
+                "parentid": 1946395,
+                "user": "ReinDevildom",
+                "timestamp": "2026-05-23T19:47:49Z",
+                "comment": "Added About Lohen"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+]

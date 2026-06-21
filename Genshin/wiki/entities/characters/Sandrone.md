@@ -53,6 +53,10 @@ Sandrone (Marionette) là Quan Chấp Hành thứ 7 của Fatui. Nhân vật nà
   * confidence: high
   * notes: Được chứng thực qua lời thoại của Kẻ Lang Thang trong quá khứ khi còn là Quan Chấp Hành Fatui.
 
+## Source Coverage Notes
+
+- **Nod-Krai Acts II-VIII Source Status**: Pass NK-07 deep-read of `AQ-NK-ACT2`, `AQ-NK-ACT5`, `AQ-NK-ACT7`, và `AQ-NK-ACT8` wikitext đã lập bản đồ bằng chứng cho thấy phân khu thiết kế của Sandrone đóng tại một tàn tích Khaenri'ah và sử dụng công nghệ từ các trường phái Khaenri'ah cổ đại (`AQ-NK-ACT5`). Tuy nhiên, tên gọi "Rotwang" vắng mặt trong các revision được deep-read của Pass NK-07 (Rotwang name absent from checked NK-07 pinned revisions). Các tuyên bố này tiếp tục được bảo vệ dưới dạng `evidence_found_guarded` chờ kiểm duyệt tổng thể.
+
 ## Theory / Interpretation
 
 * [CHAR-SANDRONE-THEORY-001] Giả thuyết Sandrone là con rối được điều khiển bởi thực thể cơ khí khổng lồ đi kèm cô, hoặc ngược lại.
@@ -61,6 +65,18 @@ Sandrone (Marionette) là Quan Chấp Hành thứ 7 của Fatui. Nhân vật nà
   * source_status: source_missing
   * confidence: low
   * notes: Giả thuyết cộng đồng phổ biến do ngoại hình thiết kế nhân vật, không có nguồn xác minh trong workspace.
+* [CHAR-SANDRONE-THEORY-002] Sandrone sử dụng công nghệ cơ khí từ các trường phái Khaenri'ah và thiết lập phân khu nghiên cứu tại tàn tích Khaenri'ah ở Nod-Krai.
+  * label: THEORY
+  * source: `sources/provenance/archon_quests/nod-krai/AQ-NK-ACT5.md`
+  * source_status: evidence_found_guarded
+  * confidence: medium
+  * notes: Được ghi nhận qua lời thoại của Wanderer trong Act V, phân khu của cô đóng tại tàn tích Khaenri'ah và sử dụng các trường phái cơ khí cổ đại.
+* [CHAR-SANDRONE-THEORY-003] Sandrone có liên kết trực tiếp với thực thể hoặc tên gọi "Rotwang".
+  * label: THEORY
+  * source: none
+  * source_status: source_missing_after_deep_read
+  * confidence: low
+  * notes: Pass NK-07 deep-read xác nhận tên gọi "Rotwang" vắng mặt trong các checked pinned revisions (Rotwang name absent from checked NK-07 pinned revisions). Claim bị khóa.
 
 ## Headcanon / Fanon
 
@@ -123,8 +139,8 @@ OC tiếp cận cô dưới tư cách vật liệu nghiên cứu cơ khí hoặc
 
 ## Sources
 
-* Primary sources: none
-* Indirect sources: none
+* Primary sources: `sources/provenance/archon_quests/nod-krai/AQ-NK-ACT2.md`, `AQ-NK-ACT5.md`, `AQ-NK-ACT7.md`, `AQ-NK-ACT8.md` (evidence_found_guarded)
+* Indirect sources: `wiki/research/pass-nk-07-evidence-index.md`
 * Analysis sources: `wiki/synthesis/headcanon-fanon-policy.md`, `wiki/synthesis/ooc-risk-index.md`
 * Missing sources: `entities/character_intelligence/Sandrone.md`, `sources/voice_lines/characters/Sandrone.md`
 

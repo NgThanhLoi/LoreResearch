@@ -3,7 +3,7 @@ wiki_type: entity
 entity_type: character
 status: active
 reliability: mixed
-last_audited: 2026-06-20
+last_audited: 2026-06-21
 source_level: mixed
 tags: ["character", "mondstadt", "băng"]
 related_pages: ["./Diluc.md", "./Jean.md", "./Lisa.md"]
@@ -15,14 +15,36 @@ related_pages: ["./Diluc.md", "./Jean.md", "./Lisa.md"]
 
 * audit_level: Level 2 OOC Risk Audit
 * source_status: mixed
-* primary_sources_found: `sources/voice_lines/characters/Kaeya.md`
+* primary_sources_found: `sources/voice_lines/characters/Kaeya.md`, `sources/character_stories/Kaeya.md` (`CS-KAEYA-001`)
 * indirect_sources: `entities/character_intelligence/Kaeya.md`
-* missing_sources: `sources/character_stories/` (không tồn tại trong workspace)
-* unresolved_issues: Thiếu file câu chuyện nhân vật (character stories) và hội thoại nhiệm vụ (quest dialogue) thô để xác minh trực tiếp mối quan hệ hoàng tộc Khaenri'ah và chi tiết cuộc chiến với Diluc.
+* missing_sources: hội thoại nhiệm vụ (quest dialogue) thô cho các chi tiết ngoài phạm vi `CS-KAEYA-001`
+* unresolved_issues: `CS-KAEYA-001` chỉ là hồ sơ provenance/API extraction index, không phải transcript đầy đủ; các chi tiết rộng về sứ mệnh Khaenri'ah vẫn cần xử lý thận trọng.
 
 ## Summary
 
-Kaeya Alberich là Đội trưởng Đội Kỵ Binh của Đội Kỵ Sĩ Tây Phong. Anh là một kiếm sĩ hệ Băng có phong cách lịch thiệp, lôi cuốn nhưng đầy bí ẩn, đóng vai trò trưởng mạng lưới tình báo Mondstadt. Kaeya mang dòng máu hoàng gia/nhiếp chính vương của vương quốc cổ đại Khaenri'ah, được bỏ lại trước Tửu Trang Dawn khi còn nhỏ và được gia tộc Ragnvindr nhận nuôi. Sau cái chết của cha nuôi Crepus, mâu thuẫn thân phận giữa Mondstadt và Khaenri'ah khiến mối quan hệ giữa anh và anh trai nuôi Diluc rạn nứt sâu sắc.
+Kaeya Alberich là Đội trưởng Đội Kỵ Binh của Đội Kỵ Sĩ Tây Phong. Anh là một kiếm sĩ hệ Băng có phong cách lịch thiệp, lôi cuốn nhưng đầy bí ẩn, thường thu thập thông tin qua các quan hệ xã hội và bối cảnh quán rượu ở Mondstadt. Kaeya có nguồn gốc liên quan đến Khaenri'ah, được bỏ lại trước Tửu Trang Dawn khi còn nhỏ và được gia tộc Ragnvindr nhận nuôi. Sau cái chết của cha nuôi Crepus, mâu thuẫn thân phận giữa Mondstadt và Khaenri'ah khiến mối quan hệ giữa anh và anh trai nuôi Diluc rạn nứt sâu sắc.
+
+### Source Coverage Notes
+
+* Ragnvindr adoption:
+  - source_status: primary_source_found
+  - source_ids:
+    * CS-KAEYA-001
+  - evidence_ids:
+    * CS-KAEYA-001-E01
+* Khaenri'ah-related concealed past / burden:
+  - source_status: partial_support_only
+  - source_ids:
+    * CS-KAEYA-001
+  - evidence_ids:
+    * CS-KAEYA-001-E05
+  - notes: "CS-KAEYA-001-E05 supports concealed past and Khaenri'ah-related burden, but not broad mission details."
+* Diluc / Crepus historical rupture:
+  - source_status: supporting_source
+  - source_ids:
+    * CS-KAEYA-001
+  - evidence_ids:
+    * CS-KAEYA-001-E06
 
 ## Canon Identity
 
@@ -31,17 +53,31 @@ Kaeya Alberich là Đội trưởng Đội Kỵ Binh của Đội Kỵ Sĩ Tây 
 | Name           | Kaeya Alberich | CANON | `sources/voice_lines/characters/Kaeya.md` | primary_source_found |
 | Region         | Mondstadt (Nguồn gốc: Khaenri'ah) | CANON | `sources/voice_lines/characters/Kaeya.md` | primary_source_found |
 | Faction        | Đội Kỵ Sĩ Tây Phong | CANON | `sources/voice_lines/characters/Kaeya.md` | primary_source_found |
-| Role           | Đội trưởng Đội Kỵ Binh | CANON | `sources/voice_lines/characters/Kaeya.md` | primary_source_found |
+| Role           | Đội trưởng Đội Kỵ Binh | CANON | `sources/voice_lines/characters/Kaeya.md`; `CS-KAEYA-001` (`CS-KAEYA-001-E01`) | primary_source_found |
 | Vision / Power | Băng (Cryo) | CANON | `sources/voice_lines/characters/Kaeya.md` | primary_source_found |
+
+Vision acquisition context:
+- source_status: primary_source_found
+- source_ids:
+  * CS-KAEYA-001
+- evidence_ids:
+  * CS-KAEYA-001-E07
+- notes: Vision acquisition context is supported by the verified Vision evidence field; the table row above only records Cryo power.
 
 ## Canon Personality
 
-* [CHAR-KAEYA-TRAIT-001] Kaeya là người lãnh đạo mạng lưới thông tin tình báo của Đội Kỵ Sĩ Tây Phong, thường dùng mưu mẹo để tội phạm tự khai.
+* [CHAR-KAEYA-TRAIT-001] Kaeya thường thu thập thông tin qua bối cảnh quán rượu/quan hệ xã hội và dùng chiến thuật thực dụng để xử lý tình huống khi cần.
   * label: CANON
   * source: `entities/character_intelligence/Kaeya.md#L33`
-  - source_status: indirect_source_only
-  - needs_primary_source: true
-  - confidence: medium
+  - source_status: primary_source_found
+  - source_ids:
+    * CS-KAEYA-001
+  - evidence_ids:
+    * CS-KAEYA-001-E02
+    * CS-KAEYA-001-E03
+    * CS-KAEYA-001-E04
+  - notes: Wording narrowed to tavern/social information gathering and pragmatic strategy; do not portray recklessness as his default personality.
+  - confidence: high
 * [CHAR-KAEYA-TRAIT-002] Kaeya cưng chiều Klee và bày các trò nghịch ngợm trốn tránh sự kiểm tra của Jean cho cô bé.
   * label: CANON
   * source: `sources/voice_lines/characters/Kaeya.md` ("Về Klee")
@@ -65,11 +101,16 @@ Kaeya Alberich là Đội trưởng Đội Kỵ Binh của Đội Kỵ Sĩ Tây 
 
 ## Strongly Implied Traits
 
-* [CHAR-KAEYA-IMPLIED-001] Kaeya mang gánh nặng giằng xé nội tâm sâu sắc giữa trung thành với quê hương nuôi dưỡng Mondstadt và định mệnh phục hưng Khaenri'ah của gia tộc Alberich.
+* [CHAR-KAEYA-IMPLIED-001] Kaeya che giấu quá khứ liên quan đến Khaenri'ah và mang gánh nặng nội tâm giữa Mondstadt với nguồn gốc Alberich/Khaenri'ah.
   * label: STRONGLY IMPLIED
   * source: `entities/character_intelligence/Kaeya.md#L11`
-  - source_status: indirect_source_only
-  - confidence: high
+  - source_status: partial_support_only
+  - source_ids:
+    * CS-KAEYA-001
+  - evidence_ids:
+    * CS-KAEYA-001-E05
+  - notes: "CS-KAEYA-001-E05 supports concealed past and Khaenri'ah-related burden, but not broad mission details."
+  - confidence: medium
 * [CHAR-KAEYA-IMPLIED-002] Đeo bịt mắt phải để che giấu đặc điểm đồng tử hình chữ thập đặc trưng của dòng máu Khaenri'ah.
   * label: STRONGLY IMPLIED
   * source: `entities/character_intelligence/Kaeya.md#L32`
@@ -113,7 +154,7 @@ Kaeya Alberich là Đội trưởng Đội Kỵ Binh của Đội Kỵ Sĩ Tây 
 
 | Related character | Relationship | Label | Source | Source status | Notes |
 | ----------------- | ------------ | ----- | ------ | ------------- | ----- |
-| Diluc Ragnvindr | Anh em nuôi / Quan hệ phức tạp ngoài lạnh trong ấm | CANON | `sources/voice_lines/characters/Kaeya.md` ("Về Diluc") | primary_source_found | Đấu kiếm đêm Crepus mất, hiện tại mỉa mai ngoài mặt nhưng ngầm bảo vệ nhau. |
+| Diluc Ragnvindr | Anh em nuôi / Quan hệ phức tạp ngoài lạnh trong ấm | CANON | `sources/voice_lines/characters/Kaeya.md` ("Về Diluc"); `CS-KAEYA-001` (`CS-KAEYA-001-E06`) | primary_source_found | Voice line supports present attitude; `CS-KAEYA-001-E06` is supporting_source for historical rupture around Crepus's death. |
 | Jean Gunnhildr | Đội trưởng và cánh tay tình báo đắc lực | CANON | `sources/voice_lines/characters/Kaeya.md` ("Về Jean") | primary_source_found | Tôn trọng và phối hợp bảo vệ Mondstadt. |
 | Klee | Em gái nhỏ cưng chiều | CANON | `sources/voice_lines/characters/Kaeya.md` ("Về Klee") | primary_source_found | Bao che các trò nghịch ngợm của cô bé. |
 
@@ -152,10 +193,10 @@ OC có thể bị Kaeya đưa vào tầm ngắm tình báo và thử thách lòn
 
 ## Sources
 
-* Primary sources: `sources/voice_lines/characters/Kaeya.md`
+* Primary sources: `sources/voice_lines/characters/Kaeya.md`, `sources/character_stories/Kaeya.md` (`CS-KAEYA-001`)
 * Indirect sources: `entities/character_intelligence/Kaeya.md`
 * Analysis sources: `wiki/synthesis/headcanon-fanon-policy.md`, `wiki/synthesis/ooc-risk-index.md`
-* Missing sources: `sources/character_stories/`
+* Missing sources: raw quest dialogue outside the scoped `CS-KAEYA-001` character-story provenance record
 
 ## Related Pages
 
