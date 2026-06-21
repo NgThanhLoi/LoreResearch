@@ -1379,3 +1379,120 @@
 - **next_recommended_steps:**
   - Return to Full Character Plan — Pass 15 Inazuma Character Foundation Batch.
   - Optional NK-08 only if human review wants to approve source-status wording.
+
+## 2026-06-21 — Codex Pass 15 Inazuma Character Foundation Batch
+
+- **action:**
+  - Created 15 Level 2 Character Foundation Pages for the Inazuma batch using `_character-template-v2.md`.
+  - Characters created: Arataki Itto, Chiori, Gorou, Kaedehara Kazuha, Kamisato Ayaka, Kamisato Ayato, Kirara, Kujou Sara, Kuki Shinobu, Sangonomiya Kokomi, Sayu, Shikanoin Heizou, Thoma, Yae Miko, Yoimiya.
+  - Preserved Raiden Shogun.md unchanged (existing Level 2 audited page with CON-0014 Ei/Shogun separation).
+  - All pages include 18 required template sections with source-status-explicit guardrails.
+  - Used consistent table-format Audit Status across all new pages.
+  - Did not ingest external sources, create source IDs, claim-map the batch, or add fanfic/plot material.
+  - Created 5 research/report files for Pass 15.
+- **files_changed:**
+  - wiki/entities/characters/Arataki Itto.md
+  - wiki/entities/characters/Chiori.md
+  - wiki/entities/characters/Gorou.md
+  - wiki/entities/characters/Kaedehara Kazuha.md
+  - wiki/entities/characters/Kamisato Ayaka.md
+  - wiki/entities/characters/Kamisato Ayato.md
+  - wiki/entities/characters/Kirara.md
+  - wiki/entities/characters/Kujou Sara.md
+  - wiki/entities/characters/Kuki Shinobu.md
+  - wiki/entities/characters/Sangonomiya Kokomi.md
+  - wiki/entities/characters/Sayu.md
+  - wiki/entities/characters/Shikanoin Heizou.md
+  - wiki/entities/characters/Thoma.md
+  - wiki/entities/characters/Yae Miko.md
+  - wiki/entities/characters/Yoimiya.md
+  - wiki/research/pass-15-inazuma-character-foundation-report.md
+  - wiki/research/pass-15-character-update-list.md
+  - wiki/research/pass-15-source-coverage-notes.md
+  - wiki/research/pass-15-risk-and-guardrail-report.md
+  - wiki/research/pass-15-next-actions.md
+  - wiki/log.md
+- **reason:**
+  - Execute Pass 15 from the character roadmap and make Inazuma characters usable as source-status-explicit Level 2 foundation pages.
+- **source_basis:**
+  - wiki/entities/characters/_character-template-v2.md
+  - wiki/research/pass-11-full-character-coverage-plan.md
+  - wiki/research/pass-11-character-tier-map.md
+  - wiki/research/pass-11-batch-roadmap.md
+  - wiki/research/pass-12-template-usage-guide.md
+  - wiki/research/pass-13-mondstadt-character-foundation-report.md
+  - wiki/research/pass-14-liyue-character-foundation-report.md
+  - wiki/research/pass-14-next-actions.md
+  - wiki/sources/source-index.md
+  - wiki/sources/SOURCE_ID_RULES.md
+  - wiki/sources/EXTERNAL_SOURCE_POLICY.md
+  - wiki/synthesis/ooc-risk-index.md
+  - wiki/synthesis/headcanon-fanon-policy.md
+  - wiki/synthesis/contradiction-register.md
+  - wiki/synthesis/power-system-governance.md
+  - sources/voice_lines/characters/ (all 16 Inazuma characters)
+  - entities/character_intelligence/ as indirect guidance only
+- **unresolved_issues:**
+  - Character-story provenance remains missing for all newly created pages.
+  - Relationship, backstory, power-limit, and major lore claims remain guarded until later provenance and claim-mapping passes.
+  - Raiden Shogun page preserved unchanged; no template-v2 table normalization attempted to avoid downgrade risk.
+  - No source-index changes made.
+  - No source IDs created.
+  - No character-story provenance ingestion performed.
+  - No claim mapping performed.
+- **next_recommended_steps:**
+  - Pass 16 — Sumeru Character Foundation Batch.
+  - Keep character-story provenance ingestion for Pass 20+ unless explicitly approved.
+  - Keep claim mapping for Pass 26+ unless explicitly approved.
+
+---
+
+## 2026-06-21 — Pass 16: Sumeru Character Foundation Batch
+
+- **action:** Created 12 new Level 2 Character Foundation Pages for Sumeru characters. Preserved 2 existing audited pages (Nahida, Kẻ Lang Thang) without modification.
+- **files_changed:**
+  - wiki/entities/characters/Alhaitham.md (created)
+  - wiki/entities/characters/Candace.md (created)
+  - wiki/entities/characters/Collei.md (created)
+  - wiki/entities/characters/Cyno.md (created)
+  - wiki/entities/characters/Dehya.md (created)
+  - wiki/entities/characters/Dori.md (created)
+  - wiki/entities/characters/Faruzan.md (created)
+  - wiki/entities/characters/Kaveh.md (created)
+  - wiki/entities/characters/Layla.md (created)
+  - wiki/entities/characters/Nilou.md (created)
+  - wiki/entities/characters/Sethos.md (created)
+  - wiki/entities/characters/Tighnari.md (created)
+  - wiki/research/pass-16-sumeru-character-foundation-report.md (created)
+  - wiki/research/pass-16-character-update-list.md (created)
+  - wiki/research/pass-16-source-coverage-notes.md (created)
+  - wiki/research/pass-16-risk-and-guardrail-report.md (created)
+  - wiki/research/pass-16-next-actions.md (created)
+  - wiki/log.md (updated)
+- **reason:** Continue regional character foundation batch sequence (Pass 13 Mondstadt → Pass 14 Liyue → Pass 15 Inazuma → Pass 16 Sumeru). Provide safe baseline Level 2 pages for all 14 Sumeru characters using source-first methodology and template v2.
+- **source_basis:**
+  - sources/voice_lines/characters/ (all 14 Sumeru character voice files — primary source)
+  - entities/character_intelligence/ (indirect guidance only, NOT primary)
+  - wiki/entities/characters/Nahida.md (existing audited page — preserved)
+  - wiki/entities/characters/Kẻ Lang Thang.md (existing audited page — preserved)
+  - wiki/entities/characters/_character-template-v2.md
+  - wiki/research/pass-11-*.md through pass-15-*.md
+  - wiki/synthesis/ooc-risk-index.md
+  - wiki/synthesis/headcanon-fanon-policy.md
+- **unresolved_issues:**
+  - Character-story provenance remains missing for all 12 newly created pages.
+  - Backstory, major lore claims, and detailed powers remain source_missing until character stories are ingested.
+  - High-risk Sumeru lore (Irminsul, Rukkhadevata, King Deshret, Akademiya politics, Eremite factions, Eleazar/Withering) guarded in Theory/Interpretation sections only.
+  - Nahida page preserved unchanged — CON-0013 and Irminsul mechanics intact.
+  - Kẻ Lang Thang page preserved unchanged — CON-0012 and Irminsul rewrite rules intact.
+  - No duplicate Wanderer.md created.
+  - No source-index changes made.
+  - No source IDs created.
+  - No character-story provenance ingestion performed.
+  - No claim mapping performed.
+  - character_intelligence was NOT used as primary source.
+  - STRONGLY IMPLIED was NOT used for intelligence-only claims.
+- **next_recommended_steps:**
+  - Pass 17 — Fontaine Character Foundation Batch.
+  - Keep character-story provenance ingestion for Pass 20+ unless explicitly approved.
+  - Keep claim mapping for Pass 26+ unless explicitly approved.
