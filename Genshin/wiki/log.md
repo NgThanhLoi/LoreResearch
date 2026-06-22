@@ -1245,7 +1245,50 @@
   - Zhongli page preserved unchanged but still predates full template-v2 normalization in some areas.
   - Minor format variation exists across pages (some use table format for Audit Status, others use bullet lists).
 - **next_recommended_steps:**
-  - Pass 15 — Inazuma Character Foundation Batch.
+  - Pass 19 — Cross-Faction Source-Light Batch.
+  - Keep character-story provenance ingestion for Pass 20+ unless explicitly approved.
+  - Keep claim mapping for Pass 26+ unless explicitly approved.
+
+---
+
+## 2026-06-22 — Pass 18.2: Natlan Report Scope + Canon Identity Table Consistency Patch
+
+- **action:** Fixed 3 remaining blocking issues from Pass 18/18.1 review: (1) removed all Capitano references from Pass 18/18.1 reports since Capitano was never in scope, (2) corrected all file paths from wrong `characters/natlan/` format to correct `wiki/entities/characters/` format, (3) normalized Canon Identity table schema in Mavuika, Mualani, Ororon, and Xilonen to match Pass 15/16 standard (Label = CANON/STRONGLY IMPLIED/THEORY, Source status = primary_source_found/partial_support_only/source_missing).
+- **files_changed:**
+  - wiki/research/pass-18-1-template-overclaim-fix-report.md (removed Capitano from character table, fixed all paths, removed Capitano from unresolved issues and next steps)
+  - wiki/research/pass-18-character-update-list.md (replaced Capitano row with Kachina, fixed all paths, corrected notes)
+  - wiki/research/pass-18-natlan-character-foundation-report.md (replaced Capitano with Kachina in character table, fixed paths)
+  - wiki/research/pass-18-source-coverage-notes.md (replaced Capitano row/section with Kachina, reformatted coverage table)
+  - wiki/research/pass-18-risk-and-guardrail-report.md (removed Capitano standalone section, fixed character risk descriptions)
+  - wiki/research/pass-18-next-actions.md (removed Capitano references, corrected Pass 19 recommendation to Cross-Faction Source-Light Batch)
+  - wiki/entities/characters/Mavuika.md (normalized Canon Identity table: Label → CANON, Source → full backtick paths, Source status → primary_source_found)
+  - wiki/entities/characters/Mualani.md (same Canon Identity table normalization)
+  - wiki/entities/characters/Ororon.md (same Canon Identity table normalization)
+  - wiki/entities/characters/Xilonen.md (same Canon Identity table normalization)
+  - wiki/log.md (this entry)
+- **reason:** Human review found: (1) Capitano incorrectly listed as Pass 18/18.1 character — was never in scope, (2) reports used wrong path format `characters/natlan/` instead of `wiki/entities/characters/`, (3) Canon Identity tables in 4 pages had descriptions in Label column and "CANON" in Source status column instead of proper schema.
+- **source_basis:**
+  - Pass 18 prompt scope: Chasca, Citlali, Kachina, Kinich, Mavuika, Mualani, Ororon, Xilonen (8 characters only)
+  - Pass 15/16 Canon Identity table format as reference standard
+  - `_character-template-v2.md` Canon Identity table schema
+- **compliance:**
+  - No source-index changes.
+  - No source IDs created.
+  - No external/web/API used.
+  - No character-story provenance ingestion.
+  - No claim mapping performed.
+  - Ifa/Iansan/Varesa skipped status preserved.
+  - Mavuika/Natlan mechanics remain guarded.
+- **counts:**
+  - Reports fixed: 6
+  - Character pages fixed: 4 (Canon Identity tables only)
+  - Capitano references removed: all from Pass 18/18.1 context (preserved legitimate Ororon voice-line Capitano mentions in review bundle notes)
+  - Kachina restored in all 8-character lists
+- **unresolved_issues:**
+  - Character-story provenance remains missing for all 8 pages.
+  - Ifa, Iansan, Varesa remain skipped/source_missing.
+- **next_recommended_steps:**
+  - Pass 19 — Cross-Faction Source-Light Batch.
   - Keep character-story provenance ingestion for Pass 20+ unless explicitly approved.
   - Keep claim mapping for Pass 26+ unless explicitly approved.
 
@@ -1494,5 +1537,177 @@
   - STRONGLY IMPLIED was NOT used for intelligence-only claims.
 - **next_recommended_steps:**
   - Pass 17 — Fontaine Character Foundation Batch.
+  - Keep character-story provenance ingestion for Pass 20+ unless explicitly approved.
+  - Keep claim mapping for Pass 26+ unless explicitly approved.
+
+---
+
+## 2026-06-21 — Pass 17: Fontaine Character Foundation Batch
+
+- **action:** 14 rows reviewed. Created 10 new Level 2 Character Foundation Pages for Fontaine characters (12 in-scope: 10 created, 2 preserved unchanged — Furina, Neuvillette). 2 out-of-scope checks: Arlecchino inspected/preserved read-only (Pass 19 target), Escoffier skipped (out_of_scope, no local voice-line file).
+- **files_changed:**
+  - wiki/entities/characters/Charlotte.md (created)
+  - wiki/entities/characters/Chevreuse.md (created)
+  - wiki/entities/characters/Clorinde.md (created)
+  - wiki/entities/characters/Emilie.md (created)
+  - wiki/entities/characters/Freminet.md (created)
+  - wiki/entities/characters/Lynette.md (created)
+  - wiki/entities/characters/Lyney.md (created)
+  - wiki/entities/characters/Navia.md (created)
+  - wiki/entities/characters/Sigewinne.md (created)
+  - wiki/entities/characters/Wriothesley.md (created)
+  - wiki/research/pass-17-fontaine-character-foundation-report.md (created)
+  - wiki/research/pass-17-character-update-list.md (created)
+  - wiki/research/pass-17-source-coverage-notes.md (created)
+  - wiki/research/pass-17-risk-and-guardrail-report.md (created)
+  - wiki/research/pass-17-next-actions.md (created)
+  - wiki/log.md (updated)
+- **reason:** Continue regional character foundation batch sequence (Pass 13 Mondstadt → Pass 14 Liyue → Pass 15 Inazuma → Pass 16 Sumeru → Pass 17 Fontaine). Provide safe baseline Level 2 pages for all 10 new Fontaine characters using source-first methodology and template v2.
+- **source_basis:**
+  - sources/voice_lines/characters/ (all 10 new Fontaine character voice files — primary source)
+  - entities/character_intelligence/ (indirect guidance only, NOT primary)
+  - wiki/entities/characters/Furina.md (existing audited page — preserved)
+  - wiki/entities/characters/Neuvillette.md (existing audited page — preserved)
+  - wiki/entities/characters/Arlecchino.md (existing audited page — preserved, out of batch scope)
+  - wiki/entities/characters/_character-template-v2.md
+  - wiki/research/pass-11-*.md through pass-16-*.md
+  - wiki/synthesis/ooc-risk-index.md
+  - wiki/synthesis/headcanon-fanon-policy.md
+- **unresolved_issues:**
+  - Character-story provenance remains missing for all 10 newly created pages.
+  - Backstory, major lore claims, and detailed powers remain source_missing until character stories are ingested.
+  - High-risk Fontaine lore (Furina/Focalors identity, Hydro Dragon authority, Primordial Sea, prophecy, Oratrice, Fortress of Meropide, House of the Hearth, Spina di Rosula, Champion Duelist, Melusine physiology) guarded in Theory/Interpretation sections only.
+  - Furina page preserved unchanged — Focalors boundary, VLAQ source IDs, 500-year ordeal handling intact.
+  - Neuvillette page preserved unchanged — Hydro Dragon authority, Melusine protection rules intact.
+  - Arlecchino page preserved unchanged — Pass 19 Cross-Faction target, not rewritten.
+  - Escoffier skipped — out_of_scope, no local voice-line file found.
+  - No source-index changes made.
+  - No source IDs created.
+  - No character-story provenance ingestion performed.
+  - No claim mapping performed.
+  - character_intelligence was NOT used as primary source.
+  - STRONGLY IMPLIED was NOT used for intelligence-only claims.
+- **next_recommended_steps:**
+  - Pass 18 — Natlan / Later Region Foundation Batch.
+  - Keep character-story provenance ingestion for Pass 20+ unless explicitly approved.
+  - Keep claim mapping for Pass 26+ unless explicitly approved.
+
+---
+
+## 2026-06-22 — Pass 18: Natlan Character Foundation Batch
+
+- **action:** 11 rows reviewed. Created 8 new Level 2 Character Foundation Pages for Natlan characters. 3 characters skipped due to missing voice line files (Ifa, Iansan, Varesa). No pre-existing Natlan pages to preserve.
+- **files_changed:**
+  - wiki/entities/characters/Chasca.md (created)
+  - wiki/entities/characters/Citlali.md (created)
+  - wiki/entities/characters/Kachina.md (created)
+  - wiki/entities/characters/Kinich.md (created)
+  - wiki/entities/characters/Mavuika.md (created)
+  - wiki/entities/characters/Mualani.md (created)
+  - wiki/entities/characters/Ororon.md (created)
+  - wiki/entities/characters/Xilonen.md (created)
+  - wiki/research/pass-18-natlan-character-foundation-report.md (created)
+  - wiki/research/pass-18-character-update-list.md (created)
+  - wiki/research/pass-18-source-coverage-notes.md (created)
+  - wiki/research/pass-18-risk-and-guardrail-report.md (created)
+  - wiki/research/pass-18-next-actions.md (created)
+  - wiki/research/review-bundle-pass-18.md (created)
+  - wiki/log.md (updated)
+- **reason:** Continue regional character foundation batch sequence (Pass 13 Mondstadt → Pass 14 Liyue → Pass 15 Inazuma → Pass 16 Sumeru → Pass 17 Fontaine → Pass 18 Natlan). Provide safe baseline Level 2 pages for all 8 Natlan characters with voice line coverage using source-first methodology and template v2.
+- **source_basis:**
+  - sources/voice_lines/characters/ (all 8 Natlan character voice files — primary source)
+  - entities/character_intelligence/ (indirect guidance only, NOT primary)
+  - wiki/entities/characters/_character-template-v2.md
+  - wiki/research/pass-11-*.md through pass-17-*.md
+  - wiki/synthesis/ooc-risk-index.md
+  - wiki/synthesis/headcanon-fanon-policy.md
+  - wiki/sources/source-index.md (inspected read-only, not modified)
+- **characters_created:**
+  - Chasca — Anemo, Flower-Feather Clan mediator, raised by Qucusaur, gun wielder
+  - Citlali — Cryo, Masters of the Night-Wind shaman/elder, divination, novel reader
+  - Kachina — Geo, Children of Echoes, Ancient Name Uthabiti, Tepetlisaur companion Ayo
+  - Kinich — Dendro, Scions of the Canopy, Saurian Hunter, companion Ajaw
+  - Mavuika — Pyro Archon, 500-year history, Sacred Flame, motorcycle by Xilonen
+  - Mualani — Hydro, People of the Springs guide/surfer, Ancient Name Umoja
+  - Ororon — Electro, Masters of the Night-Wind, soul-sensing ability, vegetable grower
+  - Xilonen — Geo, Children of Echoes, smith/Ancient Name Forger, uses Phlogiston
+- **characters_skipped:**
+  - Ifa — no local voice line file, source_missing
+  - Iansan — no local voice line file, source_missing
+  - Varesa — no local voice line file, source_missing
+- **unresolved_issues:**
+  - Character-story provenance remains missing for all 8 newly created pages.
+  - Backstory, major lore claims, and detailed powers remain source_missing until character stories are ingested.
+  - High-risk Natlan lore (Night Kingdom, Wayob, Nightsoul, phlogiston mechanics, Ancient Name system, Ode of Resurrection, Xbalanque, Abyss war, Capitano) guarded in Theory/Interpretation sections only with partial_support_only or source_missing status.
+  - Mavuika Archon identity split: basic identity CANON from voice lines, major lore mechanics (500-year plan, death/resurrection, Sacred Flame details) remain source_missing or partial_support_only.
+  - Ifa, Iansan, Varesa remain at Level 0 / source_missing until voice line files are added.
+  - No source-index changes made.
+  - No source IDs created.
+  - No character-story provenance ingestion performed.
+  - No claim mapping performed.
+  - character_intelligence was NOT used as primary source.
+  - STRONGLY IMPLIED was NOT used for intelligence-only claims.
+  - review-bundle-pass-18.md was created for handoff.
+- **next_recommended_steps:**
+  - Pass 19 — Cross-Faction Source-Light Batch.
+  - Keep character-story provenance ingestion for Pass 20+ unless explicitly approved.
+  - Keep claim mapping for Pass 26+ unless explicitly approved.
+
+---
+
+## 2026-06-22 — Pass 18.1: Natlan Template v2 + Overclaim Fix Patch
+
+- **action:** Patched 8 Natlan character pages to comply with approved `_character-template-v2.md` structure. Fixed Mavuika/Natlan high-risk overclaims. Updated all Pass 18 reports and review bundle.
+- **files_changed:**
+  - wiki/entities/characters/Chasca.md (rewritten — legacy sections → template v2)
+  - wiki/entities/characters/Citlali.md (rewritten — legacy sections → template v2)
+  - wiki/entities/characters/Kachina.md (rewritten — legacy sections → template v2)
+  - wiki/entities/characters/Kinich.md (rewritten — legacy sections → template v2)
+  - wiki/entities/characters/Mavuika.md (rewritten — legacy sections → template v2, overclaims fixed)
+  - wiki/entities/characters/Mualani.md (rewritten — legacy sections → template v2)
+  - wiki/entities/characters/Ororon.md (rewritten — legacy sections → template v2)
+  - wiki/entities/characters/Xilonen.md (rewritten — legacy sections → template v2)
+  - wiki/research/pass-18-natlan-character-foundation-report.md (updated with Pass 18.1 Patch Note)
+  - wiki/research/pass-18-character-update-list.md (updated with Pass 18.1 patch column)
+  - wiki/research/pass-18-source-coverage-notes.md (updated for consistency)
+  - wiki/research/pass-18-risk-and-guardrail-report.md (updated with Pass 18.1 section)
+  - wiki/research/pass-18-next-actions.md (updated with Pass 18.1 completion note)
+  - wiki/research/pass-18-1-template-overclaim-fix-report.md (created — new patch report)
+  - wiki/research/review-bundle-pass-18.md (updated with Pass 18.1 Patch Summary)
+  - wiki/log.md (updated with this entry)
+- **reason:** Human review found 3 blocking issues in Pass 18: (1) legacy numbered sections instead of template v2, (2) Mavuika/Natlan mechanics overclaimed as CANON, (3) reports falsely claimed template-v2 compliance.
+- **source_basis:**
+  - wiki/entities/characters/_character-template-v2.md (structural authority)
+  - wiki/research/pass-12-template-usage-guide.md
+  - All 8 existing Pass 18 Natlan character pages (read and assessed before rewriting)
+  - wiki/research/pass-18-*.md reports (read and assessed)
+  - wiki/sources/source-index.md (inspected read-only, not modified)
+- **patch_details:**
+  - Pass 18 legacy page structure was corrected to `_character-template-v2.md`.
+  - Mavuika/Natlan high-risk mechanics were downgraded or guarded.
+  - "Xích Tùng Vương" removed entirely (imported from memory, not voice lines).
+  - "Gnosis" removed from all CANON claims (not confirmed in local sources).
+  - Archon mechanics, Sacred Flame details, Ode of Resurrection mechanics, 500-year plan details, death/resurrection mechanics, Night Kingdom mechanics all downgraded to source_missing or partial_support_only.
+  - All 8 pages now use 17 unnumbered template v2 sections.
+  - Frontmatter corrected: status: active, reliability: mixed, character_level: Level 2, source_policy: source_first.
+- **counts:**
+  - Pages patched: 8
+  - Pages recreated: 0
+  - Skipped characters preserved: 3 (Ifa, Iansan, Varesa)
+  - Reports updated: 6 (5 existing + 1 new patch report)
+- **compliance:**
+  - No source-index changes.
+  - No source IDs created.
+  - No external/web/API used.
+  - No character-story provenance ingestion.
+  - No claim mapping performed.
+  - character_intelligence was NOT used as primary source.
+  - STRONGLY IMPLIED was NOT used for intelligence-only claims.
+- **unresolved_issues:**
+  - Character-story provenance remains missing for all 8 patched pages.
+  - Ifa, Iansan, Varesa remain skipped/source_missing.
+  - High-risk Natlan mechanics remain source_missing until character stories or quest dialogue ingested.
+- **next_recommended_steps:**
+  - Pass 19 — Cross-Faction Source-Light Batch.
   - Keep character-story provenance ingestion for Pass 20+ unless explicitly approved.
   - Keep claim mapping for Pass 26+ unless explicitly approved.

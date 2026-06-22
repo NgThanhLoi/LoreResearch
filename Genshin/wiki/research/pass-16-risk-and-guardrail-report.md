@@ -87,7 +87,7 @@ No backstory upgraded to canon from memory.
 - No external URLs used.
 - No live API queries.
 - No new source IDs created.
-- source-index.md not opened or modified.
+- source-index.md was inspected read-only and not modified.
 - No character stories ingested.
 
 ## No Fanfic/Outline Check

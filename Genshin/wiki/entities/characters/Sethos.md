@@ -87,8 +87,9 @@ Sethos là một thanh niên thuộc dòng dõi sa mạc Sumeru, sở hữu Lôi
 |---|---|---|---|---|
 | Name | Sethos | CANON | `sources/voice_lines/characters/Sethos.md` | primary_source_found |
 | Region | Sumeru (Sa mạc) | CANON | `sources/voice_lines/characters/Sethos.md` | primary_source_found |
-| Faction | Dòng dõi sa mạc / Temple of Silence | CANON | `sources/voice_lines/characters/Sethos.md` | primary_source_found |
-| Role | Hậu duệ sa mạc / Học giả tự do | CANON | `sources/voice_lines/characters/Sethos.md` | primary_source_found |
+| Faction | Sa mạc Sumeru | CANON | `sources/voice_lines/characters/Sethos.md` | primary_source_found |
+| Temple of Silence connection | Mối liên hệ đặc biệt | STRONGLY IMPLIED | `sources/voice_lines/characters/Sethos.md` | partial_support_only |
+| Role | Hậu duệ / liên hệ sa mạc | STRONGLY IMPLIED | `sources/voice_lines/characters/Sethos.md` | partial_support_only |
 | Vision / Power | Lôi (Electro) | CANON | `sources/voice_lines/characters/Sethos.md` | primary_source_found |
 
 ## Canon Personality
