@@ -1711,3 +1711,485 @@
   - Pass 19 — Cross-Faction Source-Light Batch.
   - Keep character-story provenance ingestion for Pass 20+ unless explicitly approved.
   - Keep claim mapping for Pass 26+ unless explicitly approved.
+
+## 2026-06-22 — Pass 19: Cross-Faction Source-Light / Blocked Character Governance Batch
+
+- **action:** Audited 19 cross-faction / source-light / blocked character candidates. Preserved 7 existing audited pages unchanged. Created 3 new governance pages (Skirk blocked, Varka source-light, Nicole source-light). Recorded 9 candidates as source_missing_no_page. Generated 5 research reports.
+- **files_changed:**
+  - wiki/entities/characters/Skirk.md (created — blocked governance page)
+  - wiki/entities/characters/Varka.md (created — source-light governance page)
+  - wiki/entities/characters/Nicole.md (created — source-light governance page)
+  - wiki/research/pass-19-cross-faction-source-light-report.md (created)
+  - wiki/research/pass-19-character-action-list.md (created)
+  - wiki/research/pass-19-source-coverage-matrix.md (created)
+  - wiki/research/pass-19-risk-and-guardrail-report.md (created)
+  - wiki/research/pass-19-next-actions.md (created)
+  - wiki/log.md (updated)
+- **reason:** Pass 11 roadmap assigns Pass 19 to cross-faction/source-light characters. Goal is governance (prevent unsafe canonization), not page completion.
+- **source_basis:**
+  - Pass 11 tier map, source-gap map, batch roadmap
+  - Character inventory
+  - NK-03 guarded claims register
+  - NK-04 character tier/source-gap maps
+  - NK-07 evidence index and claim-level extraction map
+  - NK-07 page-patch report (confirmed prior patches sufficient)
+  - Existing character pages (Dottore, Columbina, Sandrone, Arlecchino, Tartaglia, Aether, Lumine)
+  - source-index.md inspected read-only and not modified
+- **governance_notes:**
+  - Cross-faction/source-light candidates were audited.
+  - No source-index changes.
+  - No source IDs created.
+  - No external/web/API used.
+  - No character-story provenance ingestion.
+  - No claim mapping performed.
+  - High-risk characters remain guarded/blocked unless local source supports otherwise.
+  - NK-07 evidence NOT upgraded to canon; all evidence_found_guarded statuses preserved.
+  - character_intelligence was NOT used as primary source.
+  - STRONGLY IMPLIED was NOT used for intelligence-only claims.
+  - Existing audited pages preserved where unsafe to normalize.
+  - No duplicate Traveler/Aether/Lumine/Wanderer pages created.
+  - Dottore/Columbina/Sandrone/Skirk guarded/blocked statuses preserved.
+- **unresolved_issues:**
+  - 9 characters (Capitano, Alice, Rhinedottir, Pierro, Pantalone, Pulcinella, Tsaritsa, Dainsleif, Paimon) remain without pages due to missing source packages.
+  - Character-story provenance remains unperformed for all characters.
+  - NK-07 guarded evidence awaits human review before any canon upgrades.
+  - Arlecchino/Tartaglia character-story source gaps persist (voice lines exist but character stories missing).
+- **next_recommended_steps:**
+  - Pass 20 — Character Story Provenance Batch 1 (if source files available).
+  - Fallback: Regional Character Foundation QA Pass (template v2 compliance verification).
+  - Keep claim mapping for Pass 26+ unless explicitly approved.
+  - Do not create pages for source-missing characters without source package ingestion.
+
+## 2026-06-22 — Pass 19.5: Source-Missing Character Resolution Plan
+
+- **action:** Created a complete resolution plan for all characters currently blocked by missing or insufficient sources. Inventoried 37 individually tracked candidates plus ~85 affected by the systemic character-story provenance gap. Classified each by status, blocking reason, missing source type, recommended resolution route, priority, risk class, and next pass bucket. Produced a prioritized ingestion queue for Passes 20–26+.
+- **files_changed:**
+  - wiki/research/pass-19-5-source-missing-character-resolution-plan.md (created)
+  - wiki/research/pass-19-5-source-missing-inventory.md (created)
+  - wiki/research/pass-19-5-source-requirement-map.md (created)
+  - wiki/research/pass-19-5-priority-ingestion-queue.md (created)
+  - wiki/research/pass-19-5-risk-and-guardrail-report.md (created)
+  - wiki/research/pass-19-5-next-actions.md (created)
+  - wiki/log.md (updated)
+- **reason:** Planning and prioritization pass to determine which characters are blocked, why, and what exact source types are needed to unblock them. Establishes the queue and methodology for future ingestion passes.
+- **source_basis:**
+  - wiki/research/pass-11-full-character-coverage-plan.md
+  - wiki/research/pass-11-character-tier-map.md
+  - wiki/research/pass-11-character-source-gap-map.md
+  - wiki/research/pass-13 through pass-19 source coverage / action / risk reports
+  - wiki/research/pass-nk-03-guarded-claims-register.md
+  - wiki/research/pass-nk-04-character-source-gap-map.md
+  - wiki/research/pass-nk-04-character-tier-map.md
+  - wiki/research/pass-nk-07-evidence-index.md
+  - wiki/research/pass-nk-07-claim-level-extraction-map.md
+  - wiki/entities/characters/character-inventory.md
+  - wiki/synthesis/character-audit-backlog.md
+  - wiki/synthesis/unverified-lore-register.md
+  - wiki/sources/source-index.md (read-only)
+  - Local source folder inspection (read-only)
+- **compliance:**
+  - Pass 19.5 created a source-missing resolution plan only.
+  - No character pages were created or rewritten.
+  - No source-index changes.
+  - No source IDs created.
+  - No external/web/API.
+  - No source ingestion.
+  - No character-story provenance extraction.
+  - No quest transcript extraction.
+  - No claim mapping.
+  - NK-07 evidence remains guarded.
+  - Natlan mechanics remain guarded.
+  - character_intelligence NOT used as primary source.
+- **counts:**
+  - P0 candidates: 2 (Dottore, Sandrone)
+  - P1 candidates: 9 (Columbina, Skirk, Aether, Lumine, Abyss Sibling, Dainsleif, Tsaritsa, Pierro, Rhinedottir)
+  - P2 candidates: 12 (Arlecchino, Tartaglia, Varka, Nicole, Capitano, Alice, Paimon, Pantalone, Pulcinella, Ifa, Iansan, Varesa)
+  - P3 candidates: 13 (Nod-Krai locals: Aino, Flins, Illuga, Ineffa, Jahoda, Lauma, Linnea, Nefer, Prune, Zibai, Vilemina, Dhabit, Demyan)
+  - P4 candidates: 1 (Escoffier — out of scope)
+  - Systemic gap: ~85 Level 2 pages lacking character-story provenance
+- **unresolved_issues:**
+  - All 37 candidates remain at their current blocked/source-light/source-missing status.
+  - Systemic character-story provenance gap persists (only Kaeya has CS file).
+  - No quest transcript folders exist locally.
+  - Non-playable characters have no voice line files locally.
+  - Human reviewer availability unknown for P0 candidates.
+- **next_recommended_steps:**
+  - Pass 20 — High-Risk Source Package Feasibility / Provenance Batch A (Dottore, Sandrone, Pierro, Rhinedottir: quest_dialogue/official_profile/human_review; Aether, Lumine: character_story_provenance + claim_mapping).
+  - Pass 21 — Character Story Provenance Batch B (Arlecchino, Tartaglia, Capitano, Alice, Paimon, Pantalone, Pulcinella).
+  - Pass 22 — Quest Dialogue Provenance Batch A (Skirk, Abyss Sibling, Dainsleif, Tsaritsa, Nefer).
+  - Pass 23 — Official Profile / Voice Line Ingestion (Columbina, Varka, Nicole, Ifa, Iansan, Varesa).
+  - Pass 26+ — Priority Claim Mapping (after source ingestion complete).
+  - Do not create pages for source-missing characters without source package ingestion.
+  - Do not upgrade NK-07 guarded evidence without human review.
+
+## 2026-06-22 — Pass 20: High-Risk Source Package Feasibility / Provenance Batch A
+
+- **action:** Investigated local source package availability for the 6 highest-priority candidates from Pass 19.5. Inspected repo structure read-only. Classified source package signals, sufficiency, provenance routes, and blocked claim clusters. Created 6 research/planning reports. Did not create or modify character pages. Did not modify source-index.
+- **files_changed:**
+  - wiki/research/pass-20-high-risk-source-package-feasibility-report.md (created)
+  - wiki/research/pass-20-candidate-provenance-route-map.md (created)
+  - wiki/research/pass-20-local-source-package-inventory.md (created)
+  - wiki/research/pass-20-blocked-claim-cluster-map.md (created)
+  - wiki/research/pass-20-risk-and-guardrail-report.md (created)
+  - wiki/research/pass-20-next-actions.md (created)
+  - wiki/log.md (updated)
+- **reason:** Determine whether P0/P1 candidates have sufficient local source material to proceed into provenance or claim-mapping work in future passes. Establishes safe routes and identifies blocking gaps.
+- **source_basis:**
+  - wiki/research/pass-19-cross-faction-source-light-report.md
+  - wiki/research/pass-19-5-source-missing-inventory.md
+  - wiki/research/pass-19-5-source-requirement-map.md
+  - wiki/research/pass-19-5-priority-ingestion-queue.md
+  - wiki/research/pass-nk-03-guarded-claims-register.md
+  - wiki/research/pass-nk-07-evidence-index.md
+  - wiki/entities/characters/Dottore.md
+  - wiki/entities/characters/Sandrone.md
+  - wiki/entities/characters/Aether.md
+  - wiki/entities/characters/Lumine.md
+  - wiki/sources/source-index.md (read-only, not modified)
+  - Local source folder inspection (read-only)
+  - wiki/synthesis/ooc-risk-index.md
+  - wiki/synthesis/unverified-lore-register.md
+  - wiki/synthesis/contradiction-register.md
+- **compliance:**
+  - Pass 20 created high-risk source package feasibility and provenance route reports only.
+  - No character pages were created or rewritten.
+  - No source-index changes.
+  - No source IDs created.
+  - No external/web/API.
+  - No source ingestion.
+  - No character-story extraction.
+  - No quest transcript extraction.
+  - No claim mapping.
+  - NK-07 evidence remains guarded.
+  - character_intelligence NOT used as primary source.
+  - Dottore/Sandrone/Pierro/Rhinedottir NOT routed as character-story-only.
+  - Aether/Lumine duplicate identity risk explicitly recorded.
+- **findings:**
+  - Aether/Lumine: local_package_found (voice lines exist); partial — character stories missing.
+  - Dottore: partial_local_package_found (AQ-NK-ACT7 provenance metadata + NK-07 guarded evidence); insufficient for claim resolution.
+  - Sandrone: partial_local_package_found (AQ-NK-ACT2 provenance metadata); Rotwang NOT FOUND in deep-read; insufficient.
+  - Pierro: no_local_package_found; zero primary source of any kind.
+  - Rhinedottir: only_analysis_files_found (entities/historical_figures/Rhinedottir.md is analysis-only); no primary source.
+- **blocked_claim_clusters:** 30 total claim clusters mapped across 6 candidates. Zero resolvable in this pass.
+- **unresolved_issues:**
+  - All 6 candidates remain at their current status (blocked/source-light/active-guarded).
+  - No local official_profiles/ folder exists.
+  - No local character_stories/ files exist for any Pass 20 candidate.
+  - Non-playable candidates (Dottore, Sandrone, Pierro, Rhinedottir) have no voice line files.
+  - NK-07 guarded evidence remains guarded (not claim-mapped, not canonized).
+  - Traveler/Aether/Lumine page boundary rules not yet established.
+  - Human review availability unknown for P0 candidates.
+- **next_recommended_steps:**
+  - Pass 21 — High-Risk Source Package Feasibility / Provenance Batch B (Columbina, Skirk, Paimon, Dainsleif, Abyss Sibling, remaining P2/P3).
+  - Pass 22 — Quest Dialogue Provenance Batch A (Dottore AQ-NK-ACT7, Sandrone AQ-NK-ACT2, Aether/Lumine NK Acts).
+  - Pass 23 — Official Profile / Voice-Line Ingestion Preparation.
+  - Pass 24 — Artifact / Book / Event Provenance (Rhinedottir primarily).
+  - Pass 25 — Dedup and Page Status Cleanup (Aether/Lumine/Traveler boundary).
+  - Pass 26+ — Priority Claim Mapping A (after provenance work complete).
+  - Do not create pages for source-missing characters without source package ingestion.
+  - Do not upgrade NK-07 guarded evidence without human review and claim mapping.
+
+## 2026-06-23 — Pass 21: High-Risk Source Package Feasibility / Provenance Batch B
+
+- **action:** Investigated local source package availability for 6 high-risk candidates (Columbina, Skirk, Capitano, Alice, Dainsleif, Paimon). Inspected repo structure read-only. Classified source package signals, sufficiency, provenance routes, and blocked claim clusters. Created 6 research/planning reports. Did not create or modify character pages. Did not modify source-index.
+- **files_changed:**
+  - wiki/research/pass-21-high-risk-source-package-feasibility-report.md (created)
+  - wiki/research/pass-21-candidate-provenance-route-map.md (created)
+  - wiki/research/pass-21-local-source-package-inventory.md (created)
+  - wiki/research/pass-21-blocked-claim-cluster-map.md (created)
+  - wiki/research/pass-21-risk-and-guardrail-report.md (created)
+  - wiki/research/pass-21-next-actions.md (created)
+  - wiki/log.md (updated)
+- **reason:** Determine whether the next batch of P1/P2 source-light candidates have sufficient local source material to proceed into provenance or claim-mapping work in future passes. Establishes safe routes and identifies blocking gaps. Continues from Pass 20 (Batch A).
+- **source_basis:**
+  - wiki/research/pass-20-high-risk-source-package-feasibility-report.md
+  - wiki/research/pass-20-candidate-provenance-route-map.md
+  - wiki/research/pass-20-local-source-package-inventory.md
+  - wiki/research/pass-20-blocked-claim-cluster-map.md
+  - wiki/research/pass-20-next-actions.md
+  - wiki/research/pass-19-5-priority-ingestion-queue.md
+  - wiki/research/pass-19-5-source-missing-inventory.md
+  - wiki/entities/characters/Columbina.md
+  - wiki/entities/characters/Skirk.md
+  - wiki/sources/source-index.md (read-only, not modified)
+  - Local source folder inspection (read-only)
+- **compliance:**
+  - Pass 21 created high-risk source package feasibility and provenance route reports only.
+  - No character pages were created or rewritten.
+  - No source-index changes.
+  - No source IDs created.
+  - No external/web/API.
+  - No source ingestion.
+  - No character-story extraction.
+  - No quest transcript extraction.
+  - No claim mapping.
+  - NK-07 evidence remains guarded.
+  - character_intelligence NOT used as primary source.
+  - Columbina indirect_source_only status preserved.
+  - Skirk blocked_by_missing_source status preserved.
+  - Capitano/Alice/Dainsleif/Paimon — no pages created.
+  - Paimon identity theories remain blocked.
+  - Dainsleif Khaenri'ah/Abyss claims remain guarded.
+  - Pass 19.5 queue adjustment documented (user-specified candidates override queue).
+- **findings:**
+  - Columbina: partial_local_package_found (character_intelligence analysis + AQ-NK-ACT4 provenance ref); no voice lines, no character story, no official profile.
+  - Skirk: only_analysis_files_found (global entity profile shell + AQ-NK-ACT7 subquest mention); source-index confirms voice line absent.
+  - Capitano: no_local_package_found; zero files of any kind in workspace.
+  - Alice: only_analysis_files_found (historical_figures/Alice.md is analysis only); no primary source.
+  - Dainsleif: partial_local_package_found (AQ-NK-ACT7 provenance reference only; no extracted transcript).
+  - Paimon: no_local_package_found; mentioned in 135+ files as participant but no dedicated source.
+- **blocked_claim_clusters:** 30 total claim clusters mapped across 6 candidates. Zero resolvable in this pass.
+- **unresolved_issues:**
+  - All 6 candidates remain at their current status (blocked/source-light/no-page).
+  - No local official_profiles/ folder exists.
+  - No local character_stories/ files exist for any Pass 21 candidate.
+  - No archon_quests/ or world_quests/ transcript directories exist.
+  - No event/book/artifact source directories exist.
+  - No fatui/hexenzirkel/abyss/khaenriah source directories exist.
+  - Capitano and Paimon have zero local source signals.
+  - Human reviewer availability unknown.
+- **next_recommended_steps:**
+  - Pass 22 — Quest Dialogue Provenance Batch A (Capitano, Dainsleif, Paimon, Skirk via AQ transcripts).
+  - Pass 23 — Official Profile / Voice-Line Ingestion Preparation (Columbina, Capitano, Alice).
+  - Pass 24 — Artifact / Book / Event Provenance (Alice primarily).
+  - Pass 25 — Dedup and Page Status Cleanup (Traveler-adjacent boundaries).
+  - Pass 26+ — Priority Claim Mapping A (after provenance work complete).
+  - Do not create pages for source-missing characters without source package ingestion.
+
+## 2026-06-23 — Pass 22 Quest Dialogue Provenance Batch A
+
+- **action:**
+  - Performed controlled quest dialogue provenance extraction for 6 primary candidates (Dottore, Capitano, Dainsleif, Aether, Lumine, Paimon) and 2 secondary candidates (Abyss Sibling, Traveler).
+  - Inspected local quest dialogue files read-only in `sources/voice_lines/archon_quests/` and `sources/voice_lines/world_quests/`.
+  - Extracted short paraphrased evidence/context rows from local quest dialogue and related local source files.
+  - Reconciled Pass 22 scope to 32 claim clusters total; 3 non-quest voice-line context rows deferred to Pass 23.
+  - Discovered Capitano has ZERO local quest dialogue presence (source_absent).
+  - Discovered Nod-Krai acts are provenance-pointer-only (no local transcripts).
+  - Created structured evidence packets and claim-support status matrix.
+  - All evidence remains guarded — no claims upgraded to CANON.
+- **files_changed:**
+  - wiki/research/pass-22-quest-dialogue-provenance-report.md (created)
+  - wiki/research/pass-22-local-quest-source-inventory.md (created)
+  - wiki/research/pass-22-candidate-evidence-packet-map.md (created)
+  - wiki/research/pass-22-claim-support-status-matrix.md (created)
+  - wiki/research/pass-22-risk-and-guardrail-report.md (created)
+  - wiki/research/pass-22-next-actions.md (created)
+  - wiki/log.md (updated)
+- **reason:** Begin controlled provenance work for high-risk characters whose blocked claims require quest dialogue support. Produces structured evidence layer for later claim mapping (Pass 26+) without upgrading character pages.
+- **source_basis:**
+  - wiki/research/pass-20-blocked-claim-cluster-map.md
+  - wiki/research/pass-21-blocked-claim-cluster-map.md
+  - wiki/research/pass-20-candidate-provenance-route-map.md
+  - wiki/research/pass-21-candidate-provenance-route-map.md
+  - sources/voice_lines/archon_quests/Akasha Rung Động, Kiếp Hỏa Dâng Trào/ (3 files)
+  - sources/voice_lines/archon_quests/Cội Nguồn Nghiêng Ngả/ (1 file)
+  - sources/voice_lines/archon_quests/Xích Thổ Chi Vương Và Tam Triều Thánh Giả/ (1 file)
+  - sources/voice_lines/archon_quests/Caribert/ (4 files)
+  - sources/voice_lines/world_quests/Giữa Lời Hứa Và Lãng Quên/ (2 files)
+  - sources/voice_lines/characters/Aether.md (read-only)
+  - sources/provenance/archon_quests/nod-krai/ (AQ-NK-ACT2/4/7/8, read-only)
+  - wiki/sources/source-index.md (read-only, NOT modified)
+- **compliance:**
+  - Pass 22 created quest dialogue provenance evidence packets/reports only.
+  - No character pages were created or rewritten.
+  - No source-index changes.
+  - No source IDs created.
+  - No external/web/API.
+  - No source ingestion.
+  - No full claim mapping.
+  - No canon upgrade was applied to character pages.
+  - character_intelligence NOT used as primary source.
+  - NK-07 evidence remains guarded.
+  - Dottore/Capitano/Dainsleif high-risk claims remain guarded.
+  - Paimon identity theories remain blocked/source_light.
+  - Traveler/Aether/Lumine/Abyss Sibling duplicate identity risk recorded.
+  - Copyright respected — only short paraphrases, no long transcript copies.
+- **findings:**
+  - Dottore: 15 evidence claims from 3 Sumeru archon quest files. 5 of 6 claim clusters now have evidence packets (rank number not directly stated — partial_support).
+  - Capitano: source_absent — zero local quest dialogue. All 5 claim clusters remain blocked.
+  - Dainsleif: 11 evidence claims from 4 Caribert interlude files. 4 of 6 clusters have evidence packets.
+  - Aether/Lumine: 4 quest-dialogue claims + 3 non-quest voice-line context (deferred to Pass 23). 3 of 5 quest clusters have evidence packets; Descender status downgraded to requires_human_review.
+  - Paimon: 1 quest claim + 1 voice-line context (deferred). 0 of 5 clusters resolved. Identity theories remain blocked.
+  - Abyss Sibling: 5 evidence claims. 3 of 5 clusters have evidence packets.
+  - Total: 15 of 32 clusters now have evidence_packet_created status (47%). 2 clusters deferred to Pass 23 (non-quest context).
+- **unresolved_issues:**
+  - Capitano has zero local quest dialogue — requires Natlan quest ingestion.
+  - Nod-Krai Acts 2-8 are metadata pointers only — no local transcripts.
+  - Paimon identity theories remain fully blocked (no quest evidence exists).
+  - Dainsleif narrator reliability requires human editorial standard.
+  - Descender/Sinner cosmology claims are high-risk and require human review.
+  - Traveler page boundary governance (CON-0015) still unresolved.
+  - 9 claim clusters remain still_blocked (28%) due to systemic source absence.
+  - 2 claim clusters deferred to Pass 23 (non-quest voice-line context).
+- **next_recommended_steps:**
+  - Pass 23 — Official Profile / Voice-Line Ingestion Preparation (Capitano priority).
+  - Pass 24 — Artifact / Book / Event Provenance Preparation (Rhinedottir, Alice).
+  - Pass 25 — Dedup and Page Status Cleanup (Traveler/Abyss Sibling boundaries).
+  - Pass 26 — Priority Claim Mapping A (15 evidence_packet_created clusters from this pass, after human review and prerequisites).
+  - Optional Pass 22.5 — Nod-Krai Transcript Ingestion (if human authorizes).
+  - Do not upgrade character pages until claim mapping is complete and human-reviewed.
+
+## 2026-06-23 — Pass 22.1 Reconciliation Patch
+
+- **action:**
+  - Reconciled claim-cluster count: 32 actual rows (not 37).
+  - Separated 3 Aether/Paimon voice-line rows as non_quest_context / deferred_to_pass_23.
+  - Downgraded Dottore "2nd seat" from direct_support to partial_support (rank number not stated in evidence).
+  - Downgraded Aether/Lumine "Descender status" from direct_support_candidate to ambiguous / requires_human_review.
+  - Updated all summary counts across reports and log.
+- **files_changed:**
+  - wiki/research/pass-22-claim-support-status-matrix.md (patched)
+  - wiki/research/pass-22-quest-dialogue-provenance-report.md (patched)
+  - wiki/research/pass-22-candidate-evidence-packet-map.md (patched)
+  - wiki/research/pass-22-risk-and-guardrail-report.md (patched)
+  - wiki/research/pass-22-next-actions.md (patched)
+  - wiki/log.md (updated)
+- **compliance:**
+  - No character pages modified.
+  - No source-index modified.
+  - No source IDs created.
+  - No external/web/API.
+  - No full claim mapping.
+
+## 2026-06-24 — Pass 23+24 Combined Source Preparation
+
+- **action:** Combined acceleration pass — Official Profile / Voice-Line Preparation (Lane A — Pass 23) + Artifact / Book / Event Provenance Preparation (Lane B — Pass 24).
+  - Inventoried 96 local character voice-line files and 1 character story file.
+  - Classified 13 high-priority and 83 standard voice-line candidates.
+  - Identified 11 missing high-priority profile/voice-line sources (Capitano, Columbina, Sandrone, Dottore, Pierro, Skirk, Varka, Rhinedottir, Alice, Dainsleif, Nicole).
+  - Resolved 3 Pass 22 deferred_to_pass_23 items as non_quest_context (Aether inter-dimensional travel, Aether rapid learning, Paimon identity clue).
+  - Inventoried 61 artifact, 73 book, 176+ weapon story, and 17 manga transcript files.
+  - Mapped 29 high-risk source package candidates to blocked claim clusters.
+  - Confirmed 3 critical source folders missing (sources/event/, sources/events/, sources/official/).
+  - Created combined source gap and risk register (58 gaps/risks identified).
+- **files_changed:**
+  - wiki/research/pass-23-24-gate-report.md (created)
+  - wiki/research/pass-23-official-profile-voice-line-inventory.md (created)
+  - wiki/research/pass-23-deferred-context-map.md (created)
+  - wiki/research/pass-24-artifact-book-event-inventory.md (created)
+  - wiki/research/pass-24-source-package-candidate-map.md (created)
+  - wiki/research/pass-23-24-source-gap-and-risk-register.md (created)
+  - wiki/research/pass-23-24-next-actions.md (created)
+  - wiki/research/pass-23-24-combined-source-preparation-report.md (created)
+  - wiki/log.md (updated)
+- **reason:** Combined Pass 23+24 to accelerate source preparation while maintaining lane separation. Pass 22 next-actions recommended both passes as immediate parallel work.
+- **source_basis:** Local filesystem inspection only. Referenced pass-22-claim-support-status-matrix.md, pass-22-next-actions.md, pass-22-candidate-evidence-packet-map.md for deferred items and blocked clusters.
+- **compliance:**
+  - No character pages modified.
+  - No source-index modified.
+  - No source IDs created.
+  - No external/web/API used.
+  - No full claim mapping performed.
+  - No source_light/source_missing upgraded to CANON.
+  - Two lanes kept separate throughout.
+  - All high-risk topics remain guarded at Pass 22 levels.
+- **unresolved_issues:**
+  - Capitano remains fully blocked (zero sources of any kind).
+  - Columbina and Sandrone remain blocked (zero sources).
+  - Nod-Krai transcripts remain metadata-only (7 provenance pointers, no text).
+  - Event source folders do not exist — event-exclusive lore inaccessible.
+  - Artifact/book/weapon content NOT inspected (title-based classification only).
+  - NK English-language book provenance unclear.
+  - Voice-line ingestion methodology not yet defined.
+  - Traveler page boundary governance still unresolved (CON-0015).
+- **next_recommended_steps:**
+  - Pass 25 — Dedup and Page Status Cleanup (prerequisite for claim mapping).
+  - Optional Pass 23.1 — Voice-Line Controlled Ingestion Test (defines methodology).
+  - Optional Pass 24.1 — Artifact / Book Controlled Inspection Test (content-reads 5-10 high-risk files).
+  - Pass 26 — Priority Claim Mapping Batches (after Pass 25 + human review).
+
+## 2026-06-24 — Pass 25: Dedup and Page Status Cleanup
+
+- **action:** Cleanup/governance pass auditing and deduplicating page/status metadata across Passes 11–24. Created pass status matrix, character status dedup audit, label normalization audit, stale count/path audit, cleanup action list, risk/guardrail report, and next actions. Applied 7 P0 metadata-only patches to tracking files.
+- **files_changed:**
+  - wiki/research/pass-25-dedup-page-status-cleanup-report.md (created)
+  - wiki/research/pass-25-pass-status-matrix.md (created)
+  - wiki/research/pass-25-character-status-dedup-audit.md (created)
+  - wiki/research/pass-25-label-normalization-audit.md (created)
+  - wiki/research/pass-25-stale-count-and-path-audit.md (created)
+  - wiki/research/pass-25-cleanup-action-list.md (created)
+  - wiki/research/pass-25-risk-and-guardrail-report.md (created)
+  - wiki/research/pass-25-next-actions.md (created)
+  - wiki/entities/characters/character-inventory.md (patched — added Skirk row, updated Varka/Nicole status, corrected Blocked section)
+  - wiki/synthesis/character-audit-backlog.md (patched — added Skirk row, updated Varka/Nicole level)
+  - wiki/log.md (this entry)
+- **reason:** Prerequisite cleanup pass before claim mapping (Pass 26). Ensures tracking consistency, resolves stale labels, and verifies all guardrails before proceeding to canon-adjacent work.
+- **source_basis:**
+  - wiki/log.md (all pass entries)
+  - wiki/entities/characters/character-inventory.md
+  - wiki/synthesis/character-audit-backlog.md
+  - wiki/research/pass-11-* through pass-24-* reports (read-only inspection)
+  - wiki/entities/characters/Skirk.md, Varka.md, Nicole.md (verified existence)
+- **compliance:**
+  - No source-index modified.
+  - No source IDs created.
+  - No sources/** modified.
+  - No external/web/API used.
+  - No canon upgrades performed.
+  - No full claim mapping.
+  - No fanfic plot/premise/outline/OC content added.
+  - No individual character page content modified (only tracking/inventory metadata patched).
+  - Pass 22 reconciled counts preserved.
+  - Pass 23+24 reconciled counts preserved.
+  - Nod-Krai character work not duplicated.
+  - High-risk claims remain guarded.
+  - character_intelligence NOT used as primary source.
+- **patches_applied:**
+  - CLN-01: Added Skirk to character-inventory.md (blocked_by_missing_source)
+  - CLN-02: Added Skirk to character-audit-backlog.md (blocked_by_missing_source)
+  - CLN-03: Updated Varka inventory status to source_light_governance
+  - CLN-04: Updated Nicole inventory status to source_light_governance
+  - CLN-05: Updated Varka backlog level to source_light_governance
+  - CLN-06: Updated Nicole backlog level to source_light_governance
+  - CLN-07: Corrected "Blocked by Missing Source" section (Dottore/Sandrone as blocked; Columbina/Skirk/Varka/Nicole as source-light)
+- **counts:**
+  - Pass status matrix rows: 14
+  - Character status audit rows: 30
+  - Label normalization rows: 26
+  - Stale count/path findings: 18
+  - P0 cleanup items: 7 (all applied)
+  - P1 cleanup items: 2
+  - P2 cleanup items: 4
+  - P3 cleanup items: 2
+- **discrepancies_recorded:**
+  - Prompt expected patches 19.5.1, 20.1, 21.1, 22.1.1 not found in wiki/log.md
+  - Recorded as discrepancies — log treated as source of truth
+- **unresolved_issues:**
+  - ~85 Level 2 pages lack character-story provenance (systemic, deferred to Pass 26+)
+  - Ifa/Iansan/Varesa/Escoffier remain source_missing (requires future source files)
+  - Traveler page boundary governance (CON-0015) requires human editorial decision
+  - Capitano/Paimon remain at zero local sources
+  - NK-07 guarded evidence awaits human review
+- **next_recommended_steps:**
+  - Pass 26 — Priority Claim Mapping Batch A (15 evidence_packet_created clusters from Pass 22)
+  - Prerequisite: human review of Pass 22 evidence packets + Pass 25 patches
+  - Fallback: Pass 25.1 if human review finds issues with Pass 25 patches
+  - Do not upgrade character pages until claim mapping is complete and human-reviewed.
+  - Do not upgrade NK-07 guarded evidence without human review and claim mapping.
+
+## 2026-06-24 — Pass 23+24 Count Reconciliation Patch
+
+- **action:** Reconciled internal count mismatches across Pass 23+24 reports.
+  - Pass 23: corrected voice-line file count from 87 to 96 (filesystem verified), standard candidates from 74 to 83, total rows from 88 to 97.
+  - Pass 24 inventory: corrected manga count from 16 to 17 (MANGA-00 is valid prologue chapter), total detailed rows from 72 to 73.
+  - Pass 24 source package map: corrected total packages from 35 to 29 (actual PKG-* table rows counted).
+  - Updated combined report summaries and internal consistency table to match.
+  - Updated log entry counts to match.
+- **files_changed:**
+  - wiki/research/pass-23-official-profile-voice-line-inventory.md (patched)
+  - wiki/research/pass-24-artifact-book-event-inventory.md (patched)
+  - wiki/research/pass-24-source-package-candidate-map.md (patched)
+  - wiki/research/pass-23-24-combined-source-preparation-report.md (patched)
+  - wiki/log.md (updated)
+- **final_reconciled_counts:**
+  - Pass 23 candidate rows: 97 (13 high-priority + 83 standard + 1 character story)
+  - Pass 24 detailed inventory rows: 73 (18 artifact + 16 book-main + 9 book-NK + 13 weapon + 17 manga)
+  - Pass 24 source package rows: 29
+  - Source gaps: 58 (unchanged)
+- **compliance:**
+  - No character pages modified.
+  - No source-index modified.
+  - No source IDs created.
+  - No external/web/API used.
+  - No gate-impacting files touched.
+  - Count-only reconciliation — no logic changes.

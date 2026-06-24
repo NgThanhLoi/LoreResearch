@@ -87,7 +87,7 @@ This inventory tracks all character-related files and decides which characters n
 | Navia | `entities/character_intelligence/Navia.md` | `sources/voice_lines/characters/Navia.md` | none | mixed | medium | P2 medium | inventory_only | Medium risk due to personality interpretation. |
 | Nefer | `entities/character_intelligence/Nefer.md` | source_missing | none | indirect_source_only | low | P3 low | inventory_only | Low risk profile. |
 | Neuvillette | `entities/character_intelligence/Neuvillette.md` | `sources/voice_lines/characters/Neuvillette.md` | none | mixed | high | P1 high | audited | Audited in Phase 3.2. High risk due to lore importance or power-scaling. |
-| Nicole | `entities/character_intelligence/Nicole.md` | source_missing | none | indirect_source_only | high | P1 high | needs_ooc_audit | High risk due to lore importance or power-scaling. |
+| Nicole | `entities/character_intelligence/Nicole.md` | source_missing | none | indirect_source_only | high | P1 high | source_light_governance | Source-light governance page created in Pass 19. |
 | Nilou | `entities/character_intelligence/Nilou.md` | `sources/voice_lines/characters/Nilou.md` | none | mixed | low | P3 low | inventory_only | Low risk profile. |
 | Ningguang | `entities/character_intelligence/Ningguang.md` | `sources/voice_lines/characters/Ningguang.md` | none | mixed | medium | P2 medium | inventory_only | Medium risk due to personality interpretation. |
 | Noelle | `entities/character_intelligence/Noelle.md` | `sources/voice_lines/characters/Noelle.md` | none | mixed | low | P3 low | inventory_only | Low risk profile. |
@@ -104,11 +104,12 @@ This inventory tracks all character-related files and decides which characters n
 | Shenhe | `entities/character_intelligence/Shenhe.md` | `sources/voice_lines/characters/Shenhe.md` | none | mixed | low | P3 low | inventory_only | Low risk profile. |
 | Shikanoin Heizou | `entities/character_intelligence/Shikanoin Heizou.md` | `sources/voice_lines/characters/Shikanoin Heizou.md` | none | mixed | low | P3 low | inventory_only | Low risk profile. |
 | Sigewinne | `entities/character_intelligence/Sigewinne.md` | `sources/voice_lines/characters/Sigewinne.md` | none | mixed | low | P3 low | inventory_only | Low risk profile. |
+| Skirk | `entities/character_intelligence/Skirk.md` | source_missing | none | source_missing | high | P1 high | blocked_by_missing_source | Blocked governance page created in Pass 19. Requires source ingestion before upgrade. |
 | Sucrose | `entities/character_intelligence/Sucrose.md` | `sources/voice_lines/characters/Sucrose.md` | none | mixed | low | P3 low | inventory_only | Low risk profile. |
 | Tartaglia | `entities/character_intelligence/Tartaglia.md` | `sources/voice_lines/characters/Tartaglia.md` | none | mixed | high | P1 high | audited | Audited in Phase 3.2. High risk due to lore importance or power-scaling. |
 | Thoma | `entities/character_intelligence/Thoma.md` | `sources/voice_lines/characters/Thoma.md` | none | mixed | low | P3 low | inventory_only | Low risk profile. |
 | Tighnari | `entities/character_intelligence/Tighnari.md` | `sources/voice_lines/characters/Tighnari.md` | none | mixed | medium | P2 medium | inventory_only | Medium risk due to personality interpretation. |
-| Varka | `entities/character_intelligence/Varka.md` | source_missing | none | indirect_source_only | high | P1 high | needs_ooc_audit | High risk due to lore importance or power-scaling. |
+| Varka | `entities/character_intelligence/Varka.md` | source_missing | none | indirect_source_only | high | P1 high | source_light_governance | Source-light governance page created in Pass 19. |
 | Venti | `entities/character_intelligence/Venti.md` | `sources/voice_lines/characters/Venti.md` | none | mixed | high | P1 high | audited | Audited in Phase 3.2. High risk due to lore importance or power-scaling. |
 | Wriothesley | `entities/character_intelligence/Wriothesley.md` | `sources/voice_lines/characters/Wriothesley.md` | none | mixed | medium | P2 medium | inventory_only | Medium risk due to personality interpretation. |
 | Xiangling | `entities/character_intelligence/Xiangling.md` | `sources/voice_lines/characters/Xiangling.md` | none | mixed | low | P3 low | inventory_only | Low risk profile. |
@@ -142,4 +143,8 @@ This inventory tracks all character-related files and decides which characters n
 - All other minor playable characters (e.g., **Amber**, **Barbara**, **Noelle**, **Bennett**, etc.).
 
 ### Blocked by Missing Source
-- Non-playable lore characters with missing voice line files: **Columbina**, **Nicole**, **Varka** (Require quest dialogues or future updates).
+- **Dottore**, **Sandrone** (Blocked by missing raw sources — no character intelligence, no voice lines, no primary source files).
+
+### Source-Light / Governance Pages
+- **Columbina** (Audited source-light — indirect_source_only, missing voice lines).
+- **Skirk**, **Varka**, **Nicole** (Source-light governance pages — indirect_source_only, missing voice lines / primary sources).

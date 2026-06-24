@@ -109,7 +109,7 @@ Character has enough source support to become a stable wiki entity page.
 | Navia | Phase 3.3 | Level 1 | Level 2 | P2 medium | none | Standard region batch. |
 | Nefer | Phase 3.3 | Level 1 | Level 2 | P2 medium | missing voice lines | Standard region batch. Voice line source file is missing. |
 | Neuvillette | Phase 3.2 | Level 2 | Level 3 | P1 high | none | Audited in Phase 3.2. Hydro Dragon Sovereign. |
-| Nicole | Phase 3.2 | Level 1 | Level 3 | P1 high | missing voice lines | High-risk lore character. |
+| Nicole | Phase 3.2 | source_light_governance | Level 3 | P1 high | missing voice lines | Source-light governance page created in Pass 19. |
 | Nilou | Phase 3.3 | Level 1 | Level 2 | P2 medium | none | Standard region batch. |
 | Ningguang | Phase 3.3 | Level 1 | Level 2 | P2 medium | none | Standard region batch. |
 | Noelle | Phase 3.3 | Level 1 | Level 2 | P2 medium | none | Standard region batch. |
@@ -126,11 +126,12 @@ Character has enough source support to become a stable wiki entity page.
 | Shenhe | Phase 3.3 | Level 1 | Level 2 | P2 medium | none | Standard region batch. |
 | Shikanoin Heizou | Phase 3.3 | Level 1 | Level 2 | P2 medium | none | Standard region batch. |
 | Sigewinne | Phase 3.3 | Level 1 | Level 2 | P2 medium | none | Standard region batch. |
+| Skirk | Phase 3.2 | blocked_by_missing_source | Level 2 after source ingestion | P1 high | missing voice lines and primary source files | Blocked governance page created in Pass 19. Requires source ingestion before audit. |
 | Sucrose | Phase 3.3 | Level 1 | Level 2 | P2 medium | none | Standard region batch. |
 | Tartaglia | Phase 3.2 | Level 2 | Level 3 | P1 high | none | Audited in Phase 3.2. High-risk lore character. |
 | Thoma | Phase 3.3 | Level 1 | Level 2 | P2 medium | none | Standard region batch. |
 | Tighnari | Phase 3.3 | Level 1 | Level 2 | P2 medium | none | Standard region batch. |
-| Varka | Phase 3.2 | Level 1 | Level 3 | P1 high | missing voice lines | High-risk lore character. |
+| Varka | Phase 3.2 | source_light_governance | Level 3 | P1 high | missing voice lines | Source-light governance page created in Pass 19. |
 | Venti | Phase 3.2 | Level 2 | Level 3 | P1 high | none | Audited in Phase 3.2. High-risk lore character. |
 | Wriothesley | Phase 3.3 | Level 1 | Level 2 | P2 medium | none | Standard region batch. |
 | Xiangling | Phase 3.3 | Level 1 | Level 2 | P2 medium | none | Standard region batch. |
