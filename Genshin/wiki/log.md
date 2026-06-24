@@ -2193,3 +2193,40 @@
   - No external/web/API used.
   - No gate-impacting files touched.
   - Count-only reconciliation — no logic changes.
+## 2026-06-24 — Project State Report-Only Audit
+
+- **action:** Comprehensive report-only project state audit. Inspected wiki structure, pass pipeline (log.md), character inventory, source governance files, research reports, and all governance registers. Created 8 project-state reports under wiki/research/.
+- **files_created:**
+  - wiki/research/project-state-loreresearch-current-report.md
+  - wiki/research/project-state-pass-status-matrix.md
+  - wiki/research/project-state-character-coverage-summary.md
+  - wiki/research/project-state-source-governance-summary.md
+  - wiki/research/project-state-source-missing-and-risk-register.md
+  - wiki/research/project-state-next-actions.md
+  - wiki/research/project-state-file-inventory.md
+  - wiki/research/project-state-qa-findings.md
+- **reason:** Generate detailed current project state report for human reviewer, documenting exact state of repo, pass pipeline, source governance, character coverage, unresolved risks, and next recommended work.
+- **source_basis:** wiki/log.md, wiki/SCHEMA.md, wiki/index.md, wiki/README.md, all research reports, all synthesis governance files, character-inventory.md, source files inventory, file system scan.
+- **key_findings:**
+  - Pass 13–18.2 regional character foundation pipeline complete (99 character pages, all 7 regions covered).
+  - Nod-Krai branch (NK-01–NK-07) complete with evidence_found_guarded for 16 high-risk claim groups.
+  - Pass 19 (Cross-Faction Source-Light Batch) NOT STARTED — no files exist anywhere in repo.
+  - Pass 19.5, 20, 21, 22 also NOT STARTED — pipeline stalled at transition point.
+  - Character inventory has conflicting counts (109 stated vs 112 table rows vs 99 wiki pages).
+  - 13+ inventory-only characters still lack wiki pages (Nod-Krai NPCs).
+- **compliance:**
+  - Report-only audit — no character pages, source files, or source-index modified.
+  - No source IDs created.
+  - No external/web/API used.
+  - No source ingestion or claim mapping.
+  - All high-risk claims remain guarded.
+
+## [2026-06-24] analysis | LR-00.1 — Source Tier Mapping Cleanup
+- **Status:** Completed
+- **Notes:** HoYoWiki standalone canon wording corrected. official_site separated from hoyowiki_public_database. Review bundle validation wording corrected. No lore content changed. No entity/source files changed.
+- **Recommended next pass:** Pass 19.0 — Character Inventory Reconciliation & Status Baseline
+
+## [2026-06-24] analysis | LR-00.3 — Final Grep-Clean Wording Patch
+- **Status:** Completed
+- **Notes:** Replaced uppercase 'standalone CANON' with lowercase 'nguồn canon độc lập' on HoYoWiki policy rows to eliminate grep false-positive matches. Policy meaning unchanged. No lore content changed. No entity/source files changed.
+- **Recommended next pass:** Pass 19.0 — Character Inventory Reconciliation & Status Baseline
