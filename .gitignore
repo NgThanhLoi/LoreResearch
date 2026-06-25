@@ -6,3 +6,22 @@ venv/
 .idea/
 .vscode/
 .claude/
+
+# === Pass 25.4.1 — Delivery / temp / artifact patterns ===
+
+# Delivery / review bundles
+*.zip
+review-bundle-*.md
+delivery-*.md
+
+# Temporary audit output
+wiki/research/_tmp/
+_tmp/
+tmp/
+
+# OS/editor noise (additional)
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc

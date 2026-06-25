@@ -14,6 +14,99 @@
 
 ## Entries
 
+## 2026-06-25 — Pass 25.4.1
+
+- **action:** Tooling / Git Hygiene Patch (implementation)
+  - Created .gitattributes with line-ending and binary rules (no normalization run).
+  - Created .editorconfig with charset/indent/EOL rules.
+  - Appended .gitignore with delivery/temp/artifact patterns (existing rules preserved).
+  - Created _tools/README.md with safety classification and audit-pass rules.
+  - Created 4 read-only validators under _tools/validators/:
+    - check_source_index.py: PASS (54 IDs, 0 duplicates, 2 intentional retired)
+    - check_current_state.py: PASS (8 project-state files superseded, current SOT exists)
+    - check_claim_map_schema.py: no-op (no claim-map file yet — expected)
+    - check_pass_counts.py: PASS (7/7 preserved counts verified)
+  - Verified Pass 22 counts (32/15/9) and Pass 23+24 counts (97/73/29/58) — preserved.
+  - No scripts executed other than newly created read-only validators.
+  - No character/source/claim/canon changes.
+- **files_changed:**
+  - .gitattributes (created)
+  - .editorconfig (created)
+  - .gitignore (appended)
+  - Genshin/_tools/README.md (created)
+  - Genshin/_tools/validators/check_source_index.py (created)
+  - Genshin/_tools/validators/check_current_state.py (created)
+  - Genshin/_tools/validators/check_claim_map_schema.py (created)
+  - Genshin/_tools/validators/check_pass_counts.py (created)
+  - wiki/research/pass-25-4-1-tooling-git-hygiene-patch-report.md (created)
+  - wiki/research/pass-25-4-1-validator-implementation-report.md (created)
+  - wiki/research/pass-25-4-1-validator-run-report.md (created)
+  - wiki/research/pass-25-4-1-risk-and-guardrail-report.md (created)
+  - wiki/research/pass-25-4-1-next-actions.md (created)
+  - wiki/log.md (this entry)
+- **source_basis:** Local repository file inspection only. No external/API sources. Only read-only validators executed.
+- **unresolved_issues:**
+  - 32 hardcoded paths in _tools/ — not patched (deferred to future tooling sprint).
+  - Line-ending normalization not performed — .gitattributes config only.
+  - 3 remaining validators (check_character_inventory, check_absolute_links, check_encoding_risks) deferred.
+- **next_recommended_steps:**
+  - Pass 26 — Priority Claim Mapping Batch A
+
+## 2026-06-25 — Pass 25.4
+
+- **action:** Tooling / Git Hygiene / Validator Readiness Audit (report-only)
+  - Inventoried 24 files in _tools/: 6 safe_read_only, 4 probably_safe, 7 mutating, 7 network_fetch.
+  - Audited 32 hardcoded path occurrences across 15 tool files (HIGH risk).
+  - Checked git hygiene: no .gitattributes, no .editorconfig, core.autocrlf=true.
+  - Assessed validator readiness: 0 automated validators exist for Pass 26 needs.
+  - Designed specs for 7 future validators (check_source_index, check_claim_map_schema, etc.).
+  - Verified Pass 22 counts (32/15/9) and Pass 23+24 counts (97/73/29/58) — no discrepancies.
+  - No scripts executed, no character/source/claim changes.
+- **files_changed:**
+  - wiki/research/pass-25-4-tooling-readiness-audit.md (created)
+  - wiki/research/pass-25-4-hardcoded-path-audit.md (created)
+  - wiki/research/pass-25-4-git-hygiene-report.md (created)
+  - wiki/research/pass-25-4-validator-readiness-plan.md (created)
+  - wiki/research/pass-25-4-risk-and-guardrail-report.md (created)
+  - wiki/research/pass-25-4-next-actions.md (created)
+  - wiki/log.md (this entry)
+- **source_basis:** Local repository file inspection only. No external/API sources. No scripts executed.
+- **unresolved_issues:**
+  - 32 hardcoded paths in _tools/ — future patch needed (Pass 25.4.1 or tooling sprint).
+  - No .gitattributes — line-ending fragility for cross-platform use.
+  - No automated validators — manual/agent-driven checks only until scripts are built.
+  - 3 duplicate script implementations (generate_manual_profiles .ps1/.py/.js).
+- **next_recommended_steps:**
+  - Pass 26 — Priority Claim Mapping Batch A (if human accepts current tooling risk)
+  - OR Pass 25.4.1 — Tooling/Git Hygiene Patch (if validators needed first)
+
+## 2026-06-25 — Pass 25.3
+
+- **action:** Legacy Link / Encoding / Historical Layer Quarantine Audit (report-only)
+  - Audited 1,454 absolute file links across 515 files; classified by layer.
+  - Audited 1,949 encoding/mojibake artifacts across 213 files; classified by severity.
+  - Created historical layer quarantine policy separating current vs legacy layers.
+  - Created current-vs-legacy layer map with decision rules for future agents.
+  - Added current-state note to wiki/README.md.
+  - Verified Pass 22 and Pass 23+24 preserved counts (no discrepancies).
+  - No mass rewrite, no character/source/claim changes.
+- **files_changed:**
+  - wiki/research/pass-25-3-legacy-link-audit.md (created)
+  - wiki/research/pass-25-3-encoding-risk-audit.md (created)
+  - wiki/research/pass-25-3-historical-layer-quarantine-policy.md (created)
+  - wiki/research/pass-25-3-current-vs-legacy-layer-map.md (created)
+  - wiki/research/pass-25-3-risk-and-guardrail-report.md (created)
+  - wiki/research/pass-25-3-next-actions.md (created)
+  - wiki/README.md (added current-state note)
+  - wiki/log.md (this entry)
+- **source_basis:** Local repository file inspection only. No external/API sources.
+- **unresolved_issues:**
+  - 1 wiki entity page (Venti.md) has 6 absolute links — future targeted patch needed.
+  - 84 source files have encoding artifacts (mostly Vietnamese headers) — future targeted fix needed.
+  - 5 current wiki files have minor mojibake — future patch recommended.
+- **next_recommended_steps:**
+  - Pass 25.4 — Tooling / Git Hygiene / Validator Readiness Audit
+
 ## 2026-06-20
 - **action:** Thiết lập cấu trúc LLM Wiki và di trú hệ thống dữ liệu nền tảng.
 - **files_changed:**
@@ -2230,3 +2323,69 @@
 - **Status:** Completed
 - **Notes:** Replaced uppercase 'standalone CANON' with lowercase 'nguồn canon độc lập' on HoYoWiki policy rows to eliminate grep false-positive matches. Policy meaning unchanged. No lore content changed. No entity/source files changed.
 - **Recommended next pass:** Pass 19.0 — Character Inventory Reconciliation & Status Baseline
+
+> **[Correction — Pass 25.1, 2026-06-25]:** The LR-00 entries above (Project State Report-Only Audit, LR-00.1, LR-00.3) and all `project-state-*.md` files are historical snapshots from 2026-06-24. Their claims that Pass 19+ is "NOT STARTED" and their "recommended next pass" fields are outdated. Passes 19 through 25 have since been completed and accepted. These entries remain for historical integrity but must not be used to infer current pass status. See `wiki/research/pass-25-1-current-source-of-truth.md` for the authoritative current state.
+
+## [2026-06-25] Pass 25.1 — Repo State Reconciliation / Stale Report Supersession
+- **Status:** Complete — pending human review
+- **Action:** Marked 8 stale `project-state-*.md` files as historical/superseded. Created current source-of-truth document. Added correction note to LR-00 log entries.
+- **files_created:**
+  - wiki/research/pass-25-1-repo-state-reconciliation-report.md
+  - wiki/research/pass-25-1-stale-report-supersession-map.md
+  - wiki/research/pass-25-1-current-source-of-truth.md
+  - wiki/research/pass-25-1-risk-and-guardrail-report.md
+  - wiki/research/pass-25-1-next-actions.md
+- **files_patched (supersession banner only):**
+  - wiki/research/project-state-loreresearch-current-report.md
+  - wiki/research/project-state-pass-status-matrix.md
+  - wiki/research/project-state-next-actions.md
+  - wiki/research/project-state-qa-findings.md
+  - wiki/research/project-state-source-missing-and-risk-register.md
+  - wiki/research/project-state-character-coverage-summary.md
+  - wiki/research/project-state-source-governance-summary.md
+  - wiki/research/project-state-file-inventory.md
+- **key_outcome:** All stale project-state reports now carry explicit supersession banners. Current source of truth is unambiguous. LR-00 log entries can no longer be misread as reflecting current state.
+- **preserved_counts:**
+  - Pass 22: 32 total clusters / 15 evidence_packet_created / 9 still_blocked
+  - Pass 23+24: 97 candidates / 73 inventory rows / 29 packages / 58 gaps
+- **compliance:**
+  - No character pages modified.
+  - No sources/** modified.
+  - No source-index modified.
+  - No source IDs created.
+  - No external/web/API used.
+  - No claim mapping performed.
+  - No canon/source-status upgrades.
+  - No fanfic content added.
+- **Recommended next pass:** Pass 25.2 — Source Registry / Local Source Integrity Hygiene
+
+## 2026-06-25 — Pass 25.2: Source Registry / Local Source Integrity Hygiene
+
+- **action:** Source-index integrity audit, stale path hygiene, empty dialogue/non-evidence register, local source availability summary.
+- **files_changed:**
+  - wiki/sources/source-index.md (TP-0002 path correction only)
+  - wiki/research/pass-25-2-source-registry-integrity-report.md (created)
+  - wiki/research/pass-25-2-source-index-hygiene-changelog.md (created)
+  - wiki/research/pass-25-2-empty-dialogue-and-non-evidence-register.md (created)
+  - wiki/research/pass-25-2-local-source-availability-summary.md (created)
+  - wiki/research/pass-25-2-risk-and-guardrail-report.md (created)
+  - wiki/research/pass-25-2-next-actions.md (created)
+  - wiki/log.md (this entry)
+- **key_outcome:**
+  - Source-index audited: 54 unique IDs, 0 duplicates, 51 paths verified existing, 2 intentional missing (QD-ALL, OF-ALL), 1 stale path patched (TP-0002).
+  - TP-0002 corrected from nonexistent `topics/nod-krai/Nod_Krai.md` to verified `topics/nod-krai/story_summary.md`.
+  - 10 empty/non-evidence voice-line files identified and registered (1 empty dialogue + 9 quest-description-only).
+  - Local source availability confirmed: ~620 files across 7 source categories.
+- **preserved_counts:**
+  - Pass 22: 32 total clusters / 15 evidence_packet_created / 9 still_blocked
+  - Pass 23+24: 97 candidates / 73 inventory rows / 29 packages / 58 gaps
+- **compliance:**
+  - No character pages modified.
+  - No sources/** modified.
+  - No new source IDs created.
+  - No external/web/API used.
+  - No claim mapping performed.
+  - No canon/source-status upgrades.
+  - No source ingestion performed.
+  - No fanfic content added.
+- **Recommended next pass:** Pass 25.3 — Legacy Link / Encoding / Historical Layer Quarantine Audit

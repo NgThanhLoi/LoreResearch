@@ -51,7 +51,7 @@ Dưới đây là danh sách lập chỉ mục chi tiết cho các tệp tin ngu
 | **EN-0001** | `entities/Timeline.md` | Entity | Medium | Dòng thời gian lịch sử vĩ mô Teyvat | file-level | `../synthesis/timeline-continuity.md` | Tài liệu chỉ dẫn timeline, trung lập. |
 | **EN-0002** | `entities/dragon_sovereigns/Overview.md` | Entity | Medium | Bảy Long Vương, Phanes, Apep, Nibelung | file-level | `../synthesis/power-system-governance.md` | Tổng hợp có trích dẫn nguồn sơ cấp. |
 | **TP-0001** | `topics/nod-krai/mythology.md` | Topic | Low/Medium | Thần thoại Nod-Krai, 3 mặt trăng, Kuuvahki | file-level | `../synthesis/unverified-lore-register.md` | Chứa nhiều phân tích chủ quan. |
-| **TP-0002** | `topics/nod-krai/Nod_Krai.md` (hoặc tương đương) | Topic | Low/Medium | Tóm tắt Acts II-VII, version 6.1-6.7 | file-level | `../synthesis/unverified-lore-register.md` | Chứa cốt truyện lý thuyết chưa có thoại thô. |
+| **TP-0002** | `topics/nod-krai/story_summary.md` | Topic | Low/Medium | Tóm tắt Acts II-VII, version 6.1-6.7 | file-level | `../synthesis/unverified-lore-register.md` | Chứa cốt truyện lý thuyết chưa có thoại thô. Prior stale path `topics/nod-krai/Nod_Krai.md` was nonexistent; replaced with verified local file in Pass 25.2. |
 
 ## 2b. Pass 4 VLAQ File-Level Candidates
 

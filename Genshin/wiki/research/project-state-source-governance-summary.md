@@ -1,5 +1,14 @@
 # Project State — Source Governance Summary
 
+> [!IMPORTANT]
+> SUPERSEDED HISTORICAL SNAPSHOT — This file is not the current project state.
+> Current source of truth after Pass 25:
+> - `wiki/research/pass-25-pass-status-matrix.md`
+> - `wiki/research/pass-25-next-actions.md`
+> - `wiki/research/pass-25-dedup-page-status-cleanup-report.md`
+>
+> Any statements in this file that say Pass 19+, Pass 20+, Pass 21+, Pass 22+, Pass 23+, or later passes are `NOT STARTED` are stale and must not be used for current planning.
+
 > **Date:** 2026-06-24 | **Source:** wiki/sources/source-index.md, wiki/sources/SOURCE_ID_RULES.md, wiki/sources/EXTERNAL_SOURCE_POLICY.md, wiki/sources/source-map.md, wiki/log.md
 
 ---

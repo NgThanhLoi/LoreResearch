@@ -1,0 +1,17 @@
+# Pass 25.4.1 — Git line-ending and binary handling baseline
+# Note: does NOT perform line-ending normalization on existing files.
+# Run `git add --renormalize .` only after human review.
+
+* text=auto
+*.md text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.zip binary

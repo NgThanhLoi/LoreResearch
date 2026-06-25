@@ -28,6 +28,9 @@
 * [workflows/](workflows/README.md): Quy trình thao tác, kiểm duyệt và cập nhật wiki cho LLM.
 * [projects/](projects/_template/Project_Profile.md): Các tệp cấu hình dự án fanfic trong tương lai.
 
+> **Current-state note:**
+> Current pass status and planning should be taken from `wiki/research/pass-25*` and later reports plus `wiki/log.md` latest entries. Legacy generated indexes, `foundation/`, `planning/`, raw `entities/`, and `quests/` skeletons are historical/reference layers unless explicitly cited by current reports. Folder paths alone are not evidence.
+
 ## How an LLM should use this wiki
 
 Quy trình sử dụng:
