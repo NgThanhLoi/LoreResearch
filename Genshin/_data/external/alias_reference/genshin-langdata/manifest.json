@@ -1,0 +1,32 @@
+{
+  "source_name": "genshin-langdata",
+  "source_url": "https://github.com/xicri/genshin-langdata",
+  "tier": "alias_reference",
+  "source_type": "terminology_reference",
+  "import_status": "deferred_missing_local_data",
+  "retrieval_method": "pending_human_approval",
+  "retrieved_at": "",
+  "upstream_commit_or_version": "",
+  "files_included": [],
+  "files_excluded": [],
+  "checksums": {},
+  "license_notes": "NOT YET VERIFIED — license review required before any import",
+  "allowed_use": [
+    "alias lookup",
+    "terminology mapping",
+    "entity normalization",
+    "multilingual search support",
+    "duplicate entity detection"
+  ],
+  "disallowed_use": [
+    "canon proof",
+    "lore evidence",
+    "relationship proof",
+    "source_evidence_id",
+    "source_status upgrade",
+    "claim mapping",
+    "timeline proof",
+    "personality proof"
+  ],
+  "not_canon_evidence": true
+}

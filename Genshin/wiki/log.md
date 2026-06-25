@@ -14,6 +14,45 @@
 
 ## Entries
 
+## 2026-06-25 — Pass 25.5
+
+- **action:** External Reference Intelligence Layer Bootstrap (policy/register/skeleton only)
+  - Created External Reference Intelligence Layer policy with source tier model and core doctrine.
+  - Created external source candidate register classifying all 12 Hermes-tested sources.
+  - Created source tier and use policy matrix (Tier 0–4 with allowed/disallowed capabilities).
+  - Created risk and quarantine register (11 risks identified, all mitigated by policy).
+  - Created integration roadmap (Pass 25.5 → 25.6 → 25.7 → 25.8 → 25.9 → 26).
+  - Created next actions with full path / fast path decision point.
+  - Created `_data/external/` directory skeleton with 7 README files.
+  - No external data imported.
+  - No source-index modified.
+  - No source IDs created.
+  - No character/source/claim/canon changes.
+  - Verified Pass 22 counts (32/15/9) and Pass 23+24 counts (97/73/29/58) — preserved.
+- **files_changed:**
+  - wiki/research/pass-25-5-external-reference-layer-policy.md (created)
+  - wiki/research/pass-25-5-external-source-candidate-register.md (created)
+  - wiki/research/pass-25-5-source-tier-and-use-policy.md (created)
+  - wiki/research/pass-25-5-risk-and-quarantine-register.md (created)
+  - wiki/research/pass-25-5-integration-roadmap.md (created)
+  - wiki/research/pass-25-5-next-actions.md (created)
+  - _data/external/README.md (created)
+  - _data/external/structured_reference/README.md (created)
+  - _data/external/alias_reference/README.md (created)
+  - _data/external/official_site_support/README.md (created)
+  - _data/external/secondary_synthesis/README.md (created)
+  - _data/external/tooling_reference/README.md (created)
+  - _data/external/quarantine/README.md (created)
+  - wiki/log.md (this entry)
+- **source_basis:** Hermes workflow external source test results (human-provided). Local policy design only. No external/API access.
+- **unresolved_issues:**
+  - No validators exist yet for tier/use enforcement (deferred to Pass 25.9).
+  - No actual external data imported (by design — deferred to Pass 25.7/25.8).
+  - HoYoWiki API stability not assessed (deferred to Pass 25.6).
+- **next_recommended_steps:**
+  - Pass 25.6 — Structured Reference Controlled Import Plan (full path)
+  - OR Pass 25.7 — Alias / Terminology Index Build (fast path, requires human approval)
+
 ## 2026-06-25 — Pass 25.4.1
 
 - **action:** Tooling / Git Hygiene Patch (implementation)
@@ -2389,3 +2428,57 @@
   - No source ingestion performed.
   - No fanfic content added.
 - **Recommended next pass:** Pass 25.3 — Legacy Link / Encoding / Historical Layer Quarantine Audit
+
+---
+
+## 2026-06-25 — Pass 25.6: Structured Reference Controlled Import Plan
+
+- **action:** Created structured reference controlled import plan, storage/schema/versioning policies, import decision matrix, and validator impact plan.
+- **skeleton verification:** All 7 `_data/external/` README paths verified present — Pass 25.5 skeleton path condition resolved.
+- **import plan:** Defined import modes for Genshin Lore Graph (manifest_only → Pass 25.8), genshin-langdata (manifest_only → Pass 25.7), Project Amber (skip → SR-04), GenshinTextSearch (skip → SR-06).
+- **schemas:** Manifest schema, alias index schema, graph edge schema defined with full field contracts.
+- **versioning:** Upstream commit/version capture, checksum requirement, freshness thresholds, stale data detection, schema drift handling, removed entry handling, alias change policy.
+- **validators planned:** `check_external_reference_policy.py`, `check_alias_index.py`, `check_graph_reference.py`, `check_reference_not_used_as_canon.py`, `check_structured_reference_freshness.py` — implementation deferred to Pass 25.9.
+- **preserved counts:**
+  - Pass 22: 32 total / 15 evidence_packet_created / 9 still_blocked
+  - Pass 23+24: 97 candidates / 73 inventory rows / 29 packages / 58 gaps
+- **compliance:**
+  - No full external data imported.
+  - No source-index modified.
+  - No source IDs created.
+  - No character pages modified.
+  - No sources/** modified.
+  - No claim mapping performed.
+  - No canon/source-status upgrades.
+  - No network/fetch scripts run.
+  - No fanfic content added.
+- **Recommended next pass:** Pass 25.7 — Alias / Terminology Index Build
+
+---
+
+## 2026-06-25 — Pass 25.7: Alias / Terminology Index Build
+
+- **action:** Alias / terminology index build — completed in deferred mode due to missing local data.
+- **local availability:** genshin-langdata not locally available; Genshin Lore Graph lookup_by_name not available. No network retrieval performed.
+- **created (deferred schemas):** `alias_index.schema.json`, `entity_name_map.schema.json`, `term_multilang_map.schema.json`
+- **created (manifest/docs):** `genshin-langdata/manifest.json` (import_status: deferred_missing_local_data), `source-metadata.md`, `schema-map.md`
+- **created (validator):** `_tools/validators/check_alias_index.py` — read-only, validates schema compliance or deferred status
+- **created (reports):** local-availability-preflight, source-provenance-and-license-report, controlled-subset-selection, alias-conflict-report (deferred), nod-krai-name-verification-report (deferred), validator-run-report, risk-and-guardrail-report, next-actions
+- **validators run:**
+  - check_alias_index.py: PASS (deferred)
+  - check_current_state.py: PASS
+  - check_pass_counts.py: PASS (7/7)
+- **preserved counts:**
+  - Pass 22: 32 total / 15 evidence_packet_created / 9 still_blocked
+  - Pass 23+24: 97 candidates / 73 inventory rows / 29 packages / 58 gaps
+- **compliance:**
+  - No character pages modified.
+  - No sources/** modified.
+  - No source-index modified.
+  - No canon source IDs created.
+  - No claim mapping performed.
+  - No canon/source-status upgrades.
+  - No full external raw dump imported.
+  - No network/fetch scripts run.
+  - No fanfic content added.
+- **Recommended next:** Pass 25.7.1 — genshin-langdata Local Data Provision / Alias Import Patch

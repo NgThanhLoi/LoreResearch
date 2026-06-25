@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Entity Name Map",
+  "description": "Multilingual entity name mapping for cross-reference. NOT lore evidence.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "entity_id",
+      "canonical_name",
+      "entity_type",
+      "names",
+      "confidence"
+    ],
+    "properties": {
+      "entity_id": {
+        "type": "string",
+        "description": "Internal entity identifier"
+      },
+      "canonical_name": {
+        "type": "string",
+        "description": "Primary English name used as canonical reference"
+      },
+      "entity_type": {
+        "type": "string",
+        "description": "Entity classification",
+        "enum": [
+          "character",
+          "organization",
+          "location",
+          "region",
+          "story_term",
+          "quest",
+          "artifact",
+          "weapon",
+          "item",
+          "unknown"
+        ]
+      },
+      "names": {
+        "type": "object",
+        "description": "Known names per language",
+        "properties": {
+          "en": { "type": "array", "items": { "type": "string" } },
+          "vi": { "type": "array", "items": { "type": "string" } },
+          "zhCN": { "type": "array", "items": { "type": "string" } },
+          "zhTW": { "type": "array", "items": { "type": "string" } },
+          "ja": { "type": "array", "items": { "type": "string" } }
+        }
+      },
+      "aliases": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "All known aliases across languages"
+      },
+      "source_references": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "External sources that contributed this entry"
+      },
+      "confidence": {
+        "type": "string",
+        "enum": ["high", "medium", "low", "unknown"]
+      },
+      "needs_human_review": {
+        "type": "boolean",
+        "description": "Whether this entry requires human disambiguation"
+      },
+      "notes": {
+        "type": "string",
+        "description": "Additional context or caveats"
+      }
+    }
+  },
+  "_meta": {
+    "status": "deferred_missing_local_data",
+    "created_by": "Pass 25.7",
+    "not_canon_evidence": true
+  }
+}

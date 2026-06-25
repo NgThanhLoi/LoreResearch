@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Alias Index",
+  "description": "Multilingual alias lookup index for entity resolution. NOT lore evidence.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "alias",
+      "normalized_alias",
+      "language",
+      "entity_id",
+      "entity_name",
+      "entity_type",
+      "source_reference",
+      "confidence",
+      "ambiguity_status"
+    ],
+    "properties": {
+      "alias": {
+        "type": "string",
+        "description": "The alias string as found in source"
+      },
+      "normalized_alias": {
+        "type": "string",
+        "description": "Lowercased, trimmed, normalized form for case-insensitive search"
+      },
+      "language": {
+        "type": "string",
+        "description": "ISO 639-1 code or extended: en, ja, zh-CN, zh-TW, vi",
+        "enum": ["en", "ja", "zh-CN", "zh-TW", "vi", "ko", "other"]
+      },
+      "entity_id": {
+        "type": "string",
+        "description": "Internal entity identifier"
+      },
+      "entity_name": {
+        "type": "string",
+        "description": "Canonical entity name in EN"
+      },
+      "entity_type": {
+        "type": "string",
+        "description": "Entity classification",
+        "enum": [
+          "character",
+          "organization",
+          "location",
+          "region",
+          "story_term",
+          "quest",
+          "artifact",
+          "weapon",
+          "item",
+          "unknown"
+        ]
+      },
+      "source_reference": {
+        "type": "string",
+        "description": "Which external source provided this alias"
+      },
+      "confidence": {
+        "type": "string",
+        "description": "Confidence level of alias-entity mapping",
+        "enum": ["high", "medium", "low", "unknown"]
+      },
+      "ambiguity_status": {
+        "type": "string",
+        "description": "Whether this alias uniquely maps to one entity",
+        "enum": ["unique", "ambiguous", "conflict", "needs_human_review", "deferred_missing_local_data"]
+      },
+      "notes": {
+        "type": "string",
+        "description": "Conflict details or disambiguation notes"
+      }
+    }
+  },
+  "_meta": {
+    "status": "deferred_missing_local_data",
+    "created_by": "Pass 25.7",
+    "not_canon_evidence": true
+  }
+}
